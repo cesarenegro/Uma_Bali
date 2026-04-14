@@ -106,14 +106,15 @@ export type EnvironmentTag = 'garden' | 'terrace' | 'poolside' | 'rooftop' | 'co
 
 export interface Category {
   id: string;
-  slug: string;
+  slug?: string;
   name: string;
-  parentId: string | null;
-  description: string;
-  coverImage: string;
-  sortOrder: number;
-  isVisible: boolean;
-  productCount: number;
+  parentId?: string | null;
+  description?: string;
+  coverImage?: string;
+  image?: string;
+  sortOrder?: number;
+  isVisible?: boolean;
+  productCount?: number;
 }
 
 export interface Collection {
