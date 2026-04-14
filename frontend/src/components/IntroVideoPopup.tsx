@@ -1,9 +1,8 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function IntroVideoPopup() {
   const [showPopup, setShowPopup] = useState(true);
-  const [videoEnded, setVideoEnded] = useState(false);
   const [textStage, setTextStage] = useState(0);
 
   useEffect(() => {
@@ -19,7 +18,6 @@ export default function IntroVideoPopup() {
   }, []);
 
   const handleVideoEnded = () => {
-    setVideoEnded(true);
     // Wait an additional 1s after video ends to close
     setTimeout(() => {
       setShowPopup(false);
