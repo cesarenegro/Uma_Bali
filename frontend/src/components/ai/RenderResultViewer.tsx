@@ -1,9 +1,7 @@
 import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
 import { useAIStore } from '../../stores/aiStore';
 
 export default function RenderResultViewer() {
-  const { t } = useTranslation('common');
   const { renderStatus, renderImageUrl, sceneImageUrl, renderError, refineInstruction, setRefineInstruction, setRenderStatus } = useAIStore();
   const [inputText, setInputText] = useState(refineInstruction);
 
@@ -85,7 +83,7 @@ export default function RenderResultViewer() {
         />
         <button 
           onClick={handleRefine}
-          disabled={!inputText.trim() || renderStatus === 'rendering'}
+          disabled={!inputText.trim()}
           className="bg-charcoal text-white px-8 py-3 uppercase tracking-widest text-sm hover:bg-charcoal/80 transition-colors disabled:opacity-50"
         >
           Refine Result

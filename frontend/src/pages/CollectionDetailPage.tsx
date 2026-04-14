@@ -30,10 +30,10 @@ export default function CollectionDetailPage() {
     <div className="min-h-[100vh] bg-sand">
       {/* Category Header */}
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
-        {category.image && (
+        {category.coverImage && (
           <div className="absolute inset-0 z-0">
             <img 
-              src={category.image} 
+              src={category.coverImage} 
               alt={category.name} 
               className="w-full h-full object-cover"
             />

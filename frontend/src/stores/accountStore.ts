@@ -19,7 +19,7 @@ export const useAccountStore = create<AccountStore>((set) => ({
   user: null,
   isAuthenticated: false,
   
-  login: async (credentials) => {
+  login: async (_credentials) => {
     // Mocking login call
     await new Promise(resolve => setTimeout(resolve, 1000));
     set({

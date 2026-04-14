@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useAIStore } from '../stores/aiStore';
 import SceneUploader from '../components/ai/SceneUploader';

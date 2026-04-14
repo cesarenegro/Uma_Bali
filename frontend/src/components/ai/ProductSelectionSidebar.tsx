@@ -2,7 +2,6 @@ import { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useProductStore } from '../../stores/productStore';
 import { useAIStore } from '../../stores/aiStore';
-import type { SelectedProduct } from '../../stores/aiStore';
 
 export default function ProductSelectionSidebar() {
   const { t } = useTranslation('common');

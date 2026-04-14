@@ -28,9 +28,9 @@ export default function CollectionsIndexPage() {
               className="group relative h-[450px] overflow-hidden flex flex-col justify-end bg-sage/20 transition-transform duration-500 hover:-translate-y-2"
             >
               <div className="absolute inset-0">
-                {category.image ? (
+                {category.coverImage ? (
                   <img
-                    src={category.image}
+                    src={category.coverImage}
                     alt={category.name}
                     className="w-full h-full object-cover opacity-90 transition-transform duration-700 group-hover:scale-105"
                   />
