@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -6,6 +6,19 @@ import { useTranslation } from 'react-i18next';
 export default function AboutUsPage() {
   const { t } = useTranslation('common');
   const [activeImage, setActiveImage] = useState<{src: string, title: string} | null>(null);
+
+  useEffect(() => {
+    if (activeImage) {
+      document.body.style.overflow = 'hidden';
+      // Prevent layout shift by adding padding-right equal to scrollbar width if needed,
+      // but 'hidden' usually handles the standard scrollbar correctly.
+    } else {
+      document.body.style.overflow = 'auto'; // Revert back to default
+    }
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [activeImage]);
 
   const images = [
     { src: "https://www.arkitecna.com/images/europe/Montecarlo20260324_0085.png", title: "Montecarlo Project" },
