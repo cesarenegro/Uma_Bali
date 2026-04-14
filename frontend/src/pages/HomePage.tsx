@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import IntroVideoPopup from '../components/IntroVideoPopup';
 
 export default function HomePage() {
   const { t } = useTranslation('common');
 
   return (
     <div>
+      <IntroVideoPopup />
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center bg-espresso overflow-hidden">
         <div 
