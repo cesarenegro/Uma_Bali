@@ -31,55 +31,54 @@ export default function IntroVideoPopup() {
     setShowPopup(false);
   };
 
-  if (!showPopup) return null;
-
   return (
     <AnimatePresence>
-      <motion.div 
-        initial={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        transition={{ duration: 1 }}
-        className="fixed inset-0 z-[9999] bg-black flex items-center justify-center overflow-hidden cursor-pointer"
-        onClick={handleClose}
-      >
-        <video 
-          src="/videos/intro.mp4" 
-          autoPlay 
-          muted 
-          playsInline 
-          className="absolute inset-0 w-full h-full object-cover"
-          onEnded={handleVideoEnded}
-        />
-        
-        {/* Cinematic dark overlay top layer (approx 12% black transparency) */}
-        <div className="absolute inset-0 bg-black/10 pointer-events-none" />
+      {showPopup && (
+        <motion.div 
+          initial={{ opacity: 1 }}
+          exit={{ opacity: 0, transition: { duration: 1.5, ease: "easeInOut" } }}
+          className="fixed inset-0 z-[9999] bg-black flex items-center justify-center overflow-hidden cursor-pointer"
+          onClick={handleClose}
+        >
+          <video 
+            src="/videos/intro.mp4" 
+            autoPlay 
+            muted 
+            playsInline 
+            className="absolute inset-0 w-full h-full object-cover"
+            onEnded={handleVideoEnded}
+          />
+          
+          {/* Cinematic dark overlay top layer (approx 12% black transparency) */}
+          <div className="absolute inset-0 bg-black/10 pointer-events-none" />
 
-        {/* Text Animation Overlay */}
-        <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 pointer-events-none tracking-[0.2em]">
-          <h1 className="text-white font-bold text-4xl md:text-6xl lg:text-7xl uppercase flex flex-col gap-4">
-            <motion.span
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: textStage >= 1 ? 1 : 0, y: textStage >= 1 ? 0 : 10 }}
-              transition={{ duration: 1.5, ease: "easeOut" }}
-            >
-              FROM BALI
-            </motion.span>
-            
-            <motion.span
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: textStage >= 2 ? 1 : 0, y: textStage >= 2 ? 0 : 10 }}
-              transition={{ duration: 1.5, ease: "easeOut" }}
-            >
-              TO YOUR HOME
-            </motion.span>
-          </h1>
-        </div>
+          {/* Text Animation Overlay */}
+          <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 pointer-events-none tracking-[0.1em]">
+            <h1 className="text-[#efebda] font-bold text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] uppercase flex flex-col gap-2 md:gap-6 leading-none">
+              <motion.span
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: textStage >= 1 ? 1 : 0, y: textStage >= 1 ? 0 : 10 }}
+                transition={{ duration: 1.5, ease: "easeOut" }}
+              >
+                FROM BALI
+              </motion.span>
+              
+              <motion.span
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: textStage >= 2 ? 1 : 0, y: textStage >= 2 ? 0 : 10 }}
+                transition={{ duration: 1.5, ease: "easeOut" }}
+              >
+                TO YOUR HOME
+              </motion.span>
+            </h1>
+          </div>
 
-        {/* Skip instruction */}
-        <div className="absolute bottom-10 left-0 right-0 text-center text-white/50 text-sm tracking-widest uppercase">
-          Click anywhere to skip
-        </div>
-      </motion.div>
+          {/* Skip instruction */}
+          <div className="absolute bottom-10 left-0 right-0 text-center text-[#efebda]/50 text-sm md:text-base tracking-widest uppercase">
+            Click anywhere to skip
+          </div>
+        </motion.div>
+      )}
     </AnimatePresence>
   );
 }
