@@ -1,0 +1,42 @@
+[
+  {
+    "id": "cabinets",
+    "name": "Cabinets",
+    "image": "/images/collections/categories_cabinets.png"
+  },
+  {
+    "id": "coffeetable",
+    "name": "Coffeetable",
+    "image": "/images/collections/categories_coffeetable.png"
+  },
+  {
+    "id": "sofa chairs",
+    "name": "Sofa Chairs",
+    "image": "/images/collections/categories_sofa_chairs.png"
+  },
+  {
+    "id": "chairs",
+    "name": "Chairs",
+    "image": "/images/collections/categories_chairs.png"
+  },
+  {
+    "id": "tables",
+    "name": "Tables",
+    "image": "/images/collections/categories_tables.png"
+  },
+  {
+    "id": "sofa",
+    "name": "Sofa",
+    "image": "/images/collections/categories_sofa.png"
+  },
+  {
+    "id": "sunbeds",
+    "name": "Sunbeds",
+    "image": "/images/collections/categories_sunbeds.png"
+  },
+  {
+    "id": "top items",
+    "name": "Top Items",
+    "image": "/images/hero/Lounge_Poo_Classic.png"
+  }
+]
