@@ -15,7 +15,7 @@ export default function Footer() {
         <div>
           <h4 className="heading-h3 text-sand mb-4">{t('footer.company')}</h4>
           <ul className="space-y-2 text-caption">
-            <li><Link to="/about-us" className="hover:text-teak transition-colors">{t('nav.about')}</Link></li>
+            <li><Link to="/about-us" className="hover:text-teak transition-colors">{t('nav.about_us')}</Link></li>
             <li><Link to="/sustainability" className="hover:text-teak transition-colors">{t('nav.sustainability')}</Link></li>
             <li><Link to="/materials" className="hover:text-teak transition-colors">{t('nav.materials')}</Link></li>
           </ul>

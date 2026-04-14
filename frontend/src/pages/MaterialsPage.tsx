@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 export default function MaterialsPage() {
   const { t } = useTranslation('common');
 
+  const teakColors = [
     { name: t('materials.natural_name'), description: t('materials.natural'), image: '/materials/teak_natural.png' },
     { name: t('materials.oiled_name'), description: t('materials.oiled'), image: '/materials/Teak_Oiled.png' },
     { name: t('materials.honey_name'), description: t('materials.honey'), image: '/materials/Teak_Honey2.png' },

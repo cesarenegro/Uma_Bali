@@ -25,15 +25,24 @@ export default function AboutUsPage() {
       <div className="max-w-4xl mx-auto bg-linen shadow-xl overflow-hidden flex flex-col md:flex-row">
         
         {/* Decorative Side Bar */}
-        <div className="w-full md:w-1/3 bg-charcoal text-sand p-8 flex flex-col justify-between min-h-[500px]">
-          <div className="grid grid-cols-2 gap-3 mb-8">
+        <div className="w-full md:w-1/3 bg-charcoal text-sand p-12 md:p-16 flex flex-col">
+          {/* Invisible spacer matching the right column's title height for perfect alignment */}
+          <div 
+            className="text-3xl md:text-4xl font-light tracking-wide mb-8 uppercase invisible"
+            aria-hidden="true"
+          >
+            {t('about.title')}
+          </div>
+
+          <div className="grid grid-cols-2 gap-3 mb-auto">
             {images.map((src, idx) => (
               <img key={idx} src={src} alt="Architecture details" className="w-full aspect-[4/3] object-cover opacity-80 hover:opacity-100 transition-opacity" />
             ))}
           </div>
-          <div>
-            <h2 className="text-3xl font-light tracking-widest uppercase mb-2">{t('about.since')}</h2>
-            <p className="text-5xl font-serif">1959</p>
+
+          <div className="mt-12 border-t border-sand/20 pt-6">
+            <h2 className="text-xl font-light tracking-widest uppercase mb-1">{t('about.since')}</h2>
+            <p className="text-4xl font-serif">1959</p>
           </div>
         </div>
 
