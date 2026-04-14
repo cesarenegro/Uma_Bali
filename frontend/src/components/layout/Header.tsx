@@ -34,7 +34,8 @@ export default function Header() {
         </div>
       </div>
       <div className="flex justify-between items-center py-4 px-6">
-        <Link to="/" className="text-h2 font-heading font-medium text-espresso uppercase tracking-wider">
+        <Link to="/" className="flex items-center gap-3 text-h2 font-heading font-medium text-espresso uppercase tracking-wider">
+          <img src="/images/logo.png" alt="Uma Bali Logo" className="h-10 w-auto" />
           UMA BALI
         </Link>
         <nav className="hidden md:flex gap-8">
