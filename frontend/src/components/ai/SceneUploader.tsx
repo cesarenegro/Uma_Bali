@@ -58,8 +58,9 @@ export default function SceneUploader() {
 
   return (
     <div 
-      className={`border-2 border-dashed rounded-xl p-12 text-center transition-colors duration-300 flex flex-col items-center justify-center min-h-[400px]
+      className={`border-2 border-dashed rounded-xl p-12 text-center transition-colors duration-300 flex flex-col items-center justify-center min-h-[400px] cursor-pointer hover:bg-charcoal/5
         ${isDragActive ? 'border-sage bg-sage/10' : 'border-charcoal/20 bg-linen'}`}
+      onClick={() => fileInputRef.current?.click()}
       onDragEnter={handleDragEnter}
       onDragOver={handleDragOver}
       onDragLeave={handleDragLeave}
@@ -88,7 +89,7 @@ export default function SceneUploader() {
       </p>
       
       <button 
-        onClick={() => fileInputRef.current?.click()}
+        onClick={(e) => { e.stopPropagation(); fileInputRef.current?.click(); }}
         className="bg-charcoal text-white px-8 py-3 uppercase tracking-widest text-sm hover:bg-charcoal/80 transition-colors"
       >
         {t('ai.upload_btn', 'Select Photo')}
