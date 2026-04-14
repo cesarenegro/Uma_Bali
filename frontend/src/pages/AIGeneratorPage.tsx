@@ -96,15 +96,22 @@ export default function AIGeneratorPage() {
               <div className="mt-8 text-center bg-white p-8 rounded-xl border border-charcoal/10 shadow-sm">
                 <h3 className="text-xl font-medium text-charcoal mb-2">Ready to Render</h3>
                 <p className="text-charcoal/60 mb-6 max-w-lg mx-auto">
-                  Your space has been uploaded and {selectedProducts.length} items are selected. Click Generate in the top right to build your 3D visualization.
+                  Your space has been uploaded and {selectedProducts.length} items are selected.
                 </p>
-                <div className="flex gap-4 justify-center">
-                  {selectedProducts.map(p => (
+                <div className="flex gap-4 justify-center mb-8">
+                  {selectedProducts.map((p) => (
                     <div key={p.id} className="w-16 h-16 rounded border border-charcoal/10 overflow-hidden bg-sand/30">
                        <img src={p.image || '/placeholder.png'} alt={p.name} className="w-full h-full object-cover mix-blend-multiply" />
                     </div>
                   ))}
                 </div>
+                <button 
+                  onClick={handleGenerate}
+                  disabled={selectedProducts.length === 0}
+                  className="bg-charcoal text-white px-8 py-4 uppercase tracking-widest text-sm hover:bg-black transition-colors disabled:opacity-50 disabled:cursor-not-allowed w-full max-w-md mx-auto inline-block"
+                >
+                  {t('ai.go_rendering', 'Go Rendering')}
+                </button>
               </div>
             )}
           </div>

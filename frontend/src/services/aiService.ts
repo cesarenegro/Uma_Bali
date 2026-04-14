@@ -83,7 +83,7 @@ Guidelines:
     
     // Simulating success by returning a placeholder furnished image instead of original empty image
     console.log('Orchestration Payload:', payload);
-    return 'https://www.arkitecna.com/images/UMALAS20VILLA.jpg'; // Placeholder simulation of a furnished result
+    return '/images/hero/Lounge_Pool.png'; // Placeholder simulation of a furnished result
 
   } catch (error) {
     console.error('AI Staging generation error:', error);

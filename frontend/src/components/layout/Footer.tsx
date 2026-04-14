@@ -9,11 +9,11 @@ export default function Footer() {
         <div>
           <h2 className="heading-display text-h3 mb-4">UMA BALI</h2>
           <p className="caption text-stone">
-            {t('footer.description')}
+            {t('home.footer_description')}
           </p>
         </div>
         <div>
-          <h4 className="heading-h3 text-sand mb-4">{t('footer.company')}</h4>
+          <h4 className="heading-h3 text-sand mb-4">{t('nav.company')}</h4>
           <ul className="space-y-2 text-caption">
             <li><Link to="/about-us" className="hover:text-teak transition-colors">{t('nav.about_us')}</Link></li>
             <li><Link to="/sustainability" className="hover:text-teak transition-colors">{t('nav.sustainability')}</Link></li>
@@ -21,7 +21,7 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h4 className="heading-h3 text-sand mb-4">{t('footer.support')}</h4>
+          <h4 className="heading-h3 text-sand mb-4">{t('nav.support')}</h4>
           <ul className="space-y-2 text-caption">
             <li><Link to="/contact" className="hover:text-teak transition-colors">{t('nav.contact')}</Link></li>
             <li><Link to="/showrooms" className="hover:text-teak transition-colors">{t('nav.showrooms')}</Link></li>
@@ -29,21 +29,21 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h4 className="heading-h3 text-sand mb-4">{t('footer.newsletter')}</h4>
-          <p className="caption text-stone mb-4">{t('footer.newsletter_desc')}</p>
+          <h4 className="heading-h3 text-sand mb-4">{t('nav.newsletter')}</h4>
+          <p className="caption text-stone mb-4">{t('common.newsletter_desc', 'Stay updated with our latest collections and news.')}</p>
           <div className="flex">
-            <input type="email" placeholder={t('footer.your_email')} className="bg-linen text-espresso px-4 py-2 w-full outline-none" />
-            <button className="bg-teak text-linen px-4 py-2 hover:bg-bark transition-colors font-medium">{t('footer.subscribe')}</button>
+            <input type="email" placeholder={t('common.your_email')} className="bg-linen text-espresso px-4 py-2 w-full outline-none" />
+            <button className="bg-teak text-linen px-4 py-2 hover:bg-bark transition-colors font-medium">{t('common.subscribe')}</button>
           </div>
         </div>
       </div>
       <div className="divider opacity-20 mb-8" />
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between text-caption text-stone">
-        <p>&copy; {new Date().getFullYear()} UMA BALI. {t('footer.all_rights_reserved')}</p>
+        <p>&copy; {new Date().getFullYear()} UMA BALI. {t('common.all_rights_reserved')}</p>
         <div className="flex gap-4 mt-4 md:mt-0">
-          <Link to="/privacy-policy" className="hover:text-linen transition-colors">{t('footer.privacy')}</Link>
-          <Link to="/cookie-policy" className="hover:text-linen transition-colors">{t('footer.cookie')}</Link>
-          <Link to="/terms-of-use" className="hover:text-linen transition-colors">{t('footer.terms')}</Link>
+          <Link to="/privacy-policy" className="hover:text-linen transition-colors">{t('common.privacy_policy')}</Link>
+          <Link to="/cookie-policy" className="hover:text-linen transition-colors">{t('common.cookie_policy')}</Link>
+          <Link to="/terms-of-use" className="hover:text-linen transition-colors">{t('common.terms_of_use')}</Link>
         </div>
       </div>
     </footer>
