@@ -19,6 +19,7 @@ import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import CookiePolicyPage from './pages/CookiePolicyPage';
 import TermsOfUsePage from './pages/TermsOfUsePage';
 import NotFoundPage from './pages/NotFoundPage';
+import EShopPage from './pages/EShopPage';
 
 export default function App() {
   return (
@@ -27,6 +28,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<RootLayout />}>
           <Route index element={<HomePage />} />
+          
+          <Route path="e-shop" element={<EShopPage />} />
           
           <Route path="products" element={<ProductsIndexPage />} />
           <Route path="products/:category" element={<CategoryPage />} />

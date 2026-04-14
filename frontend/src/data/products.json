@@ -475,7 +475,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/coffeetable_01.png"
+      "/images/products/table_uma20_natural.png",
+      "/images/products/table_uma20_wenge.png",
+      "/images/products/table_uma20_grey.png"
     ],
     "dimensions": {
       "width": 55,
@@ -492,6 +494,20 @@
     "isCustomizable": true,
     "tags": [
       "top-item"
+    ],
+    "variants": [
+      {
+        "type": "wood",
+        "woodFinish": "Natural Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Wenge Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Grey Teak"
+      }
     ]
   },
   {
@@ -502,7 +518,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/coffeetable_08.png"
+      "/images/products/table_uma21_natural.png",
+      "/images/products/table_uma21_wenge.png",
+      "/images/products/table_uma21_grey.png"
     ],
     "dimensions": {
       "width": 55,
@@ -517,7 +535,21 @@
     "volume": 0.157,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "variants": [
+      {
+        "type": "wood",
+        "woodFinish": "Natural Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Wenge Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Grey Teak"
+      }
+    ]
   },
   {
     "id": "UMA-22",
@@ -527,7 +559,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/coffeetable_13.png"
+      "/images/products/table_uma22_natural.png",
+      "/images/products/table_uma22_wenge.png",
+      "/images/products/table_uma22_grey.png"
     ],
     "dimensions": {
       "width": 55,
@@ -542,7 +576,21 @@
     "volume": 0.151,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "variants": [
+      {
+        "type": "wood",
+        "woodFinish": "Natural Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Wenge Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Grey Teak"
+      }
+    ]
   },
   {
     "id": "UMA-23",
@@ -552,7 +600,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/coffeetable_16.png"
+      "/images/products/table_uma23_natural.png",
+      "/images/products/table_uma23_wenge.png",
+      "/images/products/table_uma23_grey.png"
     ],
     "dimensions": {
       "width": 60,
@@ -567,7 +617,21 @@
     "volume": 0.173,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "variants": [
+      {
+        "type": "wood",
+        "woodFinish": "Natural Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Wenge Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Grey Teak"
+      }
+    ]
   },
   {
     "id": "UMA-24",
@@ -577,7 +641,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/coffeetable_18.png"
+      "/images/products/table_uma24_natural.png",
+      "/images/products/table_uma24_wenge.png",
+      "/images/products/table_uma24_grey.png"
     ],
     "dimensions": {
       "width": 50,
@@ -592,7 +658,21 @@
     "volume": 0.12,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "variants": [
+      {
+        "type": "wood",
+        "woodFinish": "Natural Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Wenge Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Grey Teak"
+      }
+    ]
   },
   {
     "id": "UMA-25",
@@ -602,7 +682,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/coffetable__1_.png"
+      "/images/products/table_uma25_natural.png",
+      "/images/products/table_uma25_wenge.png",
+      "/images/products/table_uma25_grey.png"
     ],
     "dimensions": {
       "width": 50,
@@ -617,7 +699,21 @@
     "volume": 0.115,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "variants": [
+      {
+        "type": "wood",
+        "woodFinish": "Natural Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Wenge Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Grey Teak"
+      }
+    ]
   },
   {
     "id": "UMA-26",
@@ -652,7 +748,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/coffetable__2_.png"
+      "/images/products/table_uma27_natural.png",
+      "/images/products/table_uma27_wenge.png",
+      "/images/products/table_uma27_grey.png"
     ],
     "dimensions": {
       "width": 70,
@@ -667,7 +765,21 @@
     "volume": 0.245,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "variants": [
+      {
+        "type": "wood",
+        "woodFinish": "Natural Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Wenge Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Grey Teak"
+      }
+    ]
   },
   {
     "id": "UMA-28",
@@ -727,7 +839,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/coffetable__5_.png"
+      "/images/products/table_uma30_natural.png",
+      "/images/products/table_uma30_wenge.png",
+      "/images/products/table_uma30_grey.png"
     ],
     "dimensions": {
       "width": 55,
@@ -742,7 +856,21 @@
     "volume": 0.151,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "variants": [
+      {
+        "type": "wood",
+        "woodFinish": "Natural Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Wenge Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Grey Teak"
+      }
+    ]
   },
   {
     "id": "UMA-31",
@@ -752,7 +880,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/coffetable__6_.png"
+      "/images/products/table_uma31_natural.png",
+      "/images/products/table_uma31_wenge.png",
+      "/images/products/table_uma31_grey.png"
     ],
     "dimensions": {
       "width": 70,
@@ -768,7 +898,21 @@
     "volume": 0.186,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "variants": [
+      {
+        "type": "wood",
+        "woodFinish": "Natural Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Wenge Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Grey Teak"
+      }
+    ]
   },
   {
     "id": "UMA-32",
@@ -854,7 +998,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/pouff.png"
+      "/images/products/table_uma35_natural.png",
+      "/images/products/table_uma35_wenge.png",
+      "/images/products/table_uma35_grey.png"
     ],
     "dimensions": {
       "width": 80,
@@ -870,7 +1016,21 @@
     "volume": 0.256,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "variants": [
+      {
+        "type": "wood",
+        "woodFinish": "Natural Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Wenge Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Grey Teak"
+      }
+    ]
   },
   {
     "id": "UMA-36",
@@ -905,7 +1065,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/side_table_03.png"
+      "/images/products/table_uma37_natural.png",
+      "/images/products/table_uma37_wenge.png",
+      "/images/products/table_uma37_grey.png"
     ],
     "dimensions": {
       "width": 60,
@@ -920,7 +1082,21 @@
     "volume": 0.162,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "variants": [
+      {
+        "type": "wood",
+        "woodFinish": "Natural Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Wenge Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Grey Teak"
+      }
+    ]
   },
   {
     "id": "UMA-38",
@@ -930,7 +1106,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/side_table_05.png"
+      "/images/products/table_uma38_natural.png",
+      "/images/products/table_uma38_wenge.png",
+      "/images/products/table_uma38_grey.png"
     ],
     "dimensions": {
       "width": 160,
@@ -945,7 +1123,21 @@
     "volume": 1.894,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "variants": [
+      {
+        "type": "wood",
+        "woodFinish": "Natural Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Wenge Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Grey Teak"
+      }
+    ]
   },
   {
     "id": "UMA-39",
@@ -955,7 +1147,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/side_table_07.png"
+      "/images/products/table_uma39_natural.png",
+      "/images/products/table_uma39_wenge.png",
+      "/images/products/table_uma39_grey.png"
     ],
     "dimensions": {
       "width": 220,
@@ -970,7 +1164,21 @@
     "volume": 1.302,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "variants": [
+      {
+        "type": "wood",
+        "woodFinish": "Natural Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Wenge Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Grey Teak"
+      }
+    ]
   },
   {
     "id": "UMA-40",
@@ -1005,7 +1213,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/side_table_09.png"
+      "/images/products/table_uma41_natural.png",
+      "/images/products/table_uma41_wenge.png",
+      "/images/products/table_uma41_grey.png"
     ],
     "dimensions": {
       "width": 220,
@@ -1020,7 +1230,21 @@
     "volume": 0.416,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "variants": [
+      {
+        "type": "wood",
+        "woodFinish": "Natural Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Wenge Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Grey Teak"
+      }
+    ]
   },
   {
     "id": "UMA-42",
@@ -1030,7 +1254,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/side_table_12.png"
+      "/images/products/table_uma42_natural.png",
+      "/images/products/table_uma42_wenge.png",
+      "/images/products/table_uma42_grey.png"
     ],
     "dimensions": {
       "width": 130,
@@ -1045,7 +1271,21 @@
     "volume": 1.251,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "variants": [
+      {
+        "type": "wood",
+        "woodFinish": "Natural Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Wenge Teak"
+      },
+      {
+        "type": "wood",
+        "woodFinish": "Grey Teak"
+      }
+    ]
   },
   {
     "id": "UMA-43",
@@ -1983,7 +2223,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/table_05.png"
+      "/images/products/table_natural_teak_01.png",
+      "/images/products/table_dark_teak_01.png",
+      "/images/products/table_weathered_teak_01.png"
     ],
     "dimensions": {
       "width": 220,
@@ -2008,7 +2250,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/table_06.png"
+      "/images/products/table_natural_teak_01.png",
+      "/images/products/table_dark_teak_01.png",
+      "/images/products/table_weathered_teak_01.png"
     ],
     "dimensions": {
       "width": 55,
@@ -2033,7 +2277,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/table_07.png"
+      "/images/products/table_natural_teak_01.png",
+      "/images/products/table_dark_teak_01.png",
+      "/images/products/table_weathered_teak_01.png"
     ],
     "dimensions": {
       "width": 140,
@@ -2058,7 +2304,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/table_12.png"
+      "/images/products/table_natural_teak_01.png",
+      "/images/products/table_dark_teak_01.png",
+      "/images/products/table_weathered_teak_01.png"
     ],
     "dimensions": {
       "width": 220,
@@ -2083,7 +2331,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/table_15.png"
+      "/images/products/table_natural_teak_01.png",
+      "/images/products/table_dark_teak_01.png",
+      "/images/products/table_weathered_teak_01.png"
     ],
     "dimensions": {
       "width": 220,
@@ -2108,7 +2358,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/table_19.png"
+      "/images/products/table_natural_teak_01.png",
+      "/images/products/table_dark_teak_01.png",
+      "/images/products/table_weathered_teak_01.png"
     ],
     "dimensions": {
       "width": 130,
@@ -2133,7 +2385,9 @@
     "category": "tables",
     "price": 0,
     "images": [
-      "/images/products/table_20.png"
+      "/images/products/table_natural_teak_01.png",
+      "/images/products/table_dark_teak_01.png",
+      "/images/products/table_weathered_teak_01.png"
     ],
     "dimensions": {
       "width": 120,

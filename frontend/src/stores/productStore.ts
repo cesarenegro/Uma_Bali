@@ -12,6 +12,17 @@ export interface FilterState {
   style: string[];
 }
 
+export interface CartItem {
+  id: string; // unique literal id for cart item
+  productId: string;
+  quantity: number;
+  woodFinish?: string;
+  fabricType?: string;
+  fabricColor?: string;
+  priceIndicator?: 'on_request' | 'contact_dealer' | number | null;
+}
+
+
 interface ProductStore {
   products: Product[];
   categories: Category[];
@@ -24,7 +35,17 @@ interface ProductStore {
   setSearch: (q: string) => void;
   getProductsByCategory: (category: string) => Product[];
   getProductById: (id: string) => Product | undefined;
+  
+  // Cart State
+  cartItems: CartItem[];
+  isCartOpen: boolean;
+  addToCart: (item: Omit<CartItem, 'id'>) => void;
+  removeFromCart: (cartItemId: string) => void;
+  updateCartQuantity: (cartItemId: string, quantity: number) => void;
+  toggleCart: (isOpen?: boolean) => void;
+  clearCart: () => void;
 }
+
 
 const initialFilters: FilterState = {
   category: [],
@@ -64,5 +85,29 @@ export const useProductStore = create<ProductStore>((set, get) => ({
   
   getProductById: (id: string) => {
     return get().products.find(p => p.id === id);
-  }
+  },
+
+  cartItems: [],
+  isCartOpen: false,
+  
+  addToCart: (item) => set((state) => {
+    const newItem = { ...item, id: crypto.randomUUID() };
+    return { cartItems: [...state.cartItems, newItem], isCartOpen: true };
+  }),
+  
+  removeFromCart: (cartItemId) => set((state) => ({
+    cartItems: state.cartItems.filter(item => item.id !== cartItemId)
+  })),
+  
+  updateCartQuantity: (cartItemId, quantity) => set((state) => ({
+    cartItems: state.cartItems.map(item => 
+      item.id === cartItemId ? { ...item, quantity: Math.max(1, quantity) } : item
+    )
+  })),
+  
+  toggleCart: (isOpen) => set((state) => ({
+    isCartOpen: isOpen !== undefined ? isOpen : !state.isCartOpen
+  })),
+  
+  clearCart: () => set({ cartItems: [] }),
 }));

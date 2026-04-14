@@ -68,6 +68,59 @@ export default function MaterialsPage() {
     "f93a7ebd-bb49-46dc-802e-94b4f79704ee.jpg"
   ];
 
+  const formatMarbleName = (filename: string) => {
+    let name = removeExt(filename);
+    // Remove the "-1234567890-abcdef..." suffix
+    name = name.replace(/-[0-9]+-[0-9a-f]+$/, "");
+    return name.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+  };
+
+  const formatMetalName = (filename: string) => {
+    let name = removeExt(filename);
+    name = name.toLowerCase().replace("metal ", "");
+    return name.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+  };
+
+  const metalFinishes = [
+    "Metal black matt.png",
+    "metal antarcite.png",
+    "Metal titanium.png",
+    "Metal dark bronze.png",
+    "Metal gold.png",
+    "Metal copper.png",
+    "Metal chrome.png",
+    "Metal polsihed alluminium.png",
+    "Metal white.png"
+  ];
+
+  const marbleCollections = [
+    "ancient-wood-1774575031-69c5ddb78fafb.jpg",
+    "antico-wood-1775614864-69d5bb9000fe1.jpg",
+    "antik-quelle-black-1775614893-69d5bbad86442.jpg",
+    "antik-woods-1773624541-69b75cdd48dda.jpg",
+    "arabescato-orobico-1773624654-69b75d4e0c3d1.jpg",
+    "beige-crema-ivory-1773626566-69b764c61e72f.jpg",
+    "black-lorenzo-1773627802-69b7699a2260b.jpg",
+    "blue-crystal-1774661003-69c72d8b04e5e.jpg",
+    "blue-dream-patagonia-1774232014-69c0a1cebf549.jpg",
+    "botticano-white-1773624827-69b75dfb5d577.jpg",
+    "brazillian-patagonia-1773627834-69b769ba1bd7f.jpg",
+    "calacatta-white-1773626621-69b764fd47f0c.jpg",
+    "cloudy-sky-1773626400-69b764201e4aa.jpg",
+    "crystal-white-1773626408-69b7642818b2c.jpg",
+    "italian-fussion-art-of-mkm-2-1774232078-69c0a20eb5d1a.jpg",
+    "italian-white-1773628090-69b76aba61a6f.jpg",
+    "nero-marquina-1773625632-69b76120eb251.jpg",
+    "portoro-silver-1773626230-69b763760f624.jpg",
+    "rainforest-gold-1774232056-69c0a1f8de57d.jpg",
+    "sant-agostino-ivory-1773626242-69b76382233e5.jpg",
+    "silver-wave-1773626001-69b7629126d5d.jpg",
+    "swarovski-blue-1773626009-69b762991f5c6.jpg",
+    "valencia-cream-1774233710-69c0a86e6ce4d.jpg",
+    "verde-guatemala-1773626118-69b7630698b5d.jpg",
+    "white-lilac-1774421873-69c38771ae0c5.jpg"
+  ];
+
   return (
     <div className="min-h-screen bg-[#eeead7] text-charcoal py-24 px-6 md:px-12">
       <div className="max-w-5xl mx-auto">
@@ -157,6 +210,38 @@ export default function MaterialsPage() {
                 <div className="absolute inset-0 bg-black/10 pointer-events-none" />
                 <div className="absolute bottom-0 left-0 w-full bg-charcoal/80 p-2 text-center backdrop-blur-sm">
                   <span className="text-white text-[10px] sm:text-xs tracking-wider break-words">{removeExt(file)}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Metal Finishes Section */}
+        <section className="mt-20 mb-12">
+          <h2 className="text-2xl font-light mb-8 text-center border-b border-charcoal/10 pb-4 uppercase tracking-widest">Metal Finishes</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            {metalFinishes.map((file, idx) => (
+              <div key={idx} className="relative group overflow-hidden bg-white shadow-sm aspect-square flex flex-col">
+                <img src={`/materials/metal/${file}`} alt={formatMetalName(file)} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                <div className="absolute inset-0 bg-black/10 pointer-events-none" />
+                <div className="absolute bottom-0 left-0 w-full bg-charcoal/80 p-2 text-center backdrop-blur-sm">
+                  <span className="text-white text-[10px] sm:text-xs tracking-wider break-words">{formatMetalName(file)}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Marble Collections Section */}
+        <section className="mt-20 mb-12">
+          <h2 className="text-2xl font-light mb-8 text-center border-b border-charcoal/10 pb-4 uppercase tracking-widest">Premium Marble Collections</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            {marbleCollections.map((file, idx) => (
+              <div key={idx} className="relative group overflow-hidden bg-white shadow-sm aspect-square flex flex-col">
+                <img src={`/materials/marble/${file}`} alt={formatMarbleName(file)} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                <div className="absolute inset-0 bg-black/10 pointer-events-none" />
+                <div className="absolute bottom-0 left-0 w-full bg-charcoal/80 p-4 text-center backdrop-blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <span className="text-white text-xs sm:text-sm font-medium tracking-wider break-words">{formatMarbleName(file)}</span>
                 </div>
               </div>
             ))}

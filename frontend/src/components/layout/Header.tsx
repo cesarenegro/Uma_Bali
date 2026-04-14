@@ -1,12 +1,17 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { useProductStore } from '../../stores/productStore';
 
 export default function Header() {
   const { t, i18n } = useTranslation('common');
+  const { cartItems, toggleCart } = useProductStore();
+  
+  const cartItemsCount = cartItems.reduce((acc, item) => acc + item.quantity, 0);
 
   const navLinks = [
     { label: t('nav.products'), href: '/products' },
     { label: t('nav.collections'), href: '/collections' },
+    { label: t('nav.materials') || 'Materials', href: '/materials' },
     { label: t('nav.designers'), href: '/designers' },
     { label: t('nav.projects'), href: '/projects' },
     { label: t('nav.ai_generator'), href: '/ai-generator' },
@@ -29,8 +34,9 @@ export default function Header() {
           </select>
         </div>
         <div className="flex gap-4 text-caption text-textPrimary">
-          <Link to="/contact">{t('nav.contact', 'Contact')}</Link>
-          <Link to="/account">{t('common.login_account', 'Login / Account')}</Link>
+          <Link to="/e-shop" className="hover:text-brand transition-colors">{t('nav.eshop', 'E-Shop')}</Link>
+          <Link to="/contact" className="hover:text-brand transition-colors">{t('nav.contact', 'Contact')}</Link>
+          <Link to="/account" className="hover:text-brand transition-colors">{t('common.login_account', 'Login / Account')}</Link>
         </div>
       </div>
       <div className="flex justify-between items-center py-4 px-6">
@@ -38,12 +44,24 @@ export default function Header() {
           <img src="/images/logo.png" alt="Uma Bali Logo" className="h-10 w-auto" />
           UMA BALI
         </Link>
-        <nav className="hidden md:flex gap-8">
+        <nav className="hidden md:flex gap-8 items-center">
           {navLinks.map((link) => (
             <Link key={link.href} to={link.href} className="text-nav text-espresso hover:text-brand transition-colors">
               {link.label}
             </Link>
           ))}
+          <button onClick={() => toggleCart()} className="relative text-espresso hover:text-brand transition-colors p-1">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+            {cartItemsCount > 0 && (
+              <span className="absolute -top-1 -right-2 bg-brand text-linen text-[10px] w-4 h-4 rounded-full flex items-center justify-center font-medium">
+                {cartItemsCount}
+              </span>
+            )}
+          </button>
         </nav>
       </div>
     </header>
