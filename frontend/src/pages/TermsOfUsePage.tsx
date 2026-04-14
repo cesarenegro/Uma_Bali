@@ -13,7 +13,7 @@ export default function TermsOfUsePage() {
           animate={{ opacity: 1, y: 0 }}
           className="text-3xl md:text-5xl font-light tracking-wide mb-8 uppercase text-center border-b border-charcoal/10 pb-8"
         >
-          {t('footer.terms')}
+          {t('common.terms_of_use')}
         </motion.h1>
 
         <div className="prose prose-stone max-w-none text-charcoal/80 mt-8">
@@ -35,8 +35,8 @@ export default function TermsOfUsePage() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-charcoal/10 flex justify-center gap-6">
-          <Link to="/privacy-policy" className="text-sm tracking-widest uppercase hover:text-sage transition-colors">{t('footer.privacy')}</Link>
-          <Link to="/cookie-policy" className="text-sm tracking-widest uppercase hover:text-sage transition-colors">{t('footer.cookie')}</Link>
+          <Link to="/privacy-policy" className="text-sm tracking-widest uppercase hover:text-sage transition-colors">{t('common.privacy_policy')}</Link>
+          <Link to="/cookie-policy" className="text-sm tracking-widest uppercase hover:text-sage transition-colors">{t('common.cookie_policy')}</Link>
         </div>
       </div>
     </div>

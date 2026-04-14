@@ -41,8 +41,8 @@ export default function PrivacyPolicyPage() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-charcoal/10 flex justify-center gap-6">
-          <Link to="/cookie-policy" className="text-sm tracking-widest uppercase hover:text-sage transition-colors">{t('footer.cookie')}</Link>
-          <Link to="/terms-of-use" className="text-sm tracking-widest uppercase hover:text-sage transition-colors">{t('footer.terms')}</Link>
+          <Link to="/cookie-policy" className="text-sm tracking-widest uppercase hover:text-sage transition-colors">{t('common.cookie_policy')}</Link>
+          <Link to="/terms-of-use" className="text-sm tracking-widest uppercase hover:text-sage transition-colors">{t('common.terms_of_use')}</Link>
         </div>
       </div>
     </div>
