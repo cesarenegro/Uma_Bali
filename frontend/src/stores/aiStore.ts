@@ -15,11 +15,19 @@ interface SceneAnalysisResult {
   zones: any[];
 }
 
+export interface Region {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+}
+
 interface AIState {
   sceneUploadId: string | null;
   sceneImageUrl: string | null;
   sceneAnalysis: SceneAnalysisResult | null;
   selectedProducts: SelectedProduct[];
+  selectedRegions: Region[];
   layoutMode: LayoutMode;
   renderJobId: string | null;
   renderStatus: RenderStatus;
@@ -30,6 +38,9 @@ interface AIState {
   // Actions
   setSceneImage: (url: string, uploadId?: string) => void;
   setSceneAnalysis: (analysis: SceneAnalysisResult) => void;
+  addRegion: (region: Region) => void;
+  removeRegion: (index: number) => void;
+  clearRegions: () => void;
   addProduct: (product: SelectedProduct) => void;
   removeProduct: (productId: string) => void;
   setLayoutMode: (mode: LayoutMode) => void;
@@ -44,6 +55,7 @@ export const useAIStore = create<AIState>((set) => ({
   sceneImageUrl: null,
   sceneAnalysis: null,
   selectedProducts: [],
+  selectedRegions: [],
   layoutMode: null,
   renderJobId: null,
   renderStatus: 'idle',
@@ -53,6 +65,9 @@ export const useAIStore = create<AIState>((set) => ({
 
   setSceneImage: (url, uploadId) => set({ sceneImageUrl: url, sceneUploadId: uploadId || null }),
   setSceneAnalysis: (analysis) => set({ sceneAnalysis: analysis }),
+  addRegion: (region) => set((state) => ({ selectedRegions: [...state.selectedRegions, region] })),
+  removeRegion: (index) => set((state) => ({ selectedRegions: state.selectedRegions.filter((_, i) => i !== index) })),
+  clearRegions: () => set({ selectedRegions: [] }),
   addProduct: (product) => 
     set((state) => ({
       selectedProducts: state.selectedProducts.find(p => p.id === product.id) 
@@ -72,6 +87,7 @@ export const useAIStore = create<AIState>((set) => ({
     sceneImageUrl: null,
     sceneAnalysis: null,
     selectedProducts: [],
+    selectedRegions: [],
     layoutMode: null,
     renderJobId: null,
     renderStatus: 'idle',

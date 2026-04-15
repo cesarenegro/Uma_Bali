@@ -11,7 +11,7 @@ export default function AIGeneratorPage() {
     sceneImageUrl, 
     renderStatus, 
     selectedProducts,
-    refineInstruction,
+    selectedRegions,
     setRenderStatus,
     setRenderResult
   } = useAIStore();
@@ -27,7 +27,7 @@ export default function AIGeneratorPage() {
       const resultImageUrl = await generateAIStaging(
          sceneImageUrl,
          selectedProducts,
-         refineInstruction
+         selectedRegions
       );
       setRenderStatus('done');
       setRenderResult(`job_${Date.now()}`, resultImageUrl);
@@ -43,7 +43,8 @@ export default function AIGeneratorPage() {
       renderImageUrl: null,
       renderJobId: null,
       renderStatus: 'idle',
-      renderError: null
+      renderError: null,
+      selectedRegions: []
     });
   };
 
@@ -98,12 +99,8 @@ export default function AIGeneratorPage() {
                 <p className="text-charcoal/60 mb-6 max-w-lg mx-auto">
                   Your space has been uploaded and {selectedProducts.length} items are selected.
                 </p>
-                <div className="flex gap-4 justify-center mb-8">
-                  {selectedProducts.map((p) => (
-                    <div key={p.id} className="w-16 h-16 rounded border border-charcoal/10 overflow-hidden bg-sand/30">
-                       <img src={p.image || '/placeholder.png'} alt={p.name} className="w-full h-full object-cover mix-blend-multiply" />
-                    </div>
-                  ))}
+                <div className="mb-8">
+                   {/* Items are now displayed inside the viewer on the left */}
                 </div>
                 <button 
                   onClick={handleGenerate}

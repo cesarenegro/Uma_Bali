@@ -1,8 +1,10 @@
-import { motion } from 'framer-motion';
+import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
 export default function MaterialsPage() {
   const { t } = useTranslation('common');
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
   const teakColors = [
     { name: t('materials.natural_name'), description: t('materials.natural'), image: '/materials/teak_natural.png' },
@@ -30,7 +32,13 @@ export default function MaterialsPage() {
     "CDN_1200-Fernie-Mimosa_64280-0001.jpg",
     "CDN_1200-Hound-Midnight_305674-0004.jpg",
     "CDN_1200-Precise-Spring_145602-0007.jpg",
-    "Colorwash-Foggy_73079-0001_cus.jpg"
+    "Colorwash-Foggy_73079-0001_cus.jpg",
+    "Sunbrella USA WH (1).webp",
+    "Sunbrella USA WH (2).webp",
+    "Sunbrella USA WH (3).webp",
+    "Sunbrella USA WH (4).webp",
+    "Sunbrella USA WH (5).webp",
+    "Sunbrella USA WH (6).webp"
   ];
 
   const sunproof = [
@@ -121,6 +129,20 @@ export default function MaterialsPage() {
     "white-lilac-1774421873-69c38771ae0c5.jpg"
   ];
 
+  const allImages = [
+    ...teakColors.map(c => c.image),
+    ...sunbrella.map(f => `/materials/sunbrella/${f}`),
+    ...sunproof.map(f => `/materials/sunproof/${f}`),
+    ...jimThompson.map(f => `/materials/jim_thompson/${f}`),
+    ...metalFinishes.map(f => `/materials/metal/${f}`),
+    ...marbleCollections.map(f => `/materials/marble/${f}`)
+  ];
+
+  const openGallery = (imgSrc: string) => {
+    const idx = allImages.indexOf(imgSrc);
+    if (idx !== -1) setSelectedIndex(idx);
+  };
+
   return (
     <div className="min-h-screen bg-[#eeead7] text-charcoal py-24 px-6 md:px-12">
       <div className="max-w-5xl mx-auto">
@@ -152,11 +174,12 @@ export default function MaterialsPage() {
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
                 key={color.name} 
-                className="bg-linen shadow-md group overflow-hidden"
+                className="bg-linen shadow-md group overflow-hidden cursor-pointer"
+                onClick={() => openGallery(color.image)}
               >
                 {/* Visual Representation of Color */}
-                <div className="h-48 w-full transition-transform duration-700 group-hover:scale-105 bg-white flex items-center justify-center p-4">
-                  <img src={color.image} alt={color.name} className="w-full h-full object-contain" />
+                <div className="h-48 w-full transition-transform duration-700 group-hover:scale-105 bg-transparent overflow-hidden">
+                  <img src={color.image} alt={color.name} className="w-full h-full object-cover" />
                 </div>
                 
                 <div className="p-6">
@@ -173,11 +196,15 @@ export default function MaterialsPage() {
           <h2 className="text-2xl font-light mb-8 text-center border-b border-charcoal/10 pb-4 uppercase tracking-widest">Sunbrella - Original USA Fabric</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {sunbrella.map((file, idx) => (
-              <div key={idx} className="relative group overflow-hidden bg-white shadow-sm aspect-square flex flex-col">
+              <div 
+                key={idx} 
+                className="relative group overflow-hidden bg-white shadow-sm aspect-square flex flex-col cursor-pointer"
+                onClick={() => openGallery(`/materials/sunbrella/${file}`)}
+              >
                 <img src={`/materials/sunbrella/${file}`} alt={removeExt(file)} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                 <div className="absolute inset-0 bg-black/10 pointer-events-none" />
                 <div className="absolute bottom-0 left-0 w-full bg-charcoal/80 p-2 text-center backdrop-blur-sm">
-                  <span className="text-white text-[10px] sm:text-xs tracking-wider break-words">{removeExt(file)}</span>
+                  <span className="text-white text-[10px] sm:text-xs tracking-wider break-words">Sunbrella USA Imported-{idx + 22}</span>
                 </div>
               </div>
             ))}
@@ -189,11 +216,15 @@ export default function MaterialsPage() {
           <h2 className="text-2xl font-light mb-8 text-center border-b border-charcoal/10 pb-4 uppercase tracking-widest">Sunproof Outdoor</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {sunproof.map((file, idx) => (
-              <div key={idx} className="relative group overflow-hidden bg-white shadow-sm aspect-square flex flex-col">
+              <div 
+                key={idx} 
+                className="relative group overflow-hidden bg-white shadow-sm aspect-square flex flex-col cursor-pointer"
+                onClick={() => openGallery(`/materials/sunproof/${file}`)}
+              >
                 <img src={`/materials/sunproof/${file}`} alt={removeExt(file)} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                 <div className="absolute inset-0 bg-black/10 pointer-events-none" />
                 <div className="absolute bottom-0 left-0 w-full bg-charcoal/80 p-2 text-center backdrop-blur-sm">
-                  <span className="text-white text-[10px] sm:text-xs tracking-wider break-words">{removeExt(file)}</span>
+                  <span className="text-white text-[10px] sm:text-xs tracking-wider break-words">{removeExt(file).replace('-1024x1024', '')}</span>
                 </div>
               </div>
             ))}
@@ -205,11 +236,15 @@ export default function MaterialsPage() {
           <h2 className="text-2xl font-light mb-8 text-center border-b border-charcoal/10 pb-4 uppercase tracking-widest">Jim Thompson Premium</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {jimThompson.map((file, idx) => (
-              <div key={idx} className="relative group overflow-hidden bg-white shadow-sm aspect-square flex flex-col">
+              <div 
+                key={idx} 
+                className="relative group overflow-hidden bg-white shadow-sm aspect-square flex flex-col cursor-pointer"
+                onClick={() => openGallery(`/materials/jim_thompson/${file}`)}
+              >
                 <img src={`/materials/jim_thompson/${file}`} alt={removeExt(file)} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                 <div className="absolute inset-0 bg-black/10 pointer-events-none" />
                 <div className="absolute bottom-0 left-0 w-full bg-charcoal/80 p-2 text-center backdrop-blur-sm">
-                  <span className="text-white text-[10px] sm:text-xs tracking-wider break-words">{removeExt(file)}</span>
+                  <span className="text-white text-[10px] sm:text-xs tracking-wider break-words">JT-BKK{idx + 12}</span>
                 </div>
               </div>
             ))}
@@ -221,7 +256,11 @@ export default function MaterialsPage() {
           <h2 className="text-2xl font-light mb-8 text-center border-b border-charcoal/10 pb-4 uppercase tracking-widest">Metal Finishes</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {metalFinishes.map((file, idx) => (
-              <div key={idx} className="relative group overflow-hidden bg-white shadow-sm aspect-square flex flex-col">
+              <div 
+                key={idx} 
+                className="relative group overflow-hidden bg-white shadow-sm aspect-square flex flex-col cursor-pointer"
+                onClick={() => openGallery(`/materials/metal/${file}`)}
+              >
                 <img src={`/materials/metal/${file}`} alt={formatMetalName(file)} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                 <div className="absolute inset-0 bg-black/10 pointer-events-none" />
                 <div className="absolute bottom-0 left-0 w-full bg-charcoal/80 p-2 text-center backdrop-blur-sm">
@@ -237,7 +276,11 @@ export default function MaterialsPage() {
           <h2 className="text-2xl font-light mb-8 text-center border-b border-charcoal/10 pb-4 uppercase tracking-widest">Premium Marble Collections</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {marbleCollections.map((file, idx) => (
-              <div key={idx} className="relative group overflow-hidden bg-white shadow-sm aspect-square flex flex-col">
+              <div 
+                key={idx} 
+                className="relative group overflow-hidden bg-white shadow-sm aspect-square flex flex-col cursor-pointer"
+                onClick={() => openGallery(`/materials/marble/${file}`)}
+              >
                 <img src={`/materials/marble/${file}`} alt={formatMarbleName(file)} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                 <div className="absolute inset-0 bg-black/10 pointer-events-none" />
                 <div className="absolute bottom-0 left-0 w-full bg-charcoal/80 p-4 text-center backdrop-blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -249,6 +292,67 @@ export default function MaterialsPage() {
         </section>
 
       </div>
+
+      {/* Lightbox Modal */}
+      <AnimatePresence>
+        {selectedIndex !== null && (
+          <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-8 bg-charcoal/95 backdrop-blur-md"
+            onClick={() => setSelectedIndex(null)}
+          >
+            <div className="flex items-center justify-center gap-2 sm:gap-8 max-w-7xl">
+              {/* Left gallery arrow */}
+              <button 
+                onClick={(e) => { 
+                  e.stopPropagation(); 
+                  setSelectedIndex(prev => prev! > 0 ? prev! - 1 : allImages.length - 1); 
+                }}
+                className="text-white/50 hover:text-white text-4xl sm:text-6xl z-[110] px-2 pb-2"
+              >
+                &#8249;
+              </button>
+
+              <motion.div
+                 initial={{ scale: 0.95 }}
+                 animate={{ scale: 1 }}
+                 exit={{ scale: 0.95 }}
+                 className="relative inline-block h-[50vh] max-w-[70vw]"
+                 onClick={(e) => e.stopPropagation()}
+              >
+                <button 
+                   onClick={(e) => {
+                     e.stopPropagation();
+                     setSelectedIndex(null);
+                   }}
+                   className="absolute top-2 right-2 text-charcoal hover:text-sand text-3xl font-light w-10 h-10 flex items-center justify-center rounded-full bg-white hover:bg-black hover:text-white transition-colors z-[110]"
+                   aria-label="Close"
+                >
+                   &times;
+                </button>
+                <img 
+                  src={allImages[selectedIndex]} 
+                  alt="Enlarged material view" 
+                  className="h-[50vh] w-auto object-contain shadow-2xl bg-white" 
+                />
+              </motion.div>
+
+              {/* Right gallery arrow */}
+              <button 
+                onClick={(e) => { 
+                  e.stopPropagation(); 
+                  setSelectedIndex(prev => prev! < allImages.length - 1 ? prev! + 1 : 0); 
+                }}
+                className="text-white/50 hover:text-white text-4xl sm:text-6xl z-[110] px-2 pb-2"
+              >
+                &#8250;
+              </button>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

@@ -28,7 +28,7 @@ export default function EShopPage() {
     setSelectedProduct(product);
     // Determine defaults based on variants or materials
     const defaultWood = product.variants?.[0]?.woodFinish || 'Natural Teak';
-    const defaultFabric = product.variants?.[0]?.fabricType || 'Premium Outdoor Canvas';
+    const defaultFabric = product.variants?.[0]?.fabricCode || 'Premium Outdoor Canvas';
     const defaultColor = product.variants?.[0]?.fabricColor || 'Sand';
     
     setSelectedWood(defaultWood);
@@ -200,7 +200,7 @@ export default function EShopPage() {
                     <div className="grid grid-cols-2 gap-4">
                       <div>
                         <span className="block text-[10px] uppercase tracking-widest text-espresso/50 mb-1">Dimensions</span>
-                        <p className="text-xs text-espresso">{selectedProduct.dimensions || 'Contact for sizes'}</p>
+                        <p className="text-xs text-espresso">{selectedProduct.dimensions ? (selectedProduct.dimensions.rawString || `${selectedProduct.dimensions.width}x${selectedProduct.dimensions.depth}x${selectedProduct.dimensions.height} cm`) : 'Contact for sizes'}</p>
                       </div>
                       <div>
                         <span className="block text-[10px] uppercase tracking-widest text-espresso/50 mb-1">Availability</span>

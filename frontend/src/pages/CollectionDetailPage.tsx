@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useProductStore } from '../stores/productStore';
@@ -9,13 +10,15 @@ export default function CollectionDetailPage() {
   
   const category = useProductStore((state) => state.categories.find(c => c.id === slug));
   
-  // Actually, top items isn't a proper "category" in our raw data string, it's a tag we generated.
-  const products = useProductStore((state) => {
+  // Fetch all products once, avoid returning a new array from the selector
+  const allProducts = useProductStore((state) => state.products);
+  
+  const products = useMemo(() => {
     if (slug === 'top items') {
-      return state.products.filter(p => p.tags?.includes('top-item'));
+      return allProducts.filter(p => p.tags?.includes('top-item'));
     }
-    return state.getProductsByCategory(slug || '');
-  });
+    return allProducts.filter(p => p.category === slug);
+  }, [allProducts, slug]);
 
   if (!category) {
     return (

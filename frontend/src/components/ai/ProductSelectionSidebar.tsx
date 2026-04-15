@@ -75,7 +75,7 @@ export default function ProductSelectionSidebar() {
                   : 'border-charcoal/10 bg-white hover:border-charcoal/20'}`}
             >
               <div className="w-16 h-16 rounded bg-sand/50 overflow-hidden flex-shrink-0">
-                <img src={imageSrc} alt={product.name} className="w-full h-full object-cover mix-blend-multiply" />
+                <img src={imageSrc} alt={product.name} className="w-full h-full object-contain mix-blend-multiply p-2" />
               </div>
               <div className="flex-1 min-w-0">
                 <h4 className="font-medium text-sm text-charcoal truncate">{product.name}</h4>

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useProductStore } from '../stores/productStore';
@@ -9,6 +10,7 @@ export default function ProductDetailPage() {
   
   // Note: App Router sends 'slug' but our store uses 'id' (which matches the slug exactly right now)
   const product = useProductStore(state => state.getProductById(slug || ''));
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   if (!product) {
     return (
@@ -21,7 +23,7 @@ export default function ProductDetailPage() {
     );
   }
 
-  const mainImage = product.images?.[0] || '/placeholder-furniture.jpg';
+  const mainImage = selectedImage || product.images?.[0] || '/placeholder-furniture.jpg';
 
   return (
     <div className="min-h-screen bg-[#e0d9b9] pt-24 pb-32">
@@ -47,12 +49,16 @@ export default function ProductDetailPage() {
             />
           </motion.div>
           
-          {/* Thumbnails if available (we mapped one image but future proofing) */}
+          {/* Thumbnails */}
           {product.images && product.images.length > 1 && (
             <div className="grid grid-cols-4 gap-4">
-              {product.images.slice(1).map((img, idx) => (
-                <div key={idx} className="aspect-square bg-travertine/40 p-2 cursor-pointer hover:border hover:border-charcoal/20 transition-all">
-                  <img src={img} alt={`${product.name} view ${idx + 2}`} className="w-full h-full object-contain pointer-events-none mix-blend-darken" />
+              {product.images.map((img, idx) => (
+                <div 
+                  key={idx} 
+                  className={`aspect-square bg-travertine/40 p-2 cursor-pointer transition-all ${mainImage === img ? 'border-2 border-charcoal' : 'hover:border-2 hover:border-charcoal/20'}`}
+                  onClick={() => setSelectedImage(img)}
+                >
+                  <img src={img} alt={`${product.name} variation ${idx + 1}`} className="w-full h-full object-contain pointer-events-none mix-blend-darken" />
                 </div>
               ))}
             </div>

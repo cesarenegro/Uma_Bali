@@ -180,26 +180,26 @@
   },
   {
     "id": "UMA-09",
-    "name": "Outdoor Armchair - Upholstered",
-    "description": "Outdoor armchair with timber frame and upholstered seat/back",
-    "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Armchair - Upholstered. Outdoor armchair with timber frame and upholstered seat/back. Crafted from premium teak / teak wood and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
-    "category": "sofa chairs",
+    "name": "Outdoor Dining Chair - Upholstered",
+    "description": "Outdoor dining chair with timber frame and upholstered seat/back",
+    "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Armchair - Upholstered. Outdoor dining chair with timber frame and upholstered seat/back. Crafted from premium teak / teak wood and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
+    "category": "chairs",
     "price": 0,
     "images": [
       "/images/products/chair_BN1.png"
     ],
     "dimensions": {
-      "width": 78,
-      "depth": 82,
-      "height": 78,
-      "rawString": "78 x 82 x 78"
+      "width": 55,
+      "depth": 60,
+      "height": 85,
+      "rawString": "55 x 60 x 85"
     },
     "materials": [
       "Teak / Teak wood"
     ],
     "upholstery": "Textured beige fabric",
-    "weight": 47.4,
-    "volume": 0.499,
+    "weight": 12.5,
+    "volume": 0.28,
     "inStock": true,
     "isCustomizable": true,
     "tags": [
@@ -214,7 +214,9 @@
     "category": "chairs",
     "price": 0,
     "images": [
-      "/images/products/chair_BN2.png"
+      "/images/products/chair_uma10_natural.png",
+      "/images/products/chair_uma10_wenge.png",
+      "/images/products/chair_uma10_grey.png"
     ],
     "dimensions": {
       "width": 52,
@@ -236,26 +238,26 @@
   },
   {
     "id": "UMA-11",
-    "name": "Lounge Chair - Box Frame",
-    "description": "Lounge chair with box arms and deep upholstered cushions",
-    "longDescription": "Experience the ultimate in outdoor luxury with the Lounge Chair - Box Frame. Lounge chair with box arms and deep upholstered cushions. Crafted from premium teak / teak wood and paired with dark charcoal fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
-    "category": "sofa chairs",
+    "name": "Dining Chair - Box Frame",
+    "description": "Dining chair with box arms and deep upholstered cushions",
+    "longDescription": "Experience the ultimate in outdoor luxury with the Dining Chair - Box Frame. Dining chair with box arms and deep upholstered cushions. Crafted from premium teak / teak wood and paired with dark charcoal fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
+    "category": "chairs",
     "price": 0,
     "images": [
       "/images/products/chair_BN3.png"
     ],
     "dimensions": {
-      "width": 82,
-      "depth": 88,
-      "height": 78,
-      "rawString": "82 x 88 x 78"
+      "width": 55,
+      "depth": 60,
+      "height": 85,
+      "rawString": "55 x 60 x 85"
     },
     "materials": [
       "Teak / teak wood"
     ],
     "upholstery": "Dark charcoal fabric",
-    "weight": 53.5,
-    "volume": 0.563,
+    "weight": 14.0,
+    "volume": 0.3,
     "inStock": true,
     "isCustomizable": true,
     "tags": []
@@ -268,7 +270,9 @@
     "category": "chairs",
     "price": 0,
     "images": [
-      "/images/products/chair_BN4.png"
+      "/images/products/chair_uma12_natural.png",
+      "/images/products/chair_uma12_wenge.png",
+      "/images/products/chair_uma12_grey.png"
     ],
     "dimensions": {
       "width": 50,
@@ -294,7 +298,9 @@
     "category": "chairs",
     "price": 0,
     "images": [
-      "/images/products/chair_BN5.png"
+      "/images/products/chair_uma13_natural.png",
+      "/images/products/chair_uma13_wenge.png",
+      "/images/products/chair_uma13_grey.png"
     ],
     "dimensions": {
       "width": 58,
@@ -320,7 +326,9 @@
     "category": "chairs",
     "price": 0,
     "images": [
-      "/images/products/chair_BN6.png"
+      "/images/products/chair_uma14_natural.png",
+      "/images/products/chair_uma14_wenge.png",
+      "/images/products/chair_uma14_grey.png"
     ],
     "dimensions": {
       "width": 48,
@@ -346,7 +354,9 @@
     "category": "chairs",
     "price": 0,
     "images": [
-      "/images/products/chair_BN7.png"
+      "/images/products/chair_uma15_natural.png",
+      "/images/products/chair_uma15_wenge.png",
+      "/images/products/chair_uma15_grey.png"
     ],
     "dimensions": {
       "width": 57,
@@ -365,52 +375,52 @@
   },
   {
     "id": "UMA-16",
-    "name": "Outdoor Lounge Armchair",
-    "description": "Outdoor lounge armchair with broad timber frame",
-    "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Lounge Armchair. Outdoor lounge armchair with broad timber frame. Crafted from premium teak / teak wood and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
-    "category": "sofa chairs",
+    "name": "Outdoor Dining Armchair",
+    "description": "Outdoor dining armchair with broad timber frame",
+    "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Dining Armchair. Outdoor dining dining chair with broad timber frame. Crafted from premium teak / teak wood and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
+    "category": "chairs",
     "price": 0,
     "images": [
       "/images/products/chair_BN8.png"
     ],
     "dimensions": {
-      "width": 80,
-      "depth": 85,
-      "height": 78,
-      "rawString": "80 x 85 x 78"
+      "width": 55,
+      "depth": 60,
+      "height": 85,
+      "rawString": "55 x 60 x 85"
     },
     "materials": [
       "Teak / teak wood"
     ],
     "upholstery": "Textured beige fabric",
-    "weight": 50.4,
-    "volume": 0.53,
+    "weight": 13.5,
+    "volume": 0.29,
     "inStock": true,
     "isCustomizable": true,
     "tags": []
   },
   {
     "id": "UMA-17",
-    "name": "Rope Panel Armchair",
-    "description": "Outdoor armchair with rope side/back panels",
-    "longDescription": "Experience the ultimate in outdoor luxury with the Rope Panel Armchair. Outdoor armchair with rope side/back panels. Crafted from premium teak wood / woven rope and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
-    "category": "sofa chairs",
+    "name": "Rope Panel Dining Chair",
+    "description": "Outdoor dining chair with rope side/back panels",
+    "longDescription": "Experience the ultimate in outdoor luxury with the Rope Panel Armchair. Outdoor dining chair with rope side/back panels. Crafted from premium teak wood / woven rope and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
+    "category": "chairs",
     "price": 0,
     "images": [
       "/images/products/chairs__2_.png"
     ],
     "dimensions": {
-      "width": 82,
-      "depth": 86,
-      "height": 78,
-      "rawString": "82 x 86 x 78"
+      "width": 55,
+      "depth": 60,
+      "height": 85,
+      "rawString": "55 x 60 x 85"
     },
     "materials": [
       "Teak wood / woven rope"
     ],
     "upholstery": "Textured beige fabric",
-    "weight": 52.3,
-    "volume": 0.55,
+    "weight": 11.0,
+    "volume": 0.26,
     "inStock": true,
     "isCustomizable": true,
     "tags": []
@@ -423,7 +433,9 @@
     "category": "chairs",
     "price": 0,
     "images": [
-      "/images/products/chairs__4_.png"
+      "/images/products/chair_uma18_natural.png",
+      "/images/products/chair_uma18_wenge.png",
+      "/images/products/chair_uma18_grey.png"
     ],
     "dimensions": {
       "width": 58,
@@ -449,7 +461,9 @@
     "category": "chairs",
     "price": 0,
     "images": [
-      "/images/products/chairs__5_.png"
+      "/images/products/chair_uma19_natural.png",
+      "/images/products/chair_uma19_wenge.png",
+      "/images/products/chair_uma19_grey.png"
     ],
     "dimensions": {
       "width": 50,
@@ -1474,7 +1488,7 @@
     "id": "UMA-51",
     "name": "Minimal Bench Sofa",
     "description": "Minimal sofa with enclosed sides and timber plinth",
-    "longDescription": "Experience the ultimate in outdoor luxury with the Minimal Bench Sofa. Minimal sofa with enclosed sides and timber plinth. Crafted from premium dark wood base and paired with off-white bouclé fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
+    "longDescription": "Experience the ultimate in outdoor luxury with the Minimal Bench Sofa. Minimal sofa with enclosed sides and timber plinth. Crafted from premium dark wood base and paired with off-white boucl\u00c3\u00a9 fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sofa",
     "price": 0,
     "images": [
@@ -1489,7 +1503,7 @@
     "materials": [
       "Dark wood base"
     ],
-    "upholstery": "Off-white bouclé fabric",
+    "upholstery": "Off-white boucl\u00c3\u00a9 fabric",
     "weight": 122.4,
     "volume": 1.748,
     "inStock": true,
@@ -1526,11 +1540,12 @@
     "id": "UMA-54",
     "name": "Minimal Bench Sofa - White",
     "description": "Low bench sofa with enclosed sides",
-    "longDescription": "Experience the ultimate in outdoor luxury with the Minimal Bench Sofa - White. Low bench sofa with enclosed sides. Crafted from premium dark wood base and paired with off-white bouclé fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
+    "longDescription": "Experience the ultimate in outdoor luxury with the Minimal Bench Sofa - White. Low bench sofa with enclosed sides. Crafted from premium dark wood base and paired with off-white boucl\u00c3\u00a9 fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sofa",
     "price": 0,
     "images": [
-      "/images/products/sofa__21_.png"
+      "/images/products/UMA-54_1.png",
+      "/images/products/UMA-54_2.png"
     ],
     "dimensions": {
       "width": 250,
@@ -1541,12 +1556,21 @@
     "materials": [
       "Dark wood base"
     ],
-    "upholstery": "Off-white bouclé fabric",
+    "upholstery": "Off-white boucl\u00c3\u00a9 fabric",
     "weight": 122.4,
     "volume": 1.748,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "options": [
+      {
+        "name": "Finishing",
+        "values": [
+          "Natural Teak",
+          "Grey Teak"
+        ]
+      }
+    ]
   },
   {
     "id": "UMA-55",
@@ -1556,7 +1580,8 @@
     "category": "sofa",
     "price": 0,
     "images": [
-      "/images/products/sofa__22_.png"
+      "/images/products/UMA-55_1.png",
+      "/images/products/UMA-55_2.png"
     ],
     "dimensions": {
       "width": 235,
@@ -1572,7 +1597,16 @@
     "volume": 1.686,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "options": [
+      {
+        "name": "Finishing",
+        "values": [
+          "Natural Teak",
+          "Grey Teak"
+        ]
+      }
+    ]
   },
   {
     "id": "UMA-56",
@@ -1582,7 +1616,8 @@
     "category": "sofa",
     "price": 0,
     "images": [
-      "/images/products/sofa__23_.png"
+      "/images/products/UMA-56_1.png",
+      "/images/products/UMA-56_2.png"
     ],
     "dimensions": {
       "width": 240,
@@ -1598,7 +1633,16 @@
     "volume": 1.87,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "options": [
+      {
+        "name": "Finishing",
+        "values": [
+          "Natural Teak",
+          "Grey Teak"
+        ]
+      }
+    ]
   },
   {
     "id": "UMA-57",
@@ -1608,7 +1652,8 @@
     "category": "sofa",
     "price": 0,
     "images": [
-      "/images/products/sofa__24_.png"
+      "/images/products/UMA-57_1.png",
+      "/images/products/UMA-57_2.png"
     ],
     "dimensions": {
       "width": 300,
@@ -1624,7 +1669,16 @@
     "volume": 4.212,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "options": [
+      {
+        "name": "Finishing",
+        "values": [
+          "Natural Teak",
+          "Grey Teak"
+        ]
+      }
+    ]
   },
   {
     "id": "UMA-58",
@@ -1634,7 +1688,8 @@
     "category": "sofa",
     "price": 0,
     "images": [
-      "/images/products/sofa__25_.png"
+      "/images/products/UMA-58_1.png",
+      "/images/products/UMA-58_2.png"
     ],
     "dimensions": {
       "width": 380,
@@ -1650,7 +1705,16 @@
     "volume": 9.485,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "options": [
+      {
+        "name": "Finishing",
+        "values": [
+          "Natural Teak",
+          "Grey Teak"
+        ]
+      }
+    ]
   },
   {
     "id": "UMA-59",
@@ -1660,7 +1724,8 @@
     "category": "sofa chairs",
     "price": 0,
     "images": [
-      "/images/products/sofa_chair__1_.png"
+      "/images/products/UMA-59_1.png",
+      "/images/products/UMA-59_2.png"
     ],
     "dimensions": {
       "width": 82,
@@ -1676,7 +1741,16 @@
     "volume": 0.55,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "options": [
+      {
+        "name": "Finishing",
+        "values": [
+          "Natural Teak",
+          "Grey Teak"
+        ]
+      }
+    ]
   },
   {
     "id": "UMA-60",
@@ -1686,7 +1760,8 @@
     "category": "sofa chairs",
     "price": 0,
     "images": [
-      "/images/products/sofa_chair__11_.png"
+      "/images/products/UMA-60_1.png",
+      "/images/products/UMA-60_2.png"
     ],
     "dimensions": {
       "width": 85,
@@ -1702,7 +1777,16 @@
     "volume": 0.583,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "options": [
+      {
+        "name": "Finishing",
+        "values": [
+          "Natural Teak",
+          "Grey Teak"
+        ]
+      }
+    ]
   },
   {
     "id": "UMA-61",
@@ -1712,7 +1796,8 @@
     "category": "sofa chairs",
     "price": 0,
     "images": [
-      "/images/products/sofa_chair__12_.png"
+      "/images/products/UMA-61_1.png",
+      "/images/products/UMA-61_2.png"
     ],
     "dimensions": {
       "width": 82,
@@ -1728,17 +1813,27 @@
     "volume": 0.55,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "options": [
+      {
+        "name": "Finishing",
+        "values": [
+          "Natural Teak",
+          "Grey Teak"
+        ]
+      }
+    ]
   },
   {
     "id": "UMA-62",
     "name": "Lounge Accent Chair",
     "description": "Low accent chair with plinth base",
-    "longDescription": "Experience the ultimate in outdoor luxury with the Lounge Accent Chair. Low accent chair with plinth base. Crafted from premium teak wood and paired with off-white bouclé fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
+    "longDescription": "Experience the ultimate in outdoor luxury with the Lounge Accent Chair. Low accent chair with plinth base. Crafted from premium teak wood and paired with off-white boucl\u00c3\u00a9 fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "sofa chairs",
     "price": 0,
     "images": [
-      "/images/products/sofa_chair__13_.png"
+      "/images/products/UMA-62_1.png",
+      "/images/products/UMA-62_2.png"
     ],
     "dimensions": {
       "width": 95,
@@ -1749,12 +1844,21 @@
     "materials": [
       "Teak wood"
     ],
-    "upholstery": "Off-white bouclé fabric",
+    "upholstery": "Off-white boucl\u00c3\u00a9 fabric",
     "weight": 58.5,
     "volume": 0.616,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "options": [
+      {
+        "name": "Finishing",
+        "values": [
+          "Natural Teak",
+          "Grey Teak"
+        ]
+      }
+    ]
   },
   {
     "id": "UMA-63",
@@ -1764,7 +1868,8 @@
     "category": "sofa chairs",
     "price": 0,
     "images": [
-      "/images/products/sofa_chair__14_.png"
+      "/images/products/UMA-63_1.png",
+      "/images/products/UMA-63_2.png"
     ],
     "dimensions": {
       "width": 88,
@@ -1780,7 +1885,16 @@
     "volume": 0.631,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "options": [
+      {
+        "name": "Finishing",
+        "values": [
+          "Natural Teak",
+          "Grey Teak"
+        ]
+      }
+    ]
   },
   {
     "id": "UMA-64",
@@ -1790,7 +1904,8 @@
     "category": "sofa chairs",
     "price": 0,
     "images": [
-      "/images/products/sofa_chair__16_.png"
+      "/images/products/UMA-64_1.png",
+      "/images/products/UMA-64_2.png"
     ],
     "dimensions": {
       "width": 82,
@@ -1806,7 +1921,16 @@
     "volume": 0.55,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "options": [
+      {
+        "name": "Finishing",
+        "values": [
+          "Natural Teak",
+          "Grey Teak"
+        ]
+      }
+    ]
   },
   {
     "id": "UMA-65",
@@ -1816,7 +1940,8 @@
     "category": "sofa chairs",
     "price": 0,
     "images": [
-      "/images/products/sofa_chair__17_.png"
+      "/images/products/UMA-65_1.png",
+      "/images/products/UMA-65_2.png"
     ],
     "dimensions": {
       "width": 55,
@@ -1832,7 +1957,16 @@
     "volume": 0.286,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "options": [
+      {
+        "name": "Finishing",
+        "values": [
+          "Natural Teak",
+          "Grey Teak"
+        ]
+      }
+    ]
   },
   {
     "id": "UMA-66",
@@ -1842,7 +1976,8 @@
     "category": "sofa chairs",
     "price": 0,
     "images": [
-      "/images/products/sofa_chair__3_.png"
+      "/images/products/UMA-66_1.png",
+      "/images/products/UMA-66_2.png"
     ],
     "dimensions": {
       "width": 60,
@@ -1858,7 +1993,16 @@
     "volume": 0.305,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "options": [
+      {
+        "name": "Finishing",
+        "values": [
+          "Natural Teak",
+          "Grey Teak"
+        ]
+      }
+    ]
   },
   {
     "id": "UMA-67",
@@ -1868,7 +2012,8 @@
     "category": "sofa chairs",
     "price": 0,
     "images": [
-      "/images/products/sofa_chair__4_.png"
+      "/images/products/UMA-67_1.png",
+      "/images/products/UMA-67_2.png"
     ],
     "dimensions": {
       "width": 82,
@@ -1884,7 +2029,16 @@
     "volume": 0.55,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "options": [
+      {
+        "name": "Finishing",
+        "values": [
+          "Natural Teak",
+          "Grey Teak"
+        ]
+      }
+    ]
   },
   {
     "id": "UMA-68",
@@ -1916,7 +2070,7 @@
     "id": "UMA-69",
     "name": "Wide Lounge Chair",
     "description": "Wide lounge chair with low base",
-    "longDescription": "Experience the ultimate in outdoor luxury with the Wide Lounge Chair. Wide lounge chair with low base. Crafted from premium teak / teak wood and paired with off-white bouclé fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
+    "longDescription": "Experience the ultimate in outdoor luxury with the Wide Lounge Chair. Wide lounge chair with low base. Crafted from premium teak / teak wood and paired with off-white boucl\u00c3\u00a9 fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "sofa chairs",
     "price": 0,
     "images": [
@@ -1931,7 +2085,7 @@
     "materials": [
       "Teak / teak wood"
     ],
-    "upholstery": "Off-white bouclé fabric",
+    "upholstery": "Off-white boucl\u00c3\u00a9 fabric",
     "weight": 65,
     "volume": 0.684,
     "inStock": true,
@@ -1992,52 +2146,52 @@
   },
   {
     "id": "UMA-74",
-    "name": "L-Shape Outdoor Sofa",
-    "description": "Outdoor sectional sofa with left chaise",
-    "longDescription": "Experience the ultimate in outdoor luxury with the L-Shape Outdoor Sofa. Outdoor sectional sofa with left chaise. Crafted from premium teak wood and paired with brown outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
-    "category": "sofa",
+    "name": "Adjustable Teak Sunbed",
+    "description": "Single adjustable teak outdoor sunbed with premium cushioning",
+    "longDescription": "Experience the ultimate in outdoor luxury with our Adjustable Teak Sunbed. Crafted from premium teak wood and paired with weather-resistant outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor lounging spaces.",
+    "category": "sunbeds",
     "price": 0,
     "images": [
       "/images/products/sunbed_BN3.png"
     ],
     "dimensions": {
-      "width": 280,
-      "depth": 160,
-      "height": 82,
-      "rawString": "280 x 160 x 82"
+      "width": 75,
+      "depth": 200,
+      "height": 35,
+      "rawString": "75 x 200 x 35"
     },
     "materials": [
       "Teak wood"
     ],
     "upholstery": "Brown outdoor fabric",
-    "weight": 257.2,
-    "volume": 3.674,
+    "weight": 28.5,
+    "volume": 0.52,
     "inStock": true,
     "isCustomizable": true,
     "tags": []
   },
   {
     "id": "UMA-75",
-    "name": "Three-Seat Outdoor Sofa",
-    "description": "Straight three-seat outdoor sofa",
-    "longDescription": "Experience the ultimate in outdoor luxury with the Three-Seat Outdoor Sofa. Straight three-seat outdoor sofa. Crafted from premium teak wood and paired with brown outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
-    "category": "sofa",
+    "name": "Double Teak Sunbed",
+    "description": "Double adjustable teak outdoor sunbed with premium cushioning",
+    "longDescription": "Experience the ultimate in outdoor luxury with our Double Teak Sunbed. Perfect for sharing, crafted from premium teak wood and paired with weather-resistant outdoor fabric. This piece represents the pinnacle of Balinese craftsmanship and modern minimalist design, created to withstand the elements while providing unparalleled comfort.",
+    "category": "sunbeds",
     "price": 0,
     "images": [
       "/images/products/sunbed_BN4.png"
     ],
     "dimensions": {
-      "width": 240,
-      "depth": 90,
-      "height": 82,
-      "rawString": "240 x 90 x 82"
+      "width": 150,
+      "depth": 200,
+      "height": 35,
+      "rawString": "150 x 200 x 35"
     },
     "materials": [
       "Teak wood"
     ],
     "upholstery": "Brown outdoor fabric",
-    "weight": 124,
-    "volume": 1.771,
+    "weight": 45.0,
+    "volume": 1.05,
     "inStock": true,
     "isCustomizable": true,
     "tags": []
