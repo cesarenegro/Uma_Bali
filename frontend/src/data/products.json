@@ -24,9 +24,7 @@
     "volume": 0.792,
     "inStock": true,
     "isCustomizable": true,
-    "tags": [
-      "top-item"
-    ],
+    "tags": [],
     "upholstery": "nan"
   },
   {
@@ -54,9 +52,7 @@
     "volume": 0.334,
     "inStock": true,
     "isCustomizable": true,
-    "tags": [
-      "top-item"
-    ],
+    "tags": [],
     "upholstery": "nan"
   },
   {
@@ -112,7 +108,9 @@
     "volume": 0.324,
     "inStock": true,
     "isCustomizable": true,
-    "tags": [],
+    "tags": [
+      "quick-ship"
+    ],
     "upholstery": "nan"
   },
   {
@@ -140,7 +138,9 @@
     "volume": 0.77,
     "inStock": true,
     "isCustomizable": true,
-    "tags": [],
+    "tags": [
+      "quick-ship"
+    ],
     "upholstery": "nan"
   },
   {
@@ -226,7 +226,7 @@
     "inStock": true,
     "isCustomizable": true,
     "tags": [
-      "top-item"
+      "quick-ship"
     ]
   },
   {
@@ -258,7 +258,7 @@
     "inStock": true,
     "isCustomizable": true,
     "tags": [
-      "top-item"
+      "quick-ship"
     ]
   },
   {
@@ -287,7 +287,9 @@
     "volume": 0.3,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [
+      "quick-ship"
+    ]
   },
   {
     "id": "UMA-12",
@@ -317,7 +319,9 @@
     "volume": 0.23,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [
+      "quick-ship"
+    ]
   },
   {
     "id": "UMA-13",
@@ -347,7 +351,9 @@
     "volume": 0.289,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [
+      "quick-ship"
+    ]
   },
   {
     "id": "UMA-14",
@@ -493,7 +499,9 @@
     "volume": 0.285,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [
+      "quick-ship"
+    ]
   },
   {
     "id": "UMA-19",
@@ -552,9 +560,7 @@
     "volume": 0.151,
     "inStock": true,
     "isCustomizable": true,
-    "tags": [
-      "top-item"
-    ],
+    "tags": [],
     "variants": [
       {
         "type": "wood",
@@ -690,7 +696,9 @@
     "volume": 0.173,
     "inStock": true,
     "isCustomizable": true,
-    "tags": [],
+    "tags": [
+      "quick-ship"
+    ],
     "variants": [
       {
         "type": "wood",
@@ -734,7 +742,9 @@
     "volume": 0.12,
     "inStock": true,
     "isCustomizable": true,
-    "tags": [],
+    "tags": [
+      "quick-ship"
+    ],
     "variants": [
       {
         "type": "wood",
@@ -953,7 +963,9 @@
     "volume": 0.151,
     "inStock": true,
     "isCustomizable": true,
-    "tags": [],
+    "tags": [
+      "quick-ship"
+    ],
     "variants": [
       {
         "type": "wood",
@@ -1199,7 +1211,9 @@
     "volume": 0.162,
     "inStock": true,
     "isCustomizable": true,
-    "tags": [],
+    "tags": [
+      "quick-ship"
+    ],
     "variants": [
       {
         "type": "wood",
@@ -1405,7 +1419,9 @@
     "volume": 1.251,
     "inStock": true,
     "isCustomizable": true,
-    "tags": [],
+    "tags": [
+      "quick-ship"
+    ],
     "variants": [
       {
         "type": "wood",
@@ -1476,9 +1492,7 @@
     "volume": 1.87,
     "inStock": true,
     "isCustomizable": true,
-    "tags": [
-      "top-item"
-    ]
+    "tags": []
   },
   {
     "id": "UMA-45",
@@ -1703,7 +1717,9 @@
     "volume": 1.748,
     "inStock": true,
     "isCustomizable": true,
-    "tags": [],
+    "tags": [
+      "quick-ship"
+    ],
     "options": [
       {
         "name": "Finishing",
@@ -2007,7 +2023,9 @@
     "volume": 0.616,
     "inStock": true,
     "isCustomizable": true,
-    "tags": [],
+    "tags": [
+      "quick-ship"
+    ],
     "options": [
       {
         "name": "Finishing",
@@ -2377,7 +2395,9 @@
     "volume": 1.05,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [
+      "quick-ship"
+    ]
   },
   {
     "id": "UMA-76",
@@ -2405,7 +2425,9 @@
     "volume": 0.55,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [
+      "quick-ship"
+    ]
   },
   {
     "id": "UMA-77",
@@ -2433,7 +2455,9 @@
     "volume": 0.51,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [
+      "quick-ship"
+    ]
   },
   {
     "id": "UMA-78",
@@ -2461,7 +2485,9 @@
     "volume": 1.02,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [
+      "quick-ship"
+    ]
   },
   {
     "id": "UMA-79",
@@ -2630,7 +2656,9 @@
     "volume": 1.45,
     "inStock": true,
     "isCustomizable": true,
-    "tags": [],
+    "tags": [
+      "quick-ship"
+    ],
     "upholstery": "nan"
   },
   {

@@ -10,16 +10,11 @@ export default function ProductSelectionSidebar() {
   
   const [activeCategory, setActiveCategory] = useState<string>(categories[0]?.id || 'sofa');
 
-  // Filter products by active category and take up to 4 items ideally with best images
+  // Filter products by active category
   const displayProducts = useMemo(() => {
     let filtered = [];
     if (activeCategory === 'quick-ship-program') {
-      const quickShipCodes = [
-        'UMA-05', 'UMA-06', 'UMA-09', 'UMA-10', 'UMA-11', 'UMA-12', 'UMA-13', 
-        'UMA-18', 'UMA-23', 'UMA-24', 'UMA-30', 'UMA-37', 'UMA-42', 'UMA-54', 
-        'UMA-62', 'UMA-75', 'UMA-76', 'UMA-77', 'UMA-78', 'UMA-86'
-      ];
-      filtered = products.filter(p => quickShipCodes.includes(p.id));
+      filtered = products.filter(p => p.tags?.includes('quick-ship'));
     } else {
       filtered = products.filter(p => p.category === activeCategory);
     }
