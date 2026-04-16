@@ -14,8 +14,13 @@ export default function CollectionDetailPage() {
   const allProducts = useProductStore((state) => state.products);
   
   const products = useMemo(() => {
-    if (slug === 'top items') {
-      return allProducts.filter(p => p.tags?.includes('top-item'));
+    if (slug === 'quick-ship-program') {
+      const quickShipCodes = [
+        'UMA-05', 'UMA-06', 'UMA-09', 'UMA-10', 'UMA-11', 'UMA-12', 'UMA-13', 
+        'UMA-18', 'UMA-23', 'UMA-24', 'UMA-30', 'UMA-37', 'UMA-42', 'UMA-54', 
+        'UMA-62', 'UMA-75', 'UMA-76', 'UMA-77', 'UMA-78', 'UMA-86'
+      ];
+      return allProducts.filter(p => quickShipCodes.includes(p.id));
     }
     return allProducts.filter(p => p.category === slug);
   }, [allProducts, slug]);
