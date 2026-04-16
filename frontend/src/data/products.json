@@ -613,7 +613,8 @@
         "woodFinish": "Grey Teak"
       }
     ],
-    "upholstery": "nan"
+    "upholstery": "nan",
+    "image": "/images/products/catalog/uma_21_premium.png"
   },
   {
     "id": "UMA-22",
@@ -657,7 +658,8 @@
         "woodFinish": "Grey Teak"
       }
     ],
-    "upholstery": "nan"
+    "upholstery": "nan",
+    "image": "/images/products/catalog/uma_22_premium.png"
   },
   {
     "id": "UMA-23",
@@ -861,7 +863,8 @@
         "woodFinish": "Grey Teak"
       }
     ],
-    "upholstery": "nan"
+    "upholstery": "nan",
+    "image": "/images/products/catalog/uma_27_premium.png"
   },
   {
     "id": "UMA-28",
@@ -961,7 +964,8 @@
         "woodFinish": "Grey Teak"
       }
     ],
-    "upholstery": "nan"
+    "upholstery": "nan",
+    "image": "/images/products/catalog/uma_30_premium.png"
   },
   {
     "id": "UMA-31",
@@ -1061,7 +1065,8 @@
     "inStock": true,
     "isCustomizable": true,
     "tags": [],
-    "upholstery": "nan"
+    "upholstery": "nan",
+    "image": "/images/products/catalog/uma_33_premium.png"
   },
   {
     "id": "UMA-34",
@@ -1365,7 +1370,8 @@
         "woodFinish": "Grey Teak"
       }
     ],
-    "upholstery": "nan"
+    "upholstery": "nan",
+    "image": "/images/products/catalog/uma_41_premium.png"
   },
   {
     "id": "UMA-42",
@@ -2279,7 +2285,8 @@
     "volume": 0.583,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "image": "/images/products/catalog/uma_70_premium.png"
   },
   {
     "id": "UMA-71",
