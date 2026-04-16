@@ -7,7 +7,7 @@
     "category": "cabinets",
     "price": 18494.92372881356,
     "images": [
-      "/images/products/cabinet__1_.png"
+      "/images/products/cabinet_uma02_natural.png"
     ],
     "dimensions": {
       "width": 220,
@@ -37,7 +37,7 @@
     "category": "coffeetable",
     "price": 13134.076271186439,
     "images": [
-      "/images/products/cabinet__2_.png"
+      "/images/products/coffeetable_uma03_natural.png"
     ],
     "dimensions": {
       "width": 160,
@@ -67,7 +67,7 @@
     "category": "cabinets",
     "price": 15010.37288135593,
     "images": [
-      "/images/products/catalog/uma_04_premium.png"
+      "/images/products/cabinet_uma04_natural.png"
     ],
     "dimensions": {
       "width": 210,
@@ -95,7 +95,7 @@
     "category": "coffeetable",
     "price": 16725.84406779661,
     "images": [
-      "/images/products/catalog/uma_05_premium.png"
+      "/images/products/coffeetable_uma05_natural.png"
     ],
     "dimensions": {
       "width": 180,
@@ -123,7 +123,7 @@
     "category": "cabinets",
     "price": 46907.41525423728,
     "images": [
-      "/images/products/cabinet__5_.png"
+      "/images/products/cabinet_uma06_natural.png"
     ],
     "dimensions": {
       "width": 220,
@@ -151,7 +151,7 @@
     "category": "cabinets",
     "price": 24499.072881355933,
     "images": [
-      "/images/products/catalog/uma_07_premium.png"
+      "/images/products/cabinet_uma07_natural.png"
     ],
     "dimensions": {
       "width": 240,
@@ -179,7 +179,7 @@
     "category": "coffeetable",
     "price": 14527.896610169493,
     "images": [
-      "/images/products/cabinet__7_.png"
+      "/images/products/coffeetable_uma08_natural.png"
     ],
     "dimensions": {
       "width": 165,
@@ -207,7 +207,7 @@
     "category": "chairs",
     "price": 5628.889830508474,
     "images": [
-      "/images/products/chair_BN1.png"
+      "/images/products/chair_uma09_natural.png"
     ],
     "dimensions": {
       "width": 55,
@@ -238,8 +238,8 @@
     "price": 4771.154237288136,
     "images": [
       "/images/products/chair_uma10_natural.png",
-      "/images/products/chair_uma10_wenge.png",
-      "/images/products/chair_uma10_grey.png"
+      "/images/products/chair_uma10_natural_A.png",
+      "/images/products/chair_uma10_natural_B.png"
     ],
     "dimensions": {
       "width": 52,
@@ -269,7 +269,7 @@
     "category": "chairs",
     "price": 7022.710169491526,
     "images": [
-      "/images/products/chair_BN3.png"
+      "/images/products/chair_uma11_natural.png"
     ],
     "dimensions": {
       "width": 55,
@@ -298,8 +298,8 @@
     "price": 3430.9423728813563,
     "images": [
       "/images/products/chair_uma12_natural.png",
-      "/images/products/chair_uma12_wenge.png",
-      "/images/products/chair_uma12_grey.png"
+      "/images/products/chair_uma12_natural_A.png",
+      "/images/products/chair_uma12_natural_B.png"
     ],
     "dimensions": {
       "width": 50,
@@ -328,8 +328,8 @@
     "price": 5468.064406779661,
     "images": [
       "/images/products/chair_uma13_natural.png",
-      "/images/products/chair_uma13_wenge.png",
-      "/images/products/chair_uma13_grey.png"
+      "/images/products/chair_uma13_natural_A.png",
+      "/images/products/chair_uma13_natural_B.png"
     ],
     "dimensions": {
       "width": 58,
@@ -358,8 +358,8 @@
     "price": 5736.106779661017,
     "images": [
       "/images/products/chair_uma14_natural.png",
-      "/images/products/chair_uma14_wenge.png",
-      "/images/products/chair_uma14_grey.png"
+      "/images/products/chair_uma14_natural_A.png",
+      "/images/products/chair_uma14_natural_B.png"
     ],
     "dimensions": {
       "width": 48,
@@ -388,8 +388,8 @@
     "price": 6004.149152542373,
     "images": [
       "/images/products/chair_uma15_natural.png",
-      "/images/products/chair_uma15_wenge.png",
-      "/images/products/chair_uma15_grey.png"
+      "/images/products/chair_uma15_natural_A.png",
+      "/images/products/chair_uma15_natural_B.png"
     ],
     "dimensions": {
       "width": 57,
@@ -417,7 +417,7 @@
     "category": "chairs",
     "price": 5253.630508474576,
     "images": [
-      "/images/products/chair_BN8.png"
+      "/images/products/chair_uma16_natural.png"
     ],
     "dimensions": {
       "width": 55,
@@ -445,7 +445,7 @@
     "category": "chairs",
     "price": 6647.450847457628,
     "images": [
-      "/images/products/chairs__2_.png"
+      "/images/products/chair_uma17_natural.png"
     ],
     "dimensions": {
       "width": 55,
@@ -474,8 +474,8 @@
     "price": 5146.413559322034,
     "images": [
       "/images/products/chair_uma18_natural.png",
-      "/images/products/chair_uma18_wenge.png",
-      "/images/products/chair_uma18_grey.png"
+      "/images/products/chair_uma18_natural_A.png",
+      "/images/products/chair_uma18_natural_B.png"
     ],
     "dimensions": {
       "width": 58,
@@ -504,8 +504,8 @@
     "price": 4771.154237288136,
     "images": [
       "/images/products/chair_uma19_natural.png",
-      "/images/products/chair_uma19_wenge.png",
-      "/images/products/chair_uma19_grey.png"
+      "/images/products/chair_uma19_natural_A.png",
+      "/images/products/chair_uma19_natural_B.png"
     ],
     "dimensions": {
       "width": 50,
@@ -534,8 +534,8 @@
     "price": 11525.822033898305,
     "images": [
       "/images/products/table_uma20_natural.png",
-      "/images/products/table_uma20_wenge.png",
-      "/images/products/table_uma20_grey.png"
+      "/images/products/table_uma20_natural_A.png",
+      "/images/products/table_uma20_natural_B.png"
     ],
     "dimensions": {
       "width": 55,
@@ -579,9 +579,10 @@
     "category": "tables",
     "price": 9274.266101694915,
     "images": [
-      "/images/products/table_uma21_natural.png",
       "/images/products/table_uma21_wenge.png",
-      "/images/products/table_uma21_grey.png"
+      "/images/products/table_uma21_wenge_A.png",
+      "/images/products/table_uma21_wenge_B.png",
+      "/images/products/table_uma21_wenge_C.png"
     ],
     "dimensions": {
       "width": 55,
@@ -624,9 +625,10 @@
     "category": "tables",
     "price": 8684.57288135593,
     "images": [
-      "/images/products/table_uma22_natural.png",
       "/images/products/table_uma22_wenge.png",
-      "/images/products/table_uma22_grey.png"
+      "/images/products/table_uma22_wenge_A.png",
+      "/images/products/table_uma22_wenge_B.png",
+      "/images/products/table_uma22_wenge_C.png"
     ],
     "dimensions": {
       "width": 55,
@@ -670,8 +672,8 @@
     "price": 12651.599999999999,
     "images": [
       "/images/products/table_uma23_natural.png",
-      "/images/products/table_uma23_wenge.png",
-      "/images/products/table_uma23_grey.png"
+      "/images/products/table_uma23_natural_A.png",
+      "/images/products/table_uma23_natural_B.png"
     ],
     "dimensions": {
       "width": 60,
@@ -714,8 +716,8 @@
     "price": 3591.7677966101696,
     "images": [
       "/images/products/table_uma24_natural.png",
-      "/images/products/table_uma24_wenge.png",
-      "/images/products/table_uma24_grey.png"
+      "/images/products/table_uma24_natural_A.png",
+      "/images/products/table_uma24_natural_B.png"
     ],
     "dimensions": {
       "width": 50,
@@ -758,8 +760,8 @@
     "price": 3591.7677966101696,
     "images": [
       "/images/products/table_uma25_natural.png",
-      "/images/products/table_uma25_wenge.png",
-      "/images/products/table_uma25_grey.png"
+      "/images/products/table_uma25_natural_A.png",
+      "/images/products/table_uma25_natural_B.png"
     ],
     "dimensions": {
       "width": 50,
@@ -801,7 +803,7 @@
     "category": "coffeetable",
     "price": 6004.149152542373,
     "images": [
-      "/images/products/catalog/uma_26_premium.png"
+      "/images/products/coffeetable_uma26_grey.png"
     ],
     "dimensions": {
       "width": 160,
@@ -830,8 +832,9 @@
     "price": 9917.56779661017,
     "images": [
       "/images/products/table_uma27_natural.png",
-      "/images/products/table_uma27_wenge.png",
-      "/images/products/table_uma27_grey.png"
+      "/images/products/table_uma27_natural_A.png",
+      "/images/products/table_uma27_natural_B.png",
+      "/images/products/table_uma27_natural_C.png"
     ],
     "dimensions": {
       "width": 70,
@@ -874,7 +877,7 @@
     "category": "coffeetable",
     "price": 17047.49491525424,
     "images": [
-      "/images/products/catalog/uma_28_premium.png"
+      "/images/products/coffeetable_uma28_natural.png"
     ],
     "dimensions": {
       "width": 110,
@@ -902,7 +905,7 @@
     "category": "coffeetable",
     "price": 15492.849152542372,
     "images": [
-      "/images/products/catalog/uma_29_premium.png"
+      "/images/products/coffeetable_uma29_natural.png"
     ],
     "dimensions": {
       "width": 100,
@@ -931,8 +934,9 @@
     "price": 12651.599999999999,
     "images": [
       "/images/products/table_uma30_natural.png",
-      "/images/products/table_uma30_wenge.png",
-      "/images/products/table_uma30_grey.png"
+      "/images/products/table_uma30_natural_A.png",
+      "/images/products/table_uma30_natural_B.png",
+      "/images/products/table_uma30_natural_C.png"
     ],
     "dimensions": {
       "width": 55,
@@ -976,8 +980,8 @@
     "price": 4342.286440677965,
     "images": [
       "/images/products/table_uma31_natural.png",
-      "/images/products/table_uma31_wenge.png",
-      "/images/products/table_uma31_grey.png"
+      "/images/products/table_uma31_natural_A.png",
+      "/images/products/table_uma31_natural_B.png"
     ],
     "dimensions": {
       "width": 70,
@@ -1019,7 +1023,7 @@
     "category": "coffeetable",
     "price": 11525.822033898305,
     "images": [
-      "/images/products/catalog/uma_32_premium.png"
+      "/images/products/coffeetable_uma32_natural.png"
     ],
     "dimensions": {
       "width": 140,
@@ -1047,7 +1051,7 @@
     "category": "coffeetable",
     "price": 12651.599999999999,
     "images": [
-      "/images/products/catalog/uma_33_premium.png"
+      "/images/products/coffeetable_uma33_natural.png"
     ],
     "dimensions": {
       "width": 160,
@@ -1076,7 +1080,7 @@
     "category": "coffeetable",
     "price": 15975.325423728815,
     "images": [
-      "/images/products/coffetable__9_.png"
+      "/images/products/coffeetable_uma34_natural.png"
     ],
     "dimensions": {
       "width": 180,
@@ -1105,8 +1109,8 @@
     "price": 6647.450847457628,
     "images": [
       "/images/products/table_uma35_natural.png",
-      "/images/products/table_uma35_wenge.png",
-      "/images/products/table_uma35_grey.png"
+      "/images/products/table_uma35_natural_A.png",
+      "/images/products/table_uma35_natural_B.png"
     ],
     "dimensions": {
       "width": 80,
@@ -1148,7 +1152,7 @@
     "category": "coffeetable",
     "price": 15010.37288135593,
     "images": [
-      "/images/products/catalog/uma_36_premium.png"
+      "/images/products/coffeetable_uma36_natural.png"
     ],
     "dimensions": {
       "width": 140,
@@ -1177,8 +1181,8 @@
     "price": 11686.647457627121,
     "images": [
       "/images/products/table_uma37_natural.png",
-      "/images/products/table_uma37_wenge.png",
-      "/images/products/table_uma37_grey.png"
+      "/images/products/table_uma37_natural_A.png",
+      "/images/products/table_uma37_natural_B.png"
     ],
     "dimensions": {
       "width": 60,
@@ -1220,9 +1224,9 @@
     "category": "tables",
     "price": 36721.80508474576,
     "images": [
-      "/images/products/table_uma38_natural.png",
       "/images/products/table_uma38_wenge.png",
-      "/images/products/table_uma38_grey.png"
+      "/images/products/table_uma38_wenge_A.png",
+      "/images/products/table_uma38_wenge_B.png"
     ],
     "dimensions": {
       "width": 160,
@@ -1265,8 +1269,8 @@
     "price": 9703.133898305085,
     "images": [
       "/images/products/table_uma39_natural.png",
-      "/images/products/table_uma39_wenge.png",
-      "/images/products/table_uma39_grey.png"
+      "/images/products/table_uma39_natural_A.png",
+      "/images/products/table_uma39_natural_B.png"
     ],
     "dimensions": {
       "width": 220,
@@ -1308,7 +1312,7 @@
     "category": "coffeetable",
     "price": 14795.938983050848,
     "images": [
-      "/images/products/catalog/uma_40_premium.png"
+      "/images/products/coffeetable_uma40_natural.png"
     ],
     "dimensions": {
       "width": 140,
@@ -1337,8 +1341,9 @@
     "price": 9059.832203389831,
     "images": [
       "/images/products/table_uma41_natural.png",
-      "/images/products/table_uma41_wenge.png",
-      "/images/products/table_uma41_grey.png"
+      "/images/products/table_uma41_natural_A.png",
+      "/images/products/table_uma41_natural_B.png",
+      "/images/products/table_uma41_natural_C.png"
     ],
     "dimensions": {
       "width": 220,
@@ -1382,8 +1387,8 @@
     "price": 15063.981355932203,
     "images": [
       "/images/products/table_uma42_natural.png",
-      "/images/products/table_uma42_wenge.png",
-      "/images/products/table_uma42_grey.png"
+      "/images/products/table_uma42_natural_A.png",
+      "/images/products/table_uma42_natural_B.png"
     ],
     "dimensions": {
       "width": 130,
@@ -1425,7 +1430,7 @@
     "category": "coffeetable",
     "price": 32808.38644067797,
     "images": [
-      "/images/products/side_table_14.png"
+      "/images/products/coffeetable_uma43_natural.png"
     ],
     "dimensions": {
       "width": 170,
@@ -1453,7 +1458,7 @@
     "category": "sofa",
     "price": 68618.84745762713,
     "images": [
-      "/images/products/sofa__1_.png"
+      "/images/products/sofa_uma44_natural.png"
     ],
     "dimensions": {
       "width": 240,
@@ -1483,7 +1488,7 @@
     "category": "sofa",
     "price": 57629.11016949152,
     "images": [
-      "/images/products/sofa__12_.png"
+      "/images/products/sofa_uma45_natural.png"
     ],
     "dimensions": {
       "width": 235,
@@ -1511,7 +1516,7 @@
     "category": "sofa",
     "price": 47711.542372881355,
     "images": [
-      "/images/products/catalog/uma_46_premium.png"
+      "/images/products/sofa_uma46_natural.png"
     ],
     "dimensions": {
       "width": 235,
@@ -1539,7 +1544,7 @@
     "category": "sofa",
     "price": 65938.42372881356,
     "images": [
-      "/images/products/catalog/uma_47_premium.png"
+      "/images/products/sofa_uma47_natural.png"
     ],
     "dimensions": {
       "width": 280,
@@ -1567,7 +1572,7 @@
     "category": "sofa",
     "price": 68082.76271186442,
     "images": [
-      "/images/products/sofa__15_.png"
+      "/images/products/sofa_uma48_natural.png"
     ],
     "dimensions": {
       "width": 280,
@@ -1595,7 +1600,7 @@
     "category": "sofa",
     "price": 70334.31864406781,
     "images": [
-      "/images/products/sofa__17_.png"
+      "/images/products/sofa_uma50_natural.png"
     ],
     "dimensions": {
       "width": 250,
@@ -1623,7 +1628,7 @@
     "category": "sofa",
     "price": 61649.745762711864,
     "images": [
-      "/images/products/sofa__18_.png"
+      "/images/products/sofa_uma51_natural.png"
     ],
     "dimensions": {
       "width": 250,
@@ -1651,7 +1656,7 @@
     "category": "sofa",
     "price": 51464.13559322034,
     "images": [
-      "/images/products/catalog/uma_52_premium.png"
+      "/images/products/sofa_uma52_natural.png"
     ],
     "dimensions": {
       "width": 230,
@@ -1679,8 +1684,8 @@
     "category": "sofa",
     "price": 48194.01864406779,
     "images": [
-      "/images/products/UMA-54_1.png",
-      "/images/products/UMA-54_2.png"
+      "/images/products/sofa_uma54_natural.png",
+      "/images/products/sofa_uma54_natural_A.png"
     ],
     "dimensions": {
       "width": 250,
@@ -1717,8 +1722,8 @@
     "category": "sofa",
     "price": 45299.161016949154,
     "images": [
-      "/images/products/UMA-55_1.png",
-      "/images/products/UMA-55_2.png"
+      "/images/products/sofa_uma55_natural.png",
+      "/images/products/sofa_uma55_natural_A.png"
     ],
     "dimensions": {
       "width": 235,
@@ -1755,8 +1760,8 @@
     "category": "sofa",
     "price": 46639.37288135593,
     "images": [
-      "/images/products/UMA-56_1.png",
-      "/images/products/UMA-56_2.png"
+      "/images/products/sofa_uma56_natural.png",
+      "/images/products/sofa_uma56_natural_A.png"
     ],
     "dimensions": {
       "width": 240,
@@ -1793,8 +1798,8 @@
     "category": "sofa",
     "price": 78268.37288135593,
     "images": [
-      "/images/products/UMA-57_1.png",
-      "/images/products/UMA-57_2.png"
+      "/images/products/sofa_uma57_natural.png",
+      "/images/products/sofa_uma57_natural_A.png"
     ],
     "dimensions": {
       "width": 300,
@@ -1831,8 +1836,8 @@
     "category": "sofa",
     "price": 98907.63559322033,
     "images": [
-      "/images/products/UMA-58_1.png",
-      "/images/products/UMA-58_2.png"
+      "/images/products/sofa_uma58_natural.png",
+      "/images/products/sofa_uma58_natural_A.png"
     ],
     "dimensions": {
       "width": 380,
@@ -1869,8 +1874,8 @@
     "category": "sofa chairs",
     "price": 15010.37288135593,
     "images": [
-      "/images/products/UMA-59_1.png",
-      "/images/products/UMA-59_2.png"
+      "/images/products/chair_uma59_natural.png",
+      "/images/products/chair_uma59_natural_A.png"
     ],
     "dimensions": {
       "width": 82,
@@ -1907,8 +1912,8 @@
     "category": "sofa chairs",
     "price": 15278.415254237289,
     "images": [
-      "/images/products/UMA-60_1.png",
-      "/images/products/UMA-60_2.png"
+      "/images/products/chair_uma60_natural.png",
+      "/images/products/chair_uma60_natural_A.png"
     ],
     "dimensions": {
       "width": 85,
@@ -1945,8 +1950,8 @@
     "category": "sofa chairs",
     "price": 15010.37288135593,
     "images": [
-      "/images/products/UMA-61_1.png",
-      "/images/products/UMA-61_2.png"
+      "/images/products/chair_uma61_natural.png",
+      "/images/products/chair_uma61_natural_A.png"
     ],
     "dimensions": {
       "width": 82,
@@ -1983,8 +1988,8 @@
     "category": "sofa chairs",
     "price": 14474.28813559322,
     "images": [
-      "/images/products/UMA-62_1.png",
-      "/images/products/UMA-62_2.png"
+      "/images/products/chair_uma62_natural.png",
+      "/images/products/chair_uma62_natural_A.png"
     ],
     "dimensions": {
       "width": 95,
@@ -2021,8 +2026,8 @@
     "category": "sofa chairs",
     "price": 14474.28813559322,
     "images": [
-      "/images/products/UMA-63_1.png",
-      "/images/products/UMA-63_2.png"
+      "/images/products/chair_uma63_natural.png",
+      "/images/products/chair_uma63_natural_A.png"
     ],
     "dimensions": {
       "width": 88,
@@ -2059,8 +2064,8 @@
     "category": "sofa chairs",
     "price": 14474.28813559322,
     "images": [
-      "/images/products/UMA-64_1.png",
-      "/images/products/UMA-64_2.png"
+      "/images/products/chair_uma64_natural.png",
+      "/images/products/chair_uma64_natural_A.png"
     ],
     "dimensions": {
       "width": 82,
@@ -2097,8 +2102,8 @@
     "category": "sofa chairs",
     "price": 10614.477966101696,
     "images": [
-      "/images/products/UMA-65_1.png",
-      "/images/products/UMA-65_2.png"
+      "/images/products/chair_uma65_natural.png",
+      "/images/products/chair_uma65_natural_A.png"
     ],
     "dimensions": {
       "width": 55,
@@ -2135,8 +2140,8 @@
     "category": "sofa chairs",
     "price": 12597.99152542373,
     "images": [
-      "/images/products/UMA-66_1.png",
-      "/images/products/UMA-66_2.png"
+      "/images/products/chair_uma66_natural.png",
+      "/images/products/chair_uma66_natural_A.png"
     ],
     "dimensions": {
       "width": 60,
@@ -2173,8 +2178,8 @@
     "category": "sofa chairs",
     "price": 13509.33559322034,
     "images": [
-      "/images/products/UMA-67_1.png",
-      "/images/products/UMA-67_2.png"
+      "/images/products/chair_uma67_natural.png",
+      "/images/products/chair_uma67_natural_A.png"
     ],
     "dimensions": {
       "width": 82,
@@ -2211,7 +2216,8 @@
     "category": "sofa chairs",
     "price": 13134.076271186439,
     "images": [
-      "/images/products/catalog/uma_68_premium.png"
+      "/images/products/chair_uma68_natural.png",
+      "/images/products/chair_uma68_natural_A.png"
     ],
     "dimensions": {
       "width": 80,
@@ -2239,7 +2245,7 @@
     "category": "sofa chairs",
     "price": 15278.415254237289,
     "images": [
-      "/images/products/sofa_chair__7_.png"
+      "/images/products/chair_uma69_natural.png"
     ],
     "dimensions": {
       "width": 100,
@@ -2267,7 +2273,8 @@
     "category": "sofa chairs",
     "price": 13134.076271186439,
     "images": [
-      "/images/products/sofa_chair__8_.png"
+      "/images/products/chair_uma70_natural.png",
+      "/images/products/chair_uma70_natural_A.png"
     ],
     "dimensions": {
       "width": 85,
@@ -2296,7 +2303,7 @@
     "category": "sofa chairs",
     "price": 10989.737288135593,
     "images": [
-      "/images/products/catalog/uma_71_premium.png"
+      "/images/products/chair_uma71_natural.png"
     ],
     "dimensions": {
       "width": 75,
@@ -2324,7 +2331,7 @@
     "category": "sunbeds",
     "price": 12329.949152542373,
     "images": [
-      "/images/products/sunbed_BN3.png"
+      "/images/products/sunbed_uma74_natural.png"
     ],
     "dimensions": {
       "width": 75,
@@ -2352,7 +2359,7 @@
     "category": "sunbeds",
     "price": 13134.076271186439,
     "images": [
-      "/images/products/sunbed_BN4.png"
+      "/images/products/sunbed_uma75_natural.png"
     ],
     "dimensions": {
       "width": 150,
@@ -2380,7 +2387,7 @@
     "category": "sofa chairs",
     "price": 15010.37288135593,
     "images": [
-      "/images/products/sunbed_BN5.png"
+      "/images/products/chair_uma76_natural.png"
     ],
     "dimensions": {
       "width": 82,
@@ -2408,11 +2415,7 @@
     "category": "sunbeds",
     "price": 14742.330508474575,
     "images": [
-      "/images/products/sunbeds/sunbed1_x.png",
-      "/images/products/sunbeds/sunbed1.png",
-      "/images/products/sunbeds/sunbed1_a.png",
-      "/images/products/sunbeds/sunbed1_c.png",
-      "/images/products/sunbeds/sunbed1_d.png"
+      "/images/products/sunbed_uma77_natural.png"
     ],
     "dimensions": {
       "width": 200,
@@ -2440,11 +2443,7 @@
     "category": "sunbeds",
     "price": 17154.71186440678,
     "images": [
-      "/images/products/sunbeds/sunbed2_x.png",
-      "/images/products/sunbeds/sunbed2.png",
-      "/images/products/sunbeds/sunbed2_a.png",
-      "/images/products/sunbeds/sunbed2_c.png",
-      "/images/products/sunbeds/sunbed2_d.png"
+      "/images/products/sunbed_uma78_natural.png"
     ],
     "dimensions": {
       "width": 200,
@@ -2472,10 +2471,7 @@
     "category": "sunbeds",
     "price": 15278.415254237289,
     "images": [
-      "/images/products/sunbeds/sunbed3_x.png",
-      "/images/products/sunbeds/sunbed3_a.png",
-      "/images/products/sunbeds/sunbed3_c.png",
-      "/images/products/sunbeds/sunbed3_d.png"
+      "/images/products/sunbed_uma79_natural.png"
     ],
     "dimensions": {
       "width": 220,
@@ -2503,10 +2499,7 @@
     "category": "sunbeds",
     "price": 14956.764406779661,
     "images": [
-      "/images/products/sunbeds/sunbed4_x.png",
-      "/images/products/sunbeds/sunbed4_a.png",
-      "/images/products/sunbeds/sunbed4_c.png",
-      "/images/products/sunbeds/sunbed4_d.png"
+      "/images/products/sunbed_uma80_natural.png"
     ],
     "dimensions": {
       "width": 205,
@@ -2534,7 +2527,7 @@
     "category": "sunbeds",
     "price": 14742.330508474575,
     "images": [
-      "/images/products/catalog/uma_81_premium.png"
+      "/images/products/sunbed_uma81_natural.png"
     ],
     "dimensions": {
       "width": 200,
@@ -2592,9 +2585,7 @@
     "category": "tables",
     "price": 8416.530508474576,
     "images": [
-      "/images/products/table_natural_teak_01.png",
-      "/images/products/table_dark_teak_01.png",
-      "/images/products/table_weathered_teak_01.png"
+      "/images/products/table_uma85_natural.png"
     ],
     "dimensions": {
       "width": 55,
@@ -2622,7 +2613,7 @@
     "category": "tables",
     "price": 21711.43220338983,
     "images": [
-      "/images/products/uma_86_round_twin_table_1776293897611.png"
+      "/images/products/table_uma86_natural.png"
     ],
     "dimensions": {
       "width": 140,
@@ -2650,7 +2641,7 @@
     "category": "tables",
     "price": 6861.884745762713,
     "images": [
-      "/images/products/uma_87_long_bench_1776293915682.png"
+      "/images/products/table_uma87_natural.png"
     ],
     "dimensions": {
       "width": 220,
@@ -2678,7 +2669,7 @@
     "category": "tables",
     "price": 20371.22033898305,
     "images": [
-      "/images/products/uma_88_rectangular_table_1776293934341.png"
+      "/images/products/table_uma88_natural.png"
     ],
     "dimensions": {
       "width": 220,
@@ -2706,7 +2697,7 @@
     "category": "tables",
     "price": 12061.906779661016,
     "images": [
-      "/images/products/uma_89_round_dining_table_1776293955024.png"
+      "/images/products/table_uma89_natural.png"
     ],
     "dimensions": {
       "width": 130,
@@ -2734,7 +2725,7 @@
     "category": "tables",
     "price": 12329.949152542373,
     "images": [
-      "/images/products/uma_90_console_table_1776293975476.png"
+      "/images/products/table_uma90_natural.png"
     ],
     "dimensions": {
       "width": 120,
