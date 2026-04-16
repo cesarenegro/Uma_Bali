@@ -136,7 +136,7 @@ export default function EShopPage() {
                 <div className="flex flex-col gap-1 mb-1">
                   <h3 className="heading-h3 text-espresso uppercase tracking-widest text-xs">{product.name}</h3>
                   <span className="font-medium text-espresso text-xs">
-                    {product.price ? `€${product.price.toLocaleString()}` : <span className="text-brand text-[9px] uppercase tracking-wider">{t('shop.price_on_request', 'Price on Request')}</span>}
+                    {product.price ? new Intl.NumberFormat('cs-CZ', { style: 'currency', currency: 'CZK', minimumFractionDigits: 0 }).format(product.price) : <span className="text-brand text-[9px] uppercase tracking-wider">{t('shop.price_on_request', 'Price on Request')}</span>}
                   </span>
                 </div>
                 <p className="text-[10px] text-espresso/60 line-clamp-2 mt-1">
@@ -192,7 +192,7 @@ export default function EShopPage() {
                 <div className="p-8 flex flex-col">
                   <h3 className="heading-h2 text-espresso mb-2">{selectedProduct.name}</h3>
                   <div className="text-lg font-medium text-espresso mb-4">
-                    {selectedProduct.price ? `€${selectedProduct.price.toLocaleString()}` : <span className="text-brand text-sm uppercase tracking-wider">{t('shop.price_on_request', 'Price on Request')}</span>}
+                    {selectedProduct.price ? new Intl.NumberFormat('cs-CZ', { style: 'currency', currency: 'CZK', minimumFractionDigits: 0 }).format(selectedProduct.price) : <span className="text-brand text-sm uppercase tracking-wider">{t('shop.price_on_request', 'Price on Request')}</span>}
                   </div>
                   
                   <div className="text-sm text-espresso/80 mb-6 pb-6 border-b border-travertine">

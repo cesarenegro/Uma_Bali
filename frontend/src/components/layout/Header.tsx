@@ -1,10 +1,13 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useProductStore } from '../../stores/productStore';
+import { useAudioStore } from '../../stores/audioStore';
 
 export default function Header() {
   const { t, i18n } = useTranslation('common');
-  const { cartItems, toggleCart } = useProductStore();
+  const { cartItems, toggleCart, searchQuery, setSearch } = useProductStore();
+  const { isPlaying, toggleAudio } = useAudioStore();
+  const navigate = useNavigate();
   
   const cartItemsCount = cartItems.reduce((acc, item) => acc + item.quantity, 0);
 
@@ -17,6 +20,13 @@ export default function Header() {
     { label: t('nav.ai_generator'), href: '/ai-generator' },
     { label: t('nav.about_us') || 'About Us', href: '/about-us' },
   ];
+
+  const handleSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      navigate('/products');
+    }
+  };
 
   return (
     <header className="border-b border-travertine bg-linen sticky top-0 z-50">
@@ -44,12 +54,46 @@ export default function Header() {
           <img src="/images/logo.png" alt="Uma Bali Logo" className="h-10 w-auto" />
           UMA BALI
         </Link>
-        <nav className="hidden md:flex gap-8 items-center">
+        
+        <nav className="hidden md:flex gap-6 lg:gap-8 items-center">
+          <form onSubmit={handleSearchSubmit} className="relative flex items-center">
+            <input 
+              type="text" 
+              placeholder={t('common.search', 'Search...')}
+              value={searchQuery}
+              onChange={(e) => setSearch(e.target.value)}
+              className="bg-white/50 border border-travertine focus:border-stone outline-none rounded-sm px-3 py-1.5 text-caption text-espresso placeholder-stone/70 w-40 lg:w-48 transition-all focus:bg-white focus:w-48 lg:focus:w-56"
+            />
+            <button type="submit" className="absolute right-2 text-stone hover:text-espresso transition-colors">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </form>
+
           {navLinks.map((link) => (
             <Link key={link.href} to={link.href} className="text-nav text-espresso hover:text-brand transition-colors">
               {link.label}
             </Link>
           ))}
+          
+          <button onClick={() => toggleAudio()} className="relative text-espresso hover:text-brand transition-colors p-1 ml-2" title={isPlaying ? "Pause Music" : "Play Music"}>
+            {isPlaying ? (
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+              </svg>
+            ) : (
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <line x1="23" y1="9" x2="17" y2="15"></line>
+                <line x1="17" y1="9" x2="23" y2="15"></line>
+              </svg>
+            )}
+          </button>
+
           <button onClick={() => toggleCart()} className="relative text-espresso hover:text-brand transition-colors p-1">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="9" cy="21" r="1"></circle>

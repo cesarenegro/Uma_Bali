@@ -33,10 +33,22 @@ export default function ProductCard({ product }: ProductCardProps) {
       </Link>
       
       <div className="flex flex-col flex-1">
-        <Link to={`/product/${product.id}`} className="text-body font-medium text-espresso hover:text-brand transition-colors capitalize">
-          {product.name}
-        </Link>
-        <p className="text-caption text-stone mt-1 line-clamp-2">{product.description}</p>
+        <div className="flex justify-between items-start mb-1">
+          <Link to={`/product/${product.id}`} className="text-body font-medium text-espresso hover:text-brand transition-colors capitalize">
+            {product.name}
+          </Link>
+          <div className="flex flex-col items-end gap-1">
+            <span className="text-caption font-medium text-stone tracking-wide bg-travertine/30 px-2 py-0.5 rounded-sm">
+              {product.id}
+            </span>
+            {product.price !== undefined && (
+              <span className="font-bold text-espresso text-sm whitespace-nowrap">
+                {new Intl.NumberFormat('cs-CZ', { style: 'currency', currency: 'CZK', minimumFractionDigits: 0 }).format(product.price)}
+              </span>
+            )}
+          </div>
+        </div>
+        <p className="text-caption text-stone line-clamp-2 mt-2">{product.description}</p>
         
         <div className="mt-4 flex flex-wrap gap-2">
           {product.materials && product.materials.slice(0, 3).map(mat => (

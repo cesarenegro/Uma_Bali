@@ -1,11 +1,15 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useAudioStore } from '../stores/audioStore';
 
 export default function IntroVideoPopup() {
   const [showPopup, setShowPopup] = useState(true);
   const [textStage, setTextStage] = useState(0);
 
   useEffect(() => {
+    // Attempt to start audio with splash
+    useAudioStore.getState().setAudioState(true);
+
     // Stage 1: "FROM BALI" appears after 500ms
     const timer1 = setTimeout(() => setTextStage(1), 500);
     // Stage 2: "TO YOUR HOME" appears after 2000ms

@@ -4,7 +4,7 @@ import { useProductStore } from '../stores/productStore';
 import { useTranslation } from 'react-i18next';
 
 export default function ProductsIndexPage() {
-  const { products, categories } = useProductStore();
+  const { products, categories, searchQuery, setSearch } = useProductStore();
   const { t } = useTranslation('common');
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
 
@@ -17,6 +17,18 @@ export default function ProductsIndexPage() {
   };
 
   const filteredProducts = products.filter(product => {
+    // Check search query
+    if (searchQuery.trim()) {
+      const qs = searchQuery.toLowerCase();
+      const matchesName = product.name.toLowerCase().includes(qs);
+      const matchesDesc = product.description.toLowerCase().includes(qs);
+      const matchesId = product.id.toLowerCase().includes(qs);
+      if (!matchesName && !matchesDesc && !matchesId) {
+        return false;
+      }
+    }
+
+    // Check category filter
     if (selectedCategories.length === 0) return true;
     return selectedCategories.includes(product.category);
   });
@@ -36,6 +48,19 @@ export default function ProductsIndexPage() {
           <div className="w-full md:w-64 flex-shrink-0">
             <h3 className="text-xl font-light text-charcoal mb-6 border-b border-charcoal/10 pb-4">{t('products.filters', 'Filters')}</h3>
             
+            <div className="flex flex-col gap-4 mb-8">
+              <div className="font-medium text-sm tracking-widest uppercase text-charcoal/50 mb-2">{t('products.search', 'Search')}</div>
+              <div className="relative">
+                <input 
+                  type="text"
+                  placeholder={t('products.search_placeholder', 'Name, code...')}
+                  value={searchQuery}
+                  onChange={(e) => setSearch(e.target.value)}
+                  className="w-full bg-transparent border-b border-charcoal/30 focus:border-charcoal outline-none py-2 text-sm text-charcoal placeholder-charcoal/40 transition-colors"
+                />
+              </div>
+            </div>
+
             <div className="flex flex-col gap-4">
               <div className="font-medium text-sm tracking-widest uppercase text-charcoal/50 mb-2">{t('products.category', 'Category')}</div>
               {categories.map(cat => (
@@ -54,9 +79,9 @@ export default function ProductsIndexPage() {
               ))}
             </div>
             
-            {selectedCategories.length > 0 && (
+            {(selectedCategories.length > 0 || searchQuery.trim() !== '') && (
               <button 
-                onClick={() => setSelectedCategories([])}
+                onClick={() => { setSelectedCategories([]); setSearch(''); }}
                 className="mt-8 text-xs tracking-widest uppercase text-charcoal/50 hover:text-charcoal transition-colors underline underline-offset-4"
               >
                 {t('products.clear_filters', 'Clear Filters')}

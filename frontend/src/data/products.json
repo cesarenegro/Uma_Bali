@@ -5,7 +5,7 @@
     "description": "Low four-door sideboard with rounded corners and carved wood front",
     "longDescription": "Experience the ultimate in outdoor luxury with the Carved Low Sideboard. Low four-door sideboard with rounded corners and carved wood front. Crafted from premium teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "cabinets",
-    "price": 0,
+    "price": 18494.92372881356,
     "images": [
       "/images/products/cabinet__1_.png"
     ],
@@ -16,7 +16,9 @@
       "rawString": "220 x 50 x 72"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 166.3,
     "volume": 0.792,
@@ -24,7 +26,8 @@
     "isCustomizable": true,
     "tags": [
       "top-item"
-    ]
+    ],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-03",
@@ -32,7 +35,7 @@
     "description": "Solid timber block coffee table with visible end-grain cracking",
     "longDescription": "Experience the ultimate in outdoor luxury with the Monolithic Log Coffee Table. Solid timber block coffee table with visible end-grain cracking. Crafted from premium solid teak / recicled teak, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each table brings a unique, organic feel right to your home.",
     "category": "coffeetable",
-    "price": 0,
+    "price": 13134.076271186439,
     "images": [
       "/images/products/cabinet__2_.png"
     ],
@@ -43,7 +46,9 @@
       "rawString": "160 x 55 x 38"
     },
     "materials": [
-      "Solid Teak / Recicled Teak"
+      "Solid Teak / Recicled Teak",
+      "nan",
+      "nan"
     ],
     "weight": 50.1,
     "volume": 0.334,
@@ -51,7 +56,8 @@
     "isCustomizable": true,
     "tags": [
       "top-item"
-    ]
+    ],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-04",
@@ -59,7 +65,7 @@
     "description": "Curved low credenza with carved front panels",
     "longDescription": "Experience the ultimate in outdoor luxury with the Rounded Carved Credenza. Curved low credenza with carved front panels. Crafted from premium teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "cabinets",
-    "price": 0,
+    "price": 15010.37288135593,
     "images": [
       "/images/products/cabinet__3_.png"
     ],
@@ -70,13 +76,16 @@
       "rawString": "210 x 52 x 74"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 169.7,
     "volume": 0.808,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-05",
@@ -84,7 +93,7 @@
     "description": "Solid timber bench / low table with sculpted end block",
     "longDescription": "Experience the ultimate in outdoor luxury with the Monolithic Timber Bench Table. Solid timber bench / low table with sculpted end block. Crafted from premium solid teak / recicled teak, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each table brings a unique, organic feel right to your home.",
     "category": "coffeetable",
-    "price": 0,
+    "price": 16725.84406779661,
     "images": [
       "/images/products/cabinet__4_.png"
     ],
@@ -95,13 +104,16 @@
       "rawString": "180 x 45 x 40"
     },
     "materials": [
-      "Solid Teak / Recicled Teak"
+      "Solid Teak / Recicled Teak",
+      "nan",
+      "nan"
     ],
     "weight": 48.6,
     "volume": 0.324,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-06",
@@ -109,7 +121,7 @@
     "description": "Low four-door storage cabinet with embossed metal fronts",
     "longDescription": "Experience the ultimate in outdoor luxury with the Embossed Metal Cabinet. Low four-door storage cabinet with embossed metal fronts. Crafted from premium patinated metal / dark wood carcass, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "cabinets",
-    "price": 0,
+    "price": 46907.41525423728,
     "images": [
       "/images/products/cabinet__5_.png"
     ],
@@ -120,13 +132,16 @@
       "rawString": "220 x 50 x 70"
     },
     "materials": [
-      "Patinated metal / dark wood carcass"
+      "Patinated metal / dark oak carcass",
+      "Copper + dark Bronze",
+      "nan"
     ],
     "weight": 161.7,
     "volume": 0.77,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-07",
@@ -134,7 +149,7 @@
     "description": "Long carved buffet cabinet with four doors",
     "longDescription": "Experience the ultimate in outdoor luxury with the Textured Buffet Cabinet. Long carved buffet cabinet with four doors. Crafted from premium teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "cabinets",
-    "price": 0,
+    "price": 24499.072881355933,
     "images": [
       "/images/products/cabinet__6_.png"
     ],
@@ -145,13 +160,16 @@
       "rawString": "240 x 50 x 78"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 196.6,
     "volume": 0.936,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-08",
@@ -159,7 +177,7 @@
     "description": "Solid timber block coffee table with natural split grain",
     "longDescription": "Experience the ultimate in outdoor luxury with the Live-Edge Block Table. Solid timber block coffee table with natural split grain. Crafted from premium solid teak / recicled teak, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each table brings a unique, organic feel right to your home.",
     "category": "coffeetable",
-    "price": 0,
+    "price": 14527.896610169493,
     "images": [
       "/images/products/cabinet__7_.png"
     ],
@@ -170,13 +188,16 @@
       "rawString": "165 x 50 x 36"
     },
     "materials": [
-      "Solid Teak / Recicled Teak"
+      "Solid Teak / Recicled Teak",
+      "nan",
+      "nan"
     ],
     "weight": 44.6,
     "volume": 0.297,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-09",
@@ -184,7 +205,7 @@
     "description": "Outdoor dining chair with timber frame and upholstered seat/back",
     "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Armchair - Upholstered. Outdoor dining chair with timber frame and upholstered seat/back. Crafted from premium teak / teak wood and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "chairs",
-    "price": 0,
+    "price": 5628.889830508474,
     "images": [
       "/images/products/chair_BN1.png"
     ],
@@ -195,9 +216,11 @@
       "rawString": "55 x 60 x 85"
     },
     "materials": [
-      "Teak / Teak wood"
+      "Teak / Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Textured beige fabric",
+    "upholstery": "Calasaona 070 Sunproof",
     "weight": 12.5,
     "volume": 0.28,
     "inStock": true,
@@ -212,7 +235,7 @@
     "description": "Dining chair with open sled base and upholstered seat",
     "longDescription": "Experience the ultimate in outdoor luxury with the Dining Chair - Sled Base. Dining chair with open sled base and upholstered seat. Crafted from premium teak / teak wood and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "chairs",
-    "price": 0,
+    "price": 4771.154237288136,
     "images": [
       "/images/products/chair_uma10_natural.png",
       "/images/products/chair_uma10_wenge.png",
@@ -225,9 +248,11 @@
       "rawString": "52 x 58 x 82"
     },
     "materials": [
-      "Teak / teak wood"
+      "Teak / teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Textured beige fabric",
+    "upholstery": "Sunbrella USA 24",
     "weight": 28.4,
     "volume": 0.247,
     "inStock": true,
@@ -242,7 +267,7 @@
     "description": "Dining chair with box arms and deep upholstered cushions",
     "longDescription": "Experience the ultimate in outdoor luxury with the Dining Chair - Box Frame. Dining chair with box arms and deep upholstered cushions. Crafted from premium teak / teak wood and paired with dark charcoal fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "chairs",
-    "price": 0,
+    "price": 7022.710169491526,
     "images": [
       "/images/products/chair_BN3.png"
     ],
@@ -253,7 +278,9 @@
       "rawString": "55 x 60 x 85"
     },
     "materials": [
-      "Teak / teak wood"
+      "Teak / teak wood",
+      "nan",
+      "nan"
     ],
     "upholstery": "Dark charcoal fabric",
     "weight": 14.0,
@@ -268,7 +295,7 @@
     "description": "Dining chair with open-frame base and upholstered seat",
     "longDescription": "Experience the ultimate in outdoor luxury with the Dining Chair - Open Frame. Dining chair with open-frame base and upholstered seat. Crafted from premium teak / teak wood and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "chairs",
-    "price": 0,
+    "price": 3430.9423728813563,
     "images": [
       "/images/products/chair_uma12_natural.png",
       "/images/products/chair_uma12_wenge.png",
@@ -281,9 +308,11 @@
       "rawString": "50 x 56 x 82"
     },
     "materials": [
-      "Teak / teak wood"
+      "Teak / teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Textured beige fabric",
+    "upholstery": "Sunbrella USA 24",
     "weight": 26.5,
     "volume": 0.23,
     "inStock": true,
@@ -296,7 +325,7 @@
     "description": "Dining armchair with timber arms and upholstered seat/back",
     "longDescription": "Experience the ultimate in outdoor luxury with the Dining Armchair - Upholstered. Dining armchair with timber arms and upholstered seat/back. Crafted from premium teak / teak wood and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "chairs",
-    "price": 0,
+    "price": 5468.064406779661,
     "images": [
       "/images/products/chair_uma13_natural.png",
       "/images/products/chair_uma13_wenge.png",
@@ -309,9 +338,11 @@
       "rawString": "58 x 60 x 83"
     },
     "materials": [
-      "Teak / teak wood"
+      "Teak / teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Textured beige fabric",
+    "upholstery": "Sunbrella USA 24",
     "weight": 33.2,
     "volume": 0.289,
     "inStock": true,
@@ -324,7 +355,7 @@
     "description": "Straight dining chair with slatted back",
     "longDescription": "Experience the ultimate in outdoor luxury with the Dining Chair - Slat Back. Straight dining chair with slatted back. Crafted from premium teak / teak wood and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "chairs",
-    "price": 0,
+    "price": 5736.106779661017,
     "images": [
       "/images/products/chair_uma14_natural.png",
       "/images/products/chair_uma14_wenge.png",
@@ -337,9 +368,11 @@
       "rawString": "48 x 56 x 85"
     },
     "materials": [
-      "Teak / teak wood"
+      "Teak / teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Textured beige fabric",
+    "upholstery": "Sunbrella USA 24",
     "weight": 26.2,
     "volume": 0.228,
     "inStock": true,
@@ -352,7 +385,7 @@
     "description": "Minimal dining armchair with solid timber seat",
     "longDescription": "Experience the ultimate in outdoor luxury with the Dining Armchair - Solid Wood. Minimal dining armchair with solid timber seat. Crafted from premium teak / teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "chairs",
-    "price": 0,
+    "price": 6004.149152542373,
     "images": [
       "/images/products/chair_uma15_natural.png",
       "/images/products/chair_uma15_wenge.png",
@@ -365,13 +398,16 @@
       "rawString": "57 x 58 x 80"
     },
     "materials": [
-      "Teak / teak wood"
+      "Teak / teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 30.4,
     "volume": 0.264,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "Sunbrella USA 24"
   },
   {
     "id": "UMA-16",
@@ -379,7 +415,7 @@
     "description": "Outdoor dining armchair with broad timber frame",
     "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Dining Armchair. Outdoor dining dining chair with broad timber frame. Crafted from premium teak / teak wood and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "chairs",
-    "price": 0,
+    "price": 5253.630508474576,
     "images": [
       "/images/products/chair_BN8.png"
     ],
@@ -390,7 +426,9 @@
       "rawString": "55 x 60 x 85"
     },
     "materials": [
-      "Teak / teak wood"
+      "Teak / teak wood",
+      "nan",
+      "nan"
     ],
     "upholstery": "Textured beige fabric",
     "weight": 13.5,
@@ -405,7 +443,7 @@
     "description": "Outdoor dining chair with rope side/back panels",
     "longDescription": "Experience the ultimate in outdoor luxury with the Rope Panel Armchair. Outdoor dining chair with rope side/back panels. Crafted from premium teak wood / woven rope and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "chairs",
-    "price": 0,
+    "price": 6647.450847457628,
     "images": [
       "/images/products/chairs__2_.png"
     ],
@@ -416,7 +454,9 @@
       "rawString": "55 x 60 x 85"
     },
     "materials": [
-      "Teak wood / woven rope"
+      "Teak wood / woven rope",
+      "nan",
+      "nan"
     ],
     "upholstery": "Textured beige fabric",
     "weight": 11.0,
@@ -431,7 +471,7 @@
     "description": "Dining chair with mesh sling seat/back and timber frame",
     "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Mesh Dining Armchair. Dining chair with mesh sling seat/back and timber frame. Crafted from premium teak wood / outdoor mesh and paired with mesh sling, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "chairs",
-    "price": 0,
+    "price": 5146.413559322034,
     "images": [
       "/images/products/chair_uma18_natural.png",
       "/images/products/chair_uma18_wenge.png",
@@ -444,7 +484,9 @@
       "rawString": "58 x 60 x 82"
     },
     "materials": [
-      "Teak wood / outdoor mesh"
+      "Teak wood / outdoor mesh",
+      "nan",
+      "nan"
     ],
     "upholstery": "Mesh sling",
     "weight": 32.8,
@@ -459,7 +501,7 @@
     "description": "Dining chair with circular back motif",
     "longDescription": "Experience the ultimate in outdoor luxury with the Dining Chair - Circular Back Detail. Dining chair with circular back motif. Crafted from premium teak / teak wood and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "chairs",
-    "price": 0,
+    "price": 4771.154237288136,
     "images": [
       "/images/products/chair_uma19_natural.png",
       "/images/products/chair_uma19_wenge.png",
@@ -472,9 +514,11 @@
       "rawString": "50 x 56 x 85"
     },
     "materials": [
-      "Teak / teak wood"
+      "Teak / teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Textured beige fabric",
+    "upholstery": "Sunbrella USA 24",
     "weight": 27.4,
     "volume": 0.238,
     "inStock": true,
@@ -487,7 +531,7 @@
     "description": "Compact round side table with dark marble top and timber pedestal",
     "longDescription": "Experience the ultimate in outdoor luxury with the Round Marble Side Table. Compact round side table with dark marble top and timber pedestal. Crafted from premium dark marble / teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 11525.822033898305,
     "images": [
       "/images/products/table_uma20_natural.png",
       "/images/products/table_uma20_wenge.png",
@@ -500,7 +544,9 @@
       "rawString": "55 x 55 x 50"
     },
     "materials": [
-      "Dark marble / Teak wood"
+      "Dark marble / Teak wood",
+      "nan",
+      "Black Lorenzo Marble"
     ],
     "weight": 19.6,
     "volume": 0.151,
@@ -522,7 +568,8 @@
         "type": "wood",
         "woodFinish": "Grey Teak"
       }
-    ]
+    ],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-21",
@@ -530,7 +577,7 @@
     "description": "Round pedestal side table with carved dark wood base",
     "longDescription": "Experience the ultimate in outdoor luxury with the Carved Dark Pedestal Table. Round pedestal side table with carved dark wood base. Crafted from premium teak wenge finishing, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 9274.266101694915,
     "images": [
       "/images/products/table_uma21_natural.png",
       "/images/products/table_uma21_wenge.png",
@@ -543,7 +590,9 @@
       "rawString": "55 x 55 x 52"
     },
     "materials": [
-      "Teak Wenge finishing"
+      "Teak Wenge finishing",
+      "nan",
+      "nan"
     ],
     "weight": 20.4,
     "volume": 0.157,
@@ -563,7 +612,8 @@
         "type": "wood",
         "woodFinish": "Grey Teak"
       }
-    ]
+    ],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-22",
@@ -571,7 +621,7 @@
     "description": "Small round side table with carved cylindrical base",
     "longDescription": "Experience the ultimate in outdoor luxury with the Dark Carved Side Table. Small round side table with carved cylindrical base. Crafted from premium teak wenge finishing, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 8684.57288135593,
     "images": [
       "/images/products/table_uma22_natural.png",
       "/images/products/table_uma22_wenge.png",
@@ -584,7 +634,9 @@
       "rawString": "55 x 55 x 50"
     },
     "materials": [
-      "Teak Wenge finishing"
+      "Teak Wenge finishing",
+      "nan",
+      "nan"
     ],
     "weight": 19.6,
     "volume": 0.151,
@@ -604,7 +656,8 @@
         "type": "wood",
         "woodFinish": "Grey Teak"
       }
-    ]
+    ],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-23",
@@ -612,7 +665,7 @@
     "description": "Round side table with stone top and tapered timber base",
     "longDescription": "Experience the ultimate in outdoor luxury with the Dark Marble Pedestal Table. Round side table with stone top and tapered timber base. Crafted from premium dark marble / teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 12651.599999999999,
     "images": [
       "/images/products/table_uma23_natural.png",
       "/images/products/table_uma23_wenge.png",
@@ -625,7 +678,9 @@
       "rawString": "60 x 60 x 48"
     },
     "materials": [
-      "Dark marble / Teak wood"
+      "Dark marble / Teak wood",
+      "nan",
+      "Black Lorenzo Marble"
     ],
     "weight": 22.5,
     "volume": 0.173,
@@ -645,7 +700,8 @@
         "type": "wood",
         "woodFinish": "Grey Teak"
       }
-    ]
+    ],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-24",
@@ -653,7 +709,7 @@
     "description": "Square side table with sculptural pedestal base",
     "longDescription": "Experience the ultimate in outdoor luxury with the Square Pedestal Table. Square side table with sculptural pedestal base. Crafted from premium teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 3591.7677966101696,
     "images": [
       "/images/products/table_uma24_natural.png",
       "/images/products/table_uma24_wenge.png",
@@ -666,7 +722,9 @@
       "rawString": "50 x 50 x 48"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 15.6,
     "volume": 0.12,
@@ -686,7 +744,8 @@
         "type": "wood",
         "woodFinish": "Grey Teak"
       }
-    ]
+    ],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-25",
@@ -694,7 +753,7 @@
     "description": "Compact square side table with monolithic base",
     "longDescription": "Experience the ultimate in outdoor luxury with the Square Side Table. Compact square side table with monolithic base. Crafted from premium teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 3591.7677966101696,
     "images": [
       "/images/products/table_uma25_natural.png",
       "/images/products/table_uma25_wenge.png",
@@ -707,7 +766,9 @@
       "rawString": "50 x 50 x 46"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 15,
     "volume": 0.115,
@@ -727,7 +788,8 @@
         "type": "wood",
         "woodFinish": "Grey Teak"
       }
-    ]
+    ],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-26",
@@ -735,7 +797,7 @@
     "description": "Rectangular monolithic stone coffee table",
     "longDescription": "Experience the ultimate in outdoor luxury with the Stone Bench Coffee Table. Rectangular monolithic stone coffee table. Crafted from premium light stone, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each table brings a unique, organic feel right to your home.",
     "category": "coffeetable",
-    "price": 0,
+    "price": 6004.149152542373,
     "images": [
       "/images/products/coffetable__10_.png"
     ],
@@ -746,13 +808,16 @@
       "rawString": "160 x 45 x 36"
     },
     "materials": [
-      "Light stone"
+      "Grey Teak",
+      "nan",
+      "nan"
     ],
     "weight": 38.9,
     "volume": 0.259,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-27",
@@ -760,7 +825,7 @@
     "description": "Round table with open timber base",
     "longDescription": "Experience the ultimate in outdoor luxury with the Round Side Table - Open Base. Round table with open timber base. Crafted from premium teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 9917.56779661017,
     "images": [
       "/images/products/table_uma27_natural.png",
       "/images/products/table_uma27_wenge.png",
@@ -773,7 +838,9 @@
       "rawString": "70 x 70 x 50"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 31.9,
     "volume": 0.245,
@@ -793,7 +860,8 @@
         "type": "wood",
         "woodFinish": "Grey Teak"
       }
-    ]
+    ],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-28",
@@ -801,7 +869,7 @@
     "description": "Large round coffee table with twin pedestal base",
     "longDescription": "Experience the ultimate in outdoor luxury with the Round Coffee Table - Twin Pedestal. Large round coffee table with twin pedestal base. Crafted from premium teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each table brings a unique, organic feel right to your home.",
     "category": "coffeetable",
-    "price": 0,
+    "price": 17047.49491525424,
     "images": [
       "/images/products/coffetable__3_.png"
     ],
@@ -812,13 +880,16 @@
       "rawString": "110 x 110 x 38"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 69,
     "volume": 0.46,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-29",
@@ -826,7 +897,7 @@
     "description": "Round coffee table with drum base",
     "longDescription": "Experience the ultimate in outdoor luxury with the Round Coffee Table - Drum Base. Round coffee table with drum base. Crafted from premium teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each table brings a unique, organic feel right to your home.",
     "category": "coffeetable",
-    "price": 0,
+    "price": 15492.849152542372,
     "images": [
       "/images/products/coffetable__4_.png"
     ],
@@ -837,13 +908,16 @@
       "rawString": "100 x 100 x 36"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 54,
     "volume": 0.36,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-30",
@@ -851,7 +925,7 @@
     "description": "Round side table with black marble top",
     "longDescription": "Experience the ultimate in outdoor luxury with the Round Marble Side Table - Dark. Round side table with black marble top. Crafted from premium black marble / teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 12651.599999999999,
     "images": [
       "/images/products/table_uma30_natural.png",
       "/images/products/table_uma30_wenge.png",
@@ -864,7 +938,9 @@
       "rawString": "55 x 55 x 50"
     },
     "materials": [
-      "Black marble / Teak wood"
+      "Honey Teak",
+      "nan",
+      "Black Lorenzo Marble"
     ],
     "weight": 19.6,
     "volume": 0.151,
@@ -884,7 +960,8 @@
         "type": "wood",
         "woodFinish": "Grey Teak"
       }
-    ]
+    ],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-31",
@@ -892,7 +969,7 @@
     "description": "Round upholstered pouf / side ottoman",
     "longDescription": "Experience the ultimate in outdoor luxury with the Pouf Table. Round upholstered pouf / side ottoman. Crafted from premium upholstery over foam and paired with taupe fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 4342.286440677965,
     "images": [
       "/images/products/table_uma31_natural.png",
       "/images/products/table_uma31_wenge.png",
@@ -905,7 +982,9 @@
       "rawString": "70 x 70 x 38"
     },
     "materials": [
-      "Upholstery over foam"
+      "Upholstery over foam",
+      "nan",
+      "nan"
     ],
     "upholstery": "Taupe fabric",
     "weight": 24.2,
@@ -934,7 +1013,7 @@
     "description": "Rectangular stone coffee table with simple leg supports",
     "longDescription": "Experience the ultimate in outdoor luxury with the Rectangular Stone Coffee Table. Rectangular stone coffee table with simple leg supports. Crafted from premium light stone, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each table brings a unique, organic feel right to your home.",
     "category": "coffeetable",
-    "price": 0,
+    "price": 11525.822033898305,
     "images": [
       "/images/products/coffetable__7_.png"
     ],
@@ -945,13 +1024,16 @@
       "rawString": "140 x 60 x 35"
     },
     "materials": [
-      "Light stone"
+      "Light stone",
+      "nan",
+      "nan"
     ],
     "weight": 44.1,
     "volume": 0.294,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-33",
@@ -959,7 +1041,7 @@
     "description": "Low platform coffee table / bench",
     "longDescription": "Experience the ultimate in outdoor luxury with the Low Stone Platform Table. Low platform coffee table / bench. Crafted from premium light stone, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each table brings a unique, organic feel right to your home.",
     "category": "coffeetable",
-    "price": 0,
+    "price": 12651.599999999999,
     "images": [
       "/images/products/coffetable__8_.png"
     ],
@@ -970,13 +1052,16 @@
       "rawString": "160 x 70 x 32"
     },
     "materials": [
-      "Light stone"
+      "Bali Limestone",
+      "nan",
+      "Bali Limestone"
     ],
     "weight": 53.7,
     "volume": 0.358,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-34",
@@ -984,7 +1069,7 @@
     "description": "Low upholstered bench / coffee table",
     "longDescription": "Experience the ultimate in outdoor luxury with the Upholstered Bench Table. Low upholstered bench / coffee table. Crafted from premium teak base / foam core and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each table brings a unique, organic feel right to your home.",
     "category": "coffeetable",
-    "price": 0,
+    "price": 15975.325423728815,
     "images": [
       "/images/products/coffetable__9_.png"
     ],
@@ -995,7 +1080,9 @@
       "rawString": "180 x 70 x 40"
     },
     "materials": [
-      "Teak base / foam core"
+      "Teak base / foam core",
+      "nan",
+      "nan"
     ],
     "upholstery": "Textured beige fabric",
     "weight": 75.6,
@@ -1010,7 +1097,7 @@
     "description": "Pair of upholstered pouf ottomans",
     "longDescription": "Experience the ultimate in outdoor luxury with the Pouf Ottoman Set. Pair of upholstered pouf ottomans. Crafted from premium upholstery over foam and paired with taupe and beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 6647.450847457628,
     "images": [
       "/images/products/table_uma35_natural.png",
       "/images/products/table_uma35_wenge.png",
@@ -1023,7 +1110,9 @@
       "rawString": "80 x 80 x 40"
     },
     "materials": [
-      "Upholstery over foam"
+      "Upholstery over foam",
+      "nan",
+      "nan"
     ],
     "upholstery": "Taupe and beige fabric",
     "weight": 33.3,
@@ -1052,7 +1141,7 @@
     "description": "Rounded rectangular stone coffee table",
     "longDescription": "Experience the ultimate in outdoor luxury with the Sculptural Stone Coffee Table. Rounded rectangular stone coffee table. Crafted from premium light stone, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each table brings a unique, organic feel right to your home.",
     "category": "coffeetable",
-    "price": 0,
+    "price": 15010.37288135593,
     "images": [
       "/images/products/side_table_02.png"
     ],
@@ -1063,13 +1152,16 @@
       "rawString": "140 x 80 x 36"
     },
     "materials": [
-      "Light stone"
+      "Bali Limestone",
+      "nan",
+      "nan"
     ],
     "weight": 60.5,
     "volume": 0.403,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-37",
@@ -1077,7 +1169,7 @@
     "description": "Round side table with cylindrical base",
     "longDescription": "Experience the ultimate in outdoor luxury with the Round Side Table - Stone. Round side table with cylindrical base. Crafted from premium light stone, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 11686.647457627121,
     "images": [
       "/images/products/table_uma37_natural.png",
       "/images/products/table_uma37_wenge.png",
@@ -1090,7 +1182,9 @@
       "rawString": "60 x 60 x 45"
     },
     "materials": [
-      "Light stone"
+      "Teak Honey",
+      "nan",
+      "Bali Limestone"
     ],
     "weight": 21.1,
     "volume": 0.162,
@@ -1110,7 +1204,8 @@
         "type": "wood",
         "woodFinish": "Grey Teak"
       }
-    ]
+    ],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-38",
@@ -1118,7 +1213,7 @@
     "description": "Large round dining table with segmented top",
     "longDescription": "Experience the ultimate in outdoor luxury with the Round Dining Table - Sculptural. Large round dining table with segmented top. Crafted from premium teak wenge finishing, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 36721.80508474576,
     "images": [
       "/images/products/table_uma38_natural.png",
       "/images/products/table_uma38_wenge.png",
@@ -1131,7 +1226,9 @@
       "rawString": "160 x 160 x 74"
     },
     "materials": [
-      "Teak Wenge finishing"
+      "Teak Wenge finishing",
+      "nan",
+      "nan"
     ],
     "weight": 331.5,
     "volume": 1.894,
@@ -1151,7 +1248,8 @@
         "type": "wood",
         "woodFinish": "Grey Teak"
       }
-    ]
+    ],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-39",
@@ -1159,7 +1257,7 @@
     "description": "Long slatted timber console / dining table",
     "longDescription": "Experience the ultimate in outdoor luxury with the Slatted Console Table. Long slatted timber console / dining table. Crafted from premium teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 9703.133898305085,
     "images": [
       "/images/products/table_uma39_natural.png",
       "/images/products/table_uma39_wenge.png",
@@ -1172,7 +1270,9 @@
       "rawString": "220 x 80 x 74"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 208.3,
     "volume": 1.302,
@@ -1192,7 +1292,8 @@
         "type": "wood",
         "woodFinish": "Grey Teak"
       }
-    ]
+    ],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-40",
@@ -1200,7 +1301,7 @@
     "description": "Oval coffee table with dual cylinder base",
     "longDescription": "Experience the ultimate in outdoor luxury with the Oval Coffee Table - Twin Cylinder. Oval coffee table with dual cylinder base. Crafted from premium teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each table brings a unique, organic feel right to your home.",
     "category": "coffeetable",
-    "price": 0,
+    "price": 14795.938983050848,
     "images": [
       "/images/products/side_table_08.png"
     ],
@@ -1211,13 +1312,16 @@
       "rawString": "140 x 80 x 36"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 60.5,
     "volume": 0.403,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-41",
@@ -1225,7 +1329,7 @@
     "description": "Long low bench / display table",
     "longDescription": "Experience the ultimate in outdoor luxury with the Low Bench Table. Long low bench / display table. Crafted from premium teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 9059.832203389831,
     "images": [
       "/images/products/table_uma41_natural.png",
       "/images/products/table_uma41_wenge.png",
@@ -1238,7 +1342,9 @@
       "rawString": "220 x 45 x 42"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 66.6,
     "volume": 0.416,
@@ -1258,7 +1364,8 @@
         "type": "wood",
         "woodFinish": "Grey Teak"
       }
-    ]
+    ],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-42",
@@ -1266,7 +1373,7 @@
     "description": "Round slatted outdoor table",
     "longDescription": "Experience the ultimate in outdoor luxury with the Round Outdoor Dining Table. Round slatted outdoor table. Crafted from premium teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 15063.981355932203,
     "images": [
       "/images/products/table_uma42_natural.png",
       "/images/products/table_uma42_wenge.png",
@@ -1279,7 +1386,9 @@
       "rawString": "130 x 130 x 74"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 200.2,
     "volume": 1.251,
@@ -1299,7 +1408,8 @@
         "type": "wood",
         "woodFinish": "Grey Teak"
       }
-    ]
+    ],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-43",
@@ -1307,7 +1417,7 @@
     "description": "Low slatted coffee table with stone inserts",
     "longDescription": "Experience the ultimate in outdoor luxury with the Slatted Coffee Table. Low slatted coffee table with stone inserts. Crafted from premium dark wood / light stone, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each table brings a unique, organic feel right to your home.",
     "category": "coffeetable",
-    "price": 0,
+    "price": 32808.38644067797,
     "images": [
       "/images/products/side_table_14.png"
     ],
@@ -1318,13 +1428,16 @@
       "rawString": "170 x 60 x 32"
     },
     "materials": [
-      "Dark wood / light stone"
+      "Dark wood / light stone",
+      "nan",
+      "nan"
     ],
     "weight": 48.9,
     "volume": 0.326,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-44",
@@ -1332,7 +1445,7 @@
     "description": "Straight three-seat indoor sofa with plinth base",
     "longDescription": "Experience the ultimate in outdoor luxury with the Three-Seat Sofa - Beige. Straight three-seat indoor sofa with plinth base. Crafted from premium teak plinth / upholstered body and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sofa",
-    "price": 0,
+    "price": 68618.84745762713,
     "images": [
       "/images/products/sofa__1_.png"
     ],
@@ -1343,9 +1456,11 @@
       "rawString": "240 x 95 x 82"
     },
     "materials": [
-      "Teak plinth / upholstered body"
+      "Teak plinth / upholstered body",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Textured beige fabric",
+    "upholstery": "LaConcha 140 Sunproof",
     "weight": 130.9,
     "volume": 1.87,
     "inStock": true,
@@ -1360,7 +1475,7 @@
     "description": "Outdoor three-seat sofa with teak frame",
     "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Sofa - Linear. Outdoor three-seat sofa with teak frame. Crafted from premium teak wood and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sofa",
-    "price": 0,
+    "price": 57629.11016949152,
     "images": [
       "/images/products/sofa__12_.png"
     ],
@@ -1371,9 +1486,11 @@
       "rawString": "235 x 92 x 78"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white outdoor fabric",
+    "upholstery": "LaConcha 140 Sunproof",
     "weight": 118,
     "volume": 1.686,
     "inStock": true,
@@ -1386,7 +1503,7 @@
     "description": "Outdoor sofa with rope panel sides",
     "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Sofa - Rope Panel. Outdoor sofa with rope panel sides. Crafted from premium teak wood / woven rope and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sofa",
-    "price": 0,
+    "price": 47711.542372881355,
     "images": [
       "/images/products/sofa__13_.png"
     ],
@@ -1397,7 +1514,9 @@
       "rawString": "235 x 92 x 78"
     },
     "materials": [
-      "Teak wood / woven rope"
+      "Teak wood / woven rope",
+      "nan",
+      "nan"
     ],
     "upholstery": "Off-white outdoor fabric",
     "weight": 118,
@@ -1412,7 +1531,7 @@
     "description": "Outdoor sectional with ottoman module",
     "longDescription": "Experience the ultimate in outdoor luxury with the Sectional Sofa with Ottoman. Outdoor sectional with ottoman module. Crafted from premium teak wood and paired with brown outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sofa",
-    "price": 0,
+    "price": 65938.42372881356,
     "images": [
       "/images/products/sofa__14_.png"
     ],
@@ -1423,9 +1542,11 @@
       "rawString": "280 x 160 x 82"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Brown outdoor fabric",
+    "upholstery": "Calasaona 070 Sunproof",
     "weight": 257.2,
     "volume": 3.674,
     "inStock": true,
@@ -1438,7 +1559,7 @@
     "description": "Outdoor sectional with ottoman module",
     "longDescription": "Experience the ultimate in outdoor luxury with the Sectional Sofa with Ottoman - White. Outdoor sectional with ottoman module. Crafted from premium teak wood and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sofa",
-    "price": 0,
+    "price": 68082.76271186442,
     "images": [
       "/images/products/sofa__15_.png"
     ],
@@ -1449,9 +1570,11 @@
       "rawString": "280 x 160 x 82"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white outdoor fabric",
+    "upholstery": "Sunbrella USA 39",
     "weight": 257.2,
     "volume": 3.674,
     "inStock": true,
@@ -1464,7 +1587,7 @@
     "description": "Outdoor straight sofa with side trays",
     "longDescription": "Experience the ultimate in outdoor luxury with the Linear Outdoor Sofa - White. Outdoor straight sofa with side trays. Crafted from premium teak wood and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sofa",
-    "price": 0,
+    "price": 70334.31864406781,
     "images": [
       "/images/products/sofa__17_.png"
     ],
@@ -1475,9 +1598,11 @@
       "rawString": "250 x 95 x 78"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white outdoor fabric",
+    "upholstery": "Sunbrella USA 39",
     "weight": 129.7,
     "volume": 1.853,
     "inStock": true,
@@ -1488,9 +1613,9 @@
     "id": "UMA-51",
     "name": "Minimal Bench Sofa",
     "description": "Minimal sofa with enclosed sides and timber plinth",
-    "longDescription": "Experience the ultimate in outdoor luxury with the Minimal Bench Sofa. Minimal sofa with enclosed sides and timber plinth. Crafted from premium dark wood base and paired with off-white boucl\u00c3\u00a9 fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
+    "longDescription": "Experience the ultimate in outdoor luxury with the Minimal Bench Sofa. Minimal sofa with enclosed sides and timber plinth. Crafted from premium dark wood base and paired with off-white bouclÃ© fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sofa",
-    "price": 0,
+    "price": 61649.745762711864,
     "images": [
       "/images/products/sofa__18_.png"
     ],
@@ -1501,9 +1626,11 @@
       "rawString": "250 x 92 x 76"
     },
     "materials": [
-      "Dark wood base"
+      "Dark wood base",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white boucl\u00c3\u00a9 fabric",
+    "upholstery": "Sunbrella USA 39",
     "weight": 122.4,
     "volume": 1.748,
     "inStock": true,
@@ -1516,7 +1643,7 @@
     "description": "Outdoor sofa with plank teak frame",
     "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Sofa - White Frame. Outdoor sofa with plank teak frame. Crafted from premium teak wood and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sofa",
-    "price": 0,
+    "price": 51464.13559322034,
     "images": [
       "/images/products/sofa__19_.png"
     ],
@@ -1527,9 +1654,11 @@
       "rawString": "230 x 90 x 80"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white outdoor fabric",
+    "upholstery": "Sunbrella USA 39",
     "weight": 115.9,
     "volume": 1.656,
     "inStock": true,
@@ -1540,9 +1669,9 @@
     "id": "UMA-54",
     "name": "Minimal Bench Sofa - White",
     "description": "Low bench sofa with enclosed sides",
-    "longDescription": "Experience the ultimate in outdoor luxury with the Minimal Bench Sofa - White. Low bench sofa with enclosed sides. Crafted from premium dark wood base and paired with off-white boucl\u00c3\u00a9 fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
+    "longDescription": "Experience the ultimate in outdoor luxury with the Minimal Bench Sofa - White. Low bench sofa with enclosed sides. Crafted from premium dark wood base and paired with off-white bouclÃ© fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sofa",
-    "price": 0,
+    "price": 48194.01864406779,
     "images": [
       "/images/products/UMA-54_1.png",
       "/images/products/UMA-54_2.png"
@@ -1554,9 +1683,11 @@
       "rawString": "250 x 92 x 76"
     },
     "materials": [
-      "Dark wood base"
+      "Dark wood base",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white boucl\u00c3\u00a9 fabric",
+    "upholstery": "Sunbrella USA 39",
     "weight": 122.4,
     "volume": 1.748,
     "inStock": true,
@@ -1578,7 +1709,7 @@
     "description": "Outdoor sofa with teak frame and light cushions",
     "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Sofa - Teak Frame. Outdoor sofa with teak frame and light cushions. Crafted from premium teak wood and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sofa",
-    "price": 0,
+    "price": 45299.161016949154,
     "images": [
       "/images/products/UMA-55_1.png",
       "/images/products/UMA-55_2.png"
@@ -1590,9 +1721,11 @@
       "rawString": "235 x 92 x 78"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white outdoor fabric",
+    "upholstery": "Sunbrella USA 39",
     "weight": 118,
     "volume": 1.686,
     "inStock": true,
@@ -1614,7 +1747,7 @@
     "description": "Straight three-seat upholstered sofa",
     "longDescription": "Experience the ultimate in outdoor luxury with the Three-Seat Sofa - Beige 2. Straight three-seat upholstered sofa. Crafted from premium teak plinth / upholstered body and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sofa",
-    "price": 0,
+    "price": 46639.37288135593,
     "images": [
       "/images/products/UMA-56_1.png",
       "/images/products/UMA-56_2.png"
@@ -1626,9 +1759,11 @@
       "rawString": "240 x 95 x 82"
     },
     "materials": [
-      "Teak plinth / upholstered body"
+      "Teak plinth / upholstered body",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Textured beige fabric",
+    "upholstery": "Sunbrella USA 40",
     "weight": 130.9,
     "volume": 1.87,
     "inStock": true,
@@ -1650,7 +1785,7 @@
     "description": "Indoor modular chaise sofa with ottoman",
     "longDescription": "Experience the ultimate in outdoor luxury with the Modular Sofa with Ottoman. Indoor modular chaise sofa with ottoman. Crafted from premium teak plinth / upholstered body and paired with textured beige fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sofa",
-    "price": 0,
+    "price": 78268.37288135593,
     "images": [
       "/images/products/UMA-57_1.png",
       "/images/products/UMA-57_2.png"
@@ -1662,9 +1797,11 @@
       "rawString": "300 x 180 x 78"
     },
     "materials": [
-      "Teak plinth / upholstered body"
+      "Teak plinth / upholstered body",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Textured beige fabric",
+    "upholstery": "Sunbrella USA 40",
     "weight": 294.8,
     "volume": 4.212,
     "inStock": true,
@@ -1686,7 +1823,7 @@
     "description": "Large modular conversation sofa composition",
     "longDescription": "Experience the ultimate in outdoor luxury with the Modular Conversation Sofa. Large modular conversation sofa composition. Crafted from premium mixed wood base / metal details and paired with brown modular upholstery, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sofa",
-    "price": 0,
+    "price": 98907.63559322033,
     "images": [
       "/images/products/UMA-58_1.png",
       "/images/products/UMA-58_2.png"
@@ -1698,9 +1835,11 @@
       "rawString": "380 x 320 x 78"
     },
     "materials": [
-      "Mixed wood base / metal details"
+      "Mixed wood base / metal details",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Brown modular upholstery",
+    "upholstery": "Sunbrella USA 40",
     "weight": 664,
     "volume": 9.485,
     "inStock": true,
@@ -1722,7 +1861,7 @@
     "description": "Outdoor armchair with broad timber frame",
     "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Armchair - Teak Frame. Outdoor armchair with broad timber frame. Crafted from premium teak wood and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "sofa chairs",
-    "price": 0,
+    "price": 15010.37288135593,
     "images": [
       "/images/products/UMA-59_1.png",
       "/images/products/UMA-59_2.png"
@@ -1734,9 +1873,11 @@
       "rawString": "82 x 86 x 78"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white outdoor fabric",
+    "upholstery": "Sunbrella USA 39",
     "weight": 52.3,
     "volume": 0.55,
     "inStock": true,
@@ -1758,7 +1899,7 @@
     "description": "Outdoor armchair with box arms",
     "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Box Armchair. Outdoor armchair with box arms. Crafted from premium teak wood and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "sofa chairs",
-    "price": 0,
+    "price": 15278.415254237289,
     "images": [
       "/images/products/UMA-60_1.png",
       "/images/products/UMA-60_2.png"
@@ -1770,9 +1911,11 @@
       "rawString": "85 x 88 x 78"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white outdoor fabric",
+    "upholstery": "Sunbrella USA 39",
     "weight": 55.4,
     "volume": 0.583,
     "inStock": true,
@@ -1794,7 +1937,7 @@
     "description": "Outdoor lounge chair with soft seat and back",
     "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Lounge Chair - Upholstered. Outdoor lounge chair with soft seat and back. Crafted from premium teak wood and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "sofa chairs",
-    "price": 0,
+    "price": 15010.37288135593,
     "images": [
       "/images/products/UMA-61_1.png",
       "/images/products/UMA-61_2.png"
@@ -1806,9 +1949,11 @@
       "rawString": "82 x 86 x 78"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white outdoor fabric",
+    "upholstery": "Sunbrella USA 39",
     "weight": 52.3,
     "volume": 0.55,
     "inStock": true,
@@ -1828,9 +1973,9 @@
     "id": "UMA-62",
     "name": "Lounge Accent Chair",
     "description": "Low accent chair with plinth base",
-    "longDescription": "Experience the ultimate in outdoor luxury with the Lounge Accent Chair. Low accent chair with plinth base. Crafted from premium teak wood and paired with off-white boucl\u00c3\u00a9 fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
+    "longDescription": "Experience the ultimate in outdoor luxury with the Lounge Accent Chair. Low accent chair with plinth base. Crafted from premium teak wood and paired with off-white bouclÃ© fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "sofa chairs",
-    "price": 0,
+    "price": 14474.28813559322,
     "images": [
       "/images/products/UMA-62_1.png",
       "/images/products/UMA-62_2.png"
@@ -1842,9 +1987,11 @@
       "rawString": "95 x 90 x 72"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white boucl\u00c3\u00a9 fabric",
+    "upholstery": "Sunbrella USA 39",
     "weight": 58.5,
     "volume": 0.616,
     "inStock": true,
@@ -1866,7 +2013,7 @@
     "description": "Deep outdoor armchair with broad timber frame",
     "longDescription": "Experience the ultimate in outdoor luxury with the Deep Outdoor Armchair. Deep outdoor armchair with broad timber frame. Crafted from premium teak wood and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "sofa chairs",
-    "price": 0,
+    "price": 14474.28813559322,
     "images": [
       "/images/products/UMA-63_1.png",
       "/images/products/UMA-63_2.png"
@@ -1878,9 +2025,11 @@
       "rawString": "88 x 92 x 78"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white outdoor fabric",
+    "upholstery": "Sunbrella USA 39",
     "weight": 59.9,
     "volume": 0.631,
     "inStock": true,
@@ -1902,7 +2051,7 @@
     "description": "Outdoor armchair with brown upholstery",
     "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Armchair - Brown. Outdoor armchair with brown upholstery. Crafted from premium teak wood and paired with brown outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "sofa chairs",
-    "price": 0,
+    "price": 14474.28813559322,
     "images": [
       "/images/products/UMA-64_1.png",
       "/images/products/UMA-64_2.png"
@@ -1914,9 +2063,11 @@
       "rawString": "82 x 86 x 78"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Brown outdoor fabric",
+    "upholstery": "Sunbrella USA 39",
     "weight": 52.3,
     "volume": 0.55,
     "inStock": true,
@@ -1938,7 +2089,7 @@
     "description": "Armless dining/lounge chair with upholstered back",
     "longDescription": "Experience the ultimate in outdoor luxury with the Armless Lounge Chair. Armless dining/lounge chair with upholstered back. Crafted from premium teak / teak wood and paired with off-white fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "sofa chairs",
-    "price": 0,
+    "price": 10614.477966101696,
     "images": [
       "/images/products/UMA-65_1.png",
       "/images/products/UMA-65_2.png"
@@ -1950,9 +2101,11 @@
       "rawString": "55 x 62 x 84"
     },
     "materials": [
-      "Teak / teak wood"
+      "Teak / teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white fabric",
+    "upholstery": "Sunbrella USA 39",
     "weight": 27.2,
     "volume": 0.286,
     "inStock": true,
@@ -1974,7 +2127,7 @@
     "description": "Dining armchair with woven rope side/back panels",
     "longDescription": "Experience the ultimate in outdoor luxury with the Dining Armchair - Rope Panel. Dining armchair with woven rope side/back panels. Crafted from premium teak wood / woven rope and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "sofa chairs",
-    "price": 0,
+    "price": 12597.99152542373,
     "images": [
       "/images/products/UMA-66_1.png",
       "/images/products/UMA-66_2.png"
@@ -1986,7 +2139,9 @@
       "rawString": "60 x 62 x 82"
     },
     "materials": [
-      "Teak wood / woven rope"
+      "Teak wood / woven rope",
+      "nan",
+      "nan"
     ],
     "upholstery": "Off-white outdoor fabric",
     "weight": 29,
@@ -2010,7 +2165,7 @@
     "description": "Outdoor armchair with rope side panels",
     "longDescription": "Experience the ultimate in outdoor luxury with the Rope Panel Armchair - Variant. Outdoor armchair with rope side panels. Crafted from premium teak wood / woven rope and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "sofa chairs",
-    "price": 0,
+    "price": 13509.33559322034,
     "images": [
       "/images/products/UMA-67_1.png",
       "/images/products/UMA-67_2.png"
@@ -2022,9 +2177,11 @@
       "rawString": "82 x 86 x 78"
     },
     "materials": [
-      "Teak wood / woven rope"
+      "Teak wood / woven rope",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white outdoor fabric",
+    "upholstery": "Sunbrella USA 39",
     "weight": 52.3,
     "volume": 0.55,
     "inStock": true,
@@ -2046,7 +2203,7 @@
     "description": "Minimal outdoor lounge chair",
     "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Lounge Chair - White. Minimal outdoor lounge chair. Crafted from premium teak wood and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "sofa chairs",
-    "price": 0,
+    "price": 13134.076271186439,
     "images": [
       "/images/products/sofa_chair__5_.png"
     ],
@@ -2057,9 +2214,11 @@
       "rawString": "80 x 84 x 78"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white outdoor fabric",
+    "upholstery": "Sunbrella USA 39",
     "weight": 49.8,
     "volume": 0.524,
     "inStock": true,
@@ -2070,9 +2229,9 @@
     "id": "UMA-69",
     "name": "Wide Lounge Chair",
     "description": "Wide lounge chair with low base",
-    "longDescription": "Experience the ultimate in outdoor luxury with the Wide Lounge Chair. Wide lounge chair with low base. Crafted from premium teak / teak wood and paired with off-white boucl\u00c3\u00a9 fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
+    "longDescription": "Experience the ultimate in outdoor luxury with the Wide Lounge Chair. Wide lounge chair with low base. Crafted from premium teak / teak wood and paired with off-white bouclÃ© fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "sofa chairs",
-    "price": 0,
+    "price": 15278.415254237289,
     "images": [
       "/images/products/sofa_chair__7_.png"
     ],
@@ -2083,9 +2242,11 @@
       "rawString": "100 x 95 x 72"
     },
     "materials": [
-      "Teak / teak wood"
+      "Teak / teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white boucl\u00c3\u00a9 fabric",
+    "upholstery": "Sunbrella 42 USA Boucle'",
     "weight": 65,
     "volume": 0.684,
     "inStock": true,
@@ -2098,7 +2259,7 @@
     "description": "Outdoor armchair with accent pillow",
     "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Armchair with Pillow. Outdoor armchair with accent pillow. Crafted from premium teak wood and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "sofa chairs",
-    "price": 0,
+    "price": 13134.076271186439,
     "images": [
       "/images/products/sofa_chair__8_.png"
     ],
@@ -2109,9 +2270,11 @@
       "rawString": "85 x 88 x 78"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white outdoor fabric",
+    "upholstery": "Sunbrella 42 USA Boucle'",
     "weight": 55.4,
     "volume": 0.583,
     "inStock": true,
@@ -2124,7 +2287,7 @@
     "description": "Sculptural sling chair with leather seat",
     "longDescription": "Experience the ultimate in outdoor luxury with the Sling Accent Chair. Sculptural sling chair with leather seat. Crafted from premium teak wood / leather and paired with black leather, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "sofa chairs",
-    "price": 0,
+    "price": 10989.737288135593,
     "images": [
       "/images/products/sofa_chair__9_.png"
     ],
@@ -2135,9 +2298,11 @@
       "rawString": "75 x 78 x 72"
     },
     "materials": [
-      "Teak wood / leather"
+      "Teak wood / leather",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Black leather",
+    "upholstery": "White Linen",
     "weight": 40,
     "volume": 0.421,
     "inStock": true,
@@ -2150,7 +2315,7 @@
     "description": "Single adjustable teak outdoor sunbed with premium cushioning",
     "longDescription": "Experience the ultimate in outdoor luxury with our Adjustable Teak Sunbed. Crafted from premium teak wood and paired with weather-resistant outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor lounging spaces.",
     "category": "sunbeds",
-    "price": 0,
+    "price": 12329.949152542373,
     "images": [
       "/images/products/sunbed_BN3.png"
     ],
@@ -2161,9 +2326,11 @@
       "rawString": "75 x 200 x 35"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Brown outdoor fabric",
+    "upholstery": "Bluebay 040 Sunproof",
     "weight": 28.5,
     "volume": 0.52,
     "inStock": true,
@@ -2176,7 +2343,7 @@
     "description": "Double adjustable teak outdoor sunbed with premium cushioning",
     "longDescription": "Experience the ultimate in outdoor luxury with our Double Teak Sunbed. Perfect for sharing, crafted from premium teak wood and paired with weather-resistant outdoor fabric. This piece represents the pinnacle of Balinese craftsmanship and modern minimalist design, created to withstand the elements while providing unparalleled comfort.",
     "category": "sunbeds",
-    "price": 0,
+    "price": 13134.076271186439,
     "images": [
       "/images/products/sunbed_BN4.png"
     ],
@@ -2187,9 +2354,11 @@
       "rawString": "150 x 200 x 35"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Brown outdoor fabric",
+    "upholstery": "Bluebay 040 Sunproof",
     "weight": 45.0,
     "volume": 1.05,
     "inStock": true,
@@ -2202,7 +2371,7 @@
     "description": "Outdoor lounge chair with box frame",
     "longDescription": "Experience the ultimate in outdoor luxury with the Outdoor Lounge Chair - Brown. Outdoor lounge chair with box frame. Crafted from premium teak wood and paired with brown outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each chair brings a unique, organic feel right to your home.",
     "category": "sofa chairs",
-    "price": 0,
+    "price": 15010.37288135593,
     "images": [
       "/images/products/sunbed_BN5.png"
     ],
@@ -2213,9 +2382,11 @@
       "rawString": "82 x 86 x 78"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Brown outdoor fabric",
+    "upholstery": "Calasaona 070 Sunproof",
     "weight": 52.3,
     "volume": 0.55,
     "inStock": true,
@@ -2228,7 +2399,7 @@
     "description": "Single outdoor sun lounger with wheel",
     "longDescription": "Experience the ultimate in outdoor luxury with the Sun Lounger - White Cushion. Single outdoor sun lounger with wheel. Crafted from premium teak wood and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sunbeds",
-    "price": 0,
+    "price": 14742.330508474575,
     "images": [
       "/images/products/sunbeds/sunbed1_x.png",
       "/images/products/sunbeds/sunbed1.png",
@@ -2243,9 +2414,11 @@
       "rawString": "200 x 75 x 34"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white outdoor fabric",
+    "upholstery": "Bluebay 040 Sunproof",
     "weight": 33.2,
     "volume": 0.51,
     "inStock": true,
@@ -2258,7 +2431,7 @@
     "description": "Pair of outdoor sun loungers",
     "longDescription": "Experience the ultimate in outdoor luxury with the Double Sun Lounger Set. Pair of outdoor sun loungers. Crafted from premium teak wood and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sunbeds",
-    "price": 0,
+    "price": 17154.71186440678,
     "images": [
       "/images/products/sunbeds/sunbed2_x.png",
       "/images/products/sunbeds/sunbed2.png",
@@ -2273,9 +2446,11 @@
       "rawString": "200 x 150 x 34"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white outdoor fabric",
+    "upholstery": "Calasaona 070 Sunproof",
     "weight": 66.3,
     "volume": 1.02,
     "inStock": true,
@@ -2288,7 +2463,7 @@
     "description": "Wide outdoor daybed with arm panel",
     "longDescription": "Experience the ultimate in outdoor luxury with the Platform Daybed Sofa. Wide outdoor daybed with arm panel. Crafted from premium teak wood / woven side panel and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sunbeds",
-    "price": 0,
+    "price": 15278.415254237289,
     "images": [
       "/images/products/sunbeds/sunbed3_x.png",
       "/images/products/sunbeds/sunbed3_a.png",
@@ -2302,9 +2477,11 @@
       "rawString": "220 x 160 x 78"
     },
     "materials": [
-      "Teak wood / woven side panel"
+      "Teak wood / woven side panel",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white outdoor fabric",
+    "upholstery": "Calasaona 070 Sunproof",
     "weight": 178.5,
     "volume": 2.746,
     "inStock": true,
@@ -2317,7 +2494,7 @@
     "description": "Single outdoor sunbed with woven base panel",
     "longDescription": "Experience the ultimate in outdoor luxury with the Sunbed - Woven Base. Single outdoor sunbed with woven base panel. Crafted from premium teak wood / woven side panel and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sunbeds",
-    "price": 0,
+    "price": 14956.764406779661,
     "images": [
       "/images/products/sunbeds/sunbed4_x.png",
       "/images/products/sunbeds/sunbed4_a.png",
@@ -2331,9 +2508,11 @@
       "rawString": "205 x 80 x 34"
     },
     "materials": [
-      "Teak wood / woven side panel"
+      "Teak wood / woven side panel",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white outdoor fabric",
+    "upholstery": "Sunbrella USA 39",
     "weight": 36.3,
     "volume": 0.558,
     "inStock": true,
@@ -2346,7 +2525,7 @@
     "description": "Pair of adjustable sun loungers",
     "longDescription": "Experience the ultimate in outdoor luxury with the Twin Sun Lounger Pair. Pair of adjustable sun loungers. Crafted from premium teak wood and paired with off-white outdoor fabric, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "sunbeds",
-    "price": 0,
+    "price": 14742.330508474575,
     "images": [
       "/images/products/sunbeds/sunbed5_x.png",
       "/images/products/sunbeds/sunbed5_a.png",
@@ -2360,9 +2539,11 @@
       "rawString": "200 x 150 x 34"
     },
     "materials": [
-      "Teak wood"
+      "Teak wood",
+      "nan",
+      "nan"
     ],
-    "upholstery": "Off-white outdoor fabric",
+    "upholstery": "Bluebay 141 Sunproof",
     "weight": 66.3,
     "volume": 1.02,
     "inStock": true,
@@ -2375,7 +2556,7 @@
     "description": "Long rectangular table with twin rounded pedestal legs",
     "longDescription": "Experience the ultimate in outdoor luxury with the Rectangular Pedestal Table. Long rectangular table with twin rounded pedestal legs. Crafted from premium teak / teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 20371.22033898305,
     "images": [
       "/images/products/table_natural_teak_01.png",
       "/images/products/table_dark_teak_01.png",
@@ -2388,13 +2569,16 @@
       "rawString": "220 x 95 x 74"
     },
     "materials": [
-      "Teak / teak wood"
+      "Teak / teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 247.5,
     "volume": 1.547,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-85",
@@ -2402,7 +2586,7 @@
     "description": "Square side table with sculptural clustered base",
     "longDescription": "Experience the ultimate in outdoor luxury with the Square Pedestal Side Table. Square side table with sculptural clustered base. Crafted from premium teak / teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 8416.530508474576,
     "images": [
       "/images/products/table_natural_teak_01.png",
       "/images/products/table_dark_teak_01.png",
@@ -2415,13 +2599,16 @@
       "rawString": "55 x 55 x 50"
     },
     "materials": [
-      "Teak / teak wood"
+      "Teak / teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 19.6,
     "volume": 0.151,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-86",
@@ -2429,11 +2616,9 @@
     "description": "Round table with twin cylindrical pedestal base",
     "longDescription": "Experience the ultimate in outdoor luxury with the Round Twin-Pedestal Table. Round table with twin cylindrical pedestal base. Crafted from premium teak / teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 21711.43220338983,
     "images": [
-      "/images/products/table_natural_teak_01.png",
-      "/images/products/table_dark_teak_01.png",
-      "/images/products/table_weathered_teak_01.png"
+      "/images/products/uma_86_round_twin_table_1776293897611.png"
     ],
     "dimensions": {
       "width": 140,
@@ -2442,13 +2627,16 @@
       "rawString": "140 x 140 x 74"
     },
     "materials": [
-      "Teak / teak wood"
+      "Teak / teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 253.8,
     "volume": 1.45,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-87",
@@ -2456,11 +2644,9 @@
     "description": "Long low table / bench with block legs",
     "longDescription": "Experience the ultimate in outdoor luxury with the Long Bench Table. Long low table / bench with block legs. Crafted from premium teak / teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 6861.884745762713,
     "images": [
-      "/images/products/table_natural_teak_01.png",
-      "/images/products/table_dark_teak_01.png",
-      "/images/products/table_weathered_teak_01.png"
+      "/images/products/uma_87_long_bench_1776293915682.png"
     ],
     "dimensions": {
       "width": 220,
@@ -2469,13 +2655,16 @@
       "rawString": "220 x 45 x 42"
     },
     "materials": [
-      "Teak / teak wood"
+      "Teak / teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 66.6,
     "volume": 0.416,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-88",
@@ -2483,11 +2672,9 @@
     "description": "Rectangular outdoor dining table with straight legs",
     "longDescription": "Experience the ultimate in outdoor luxury with the Rectangular Dining Table. Rectangular outdoor dining table with straight legs. Crafted from premium teak / teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 20371.22033898305,
     "images": [
-      "/images/products/table_natural_teak_01.png",
-      "/images/products/table_dark_teak_01.png",
-      "/images/products/table_weathered_teak_01.png"
+      "/images/products/uma_88_rectangular_table_1776293934341.png"
     ],
     "dimensions": {
       "width": 220,
@@ -2496,13 +2683,16 @@
       "rawString": "220 x 95 x 74"
     },
     "materials": [
-      "Teak / teak wood"
+      "Teak / teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 247.5,
     "volume": 1.547,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-89",
@@ -2510,11 +2700,9 @@
     "description": "Round dining table with twin pedestal base",
     "longDescription": "Experience the ultimate in outdoor luxury with the Round Dining Table. Round dining table with twin pedestal base. Crafted from premium teak / teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 12061.906779661016,
     "images": [
-      "/images/products/table_natural_teak_01.png",
-      "/images/products/table_dark_teak_01.png",
-      "/images/products/table_weathered_teak_01.png"
+      "/images/products/uma_89_round_dining_table_1776293955024.png"
     ],
     "dimensions": {
       "width": 130,
@@ -2523,13 +2711,16 @@
       "rawString": "130 x 130 x 74"
     },
     "materials": [
-      "Teak / teak wood"
+      "Teak / teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 218.9,
     "volume": 1.251,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   },
   {
     "id": "UMA-90",
@@ -2537,11 +2728,9 @@
     "description": "Short rectangular low table with block legs",
     "longDescription": "Experience the ultimate in outdoor luxury with the Short Console Table. Short rectangular low table with block legs. Crafted from premium teak / teak wood, this piece represents the pinnacle of Balinese craftsmanship and modern minimalist design. Every detail is meticulously created to withstand the elements while providing unparalleled comfort and style to your outdoor living spaces. Our artisanal approach ensures that each piece brings a unique, organic feel right to your home.",
     "category": "tables",
-    "price": 0,
+    "price": 12329.949152542373,
     "images": [
-      "/images/products/table_natural_teak_01.png",
-      "/images/products/table_dark_teak_01.png",
-      "/images/products/table_weathered_teak_01.png"
+      "/images/products/uma_90_console_table_1776293975476.png"
     ],
     "dimensions": {
       "width": 120,
@@ -2550,12 +2739,15 @@
       "rawString": "120 x 60 x 36"
     },
     "materials": [
-      "Teak / teak wood"
+      "Teak / teak wood",
+      "nan",
+      "nan"
     ],
     "weight": 41.4,
     "volume": 0.259,
     "inStock": true,
     "isCustomizable": true,
-    "tags": []
+    "tags": [],
+    "upholstery": "nan"
   }
 ]

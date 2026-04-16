@@ -89,8 +89,17 @@ export default function ProductDetailPage() {
               {t('product.code', 'Code')}: {product.id}
             </p>
 
-            {/* Empty Price Space per Requirements */}
-            <div className="h-10 mb-8" />
+            {/* Price display */}
+            {product.price !== undefined ? (
+              <div className="mb-8">
+                <span className="text-3xl font-bold tracking-wide text-charcoal">
+                  {new Intl.NumberFormat('cs-CZ', { style: 'currency', currency: 'CZK', minimumFractionDigits: 0 }).format(product.price)}
+                </span>
+                <p className="text-charcoal/50 text-xs mt-1 uppercase tracking-widest">{t('product.vat_included', 'VAT Included')}</p>
+              </div>
+            ) : (
+              <div className="h-10 mb-8" />
+            )}
 
             <div className="prose prose-stone max-w-none mb-12">
               <p className="text-lg leading-relaxed font-light text-charcoal/90">
