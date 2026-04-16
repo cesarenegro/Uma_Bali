@@ -12,14 +12,25 @@ export default function ProductSelectionSidebar() {
 
   // Filter products by active category and take up to 4 items ideally with best images
   const displayProducts = useMemo(() => {
-    const filtered = products.filter(p => p.category === activeCategory);
+    let filtered = [];
+    if (activeCategory === 'quick-ship-program') {
+      const quickShipCodes = [
+        'UMA-05', 'UMA-06', 'UMA-09', 'UMA-10', 'UMA-11', 'UMA-12', 'UMA-13', 
+        'UMA-18', 'UMA-23', 'UMA-24', 'UMA-30', 'UMA-37', 'UMA-42', 'UMA-54', 
+        'UMA-62', 'UMA-75', 'UMA-76', 'UMA-77', 'UMA-78', 'UMA-86'
+      ];
+      filtered = products.filter(p => quickShipCodes.includes(p.id));
+    } else {
+      filtered = products.filter(p => p.category === activeCategory);
+    }
+    
     // Sort so items with images are preferred
     filtered.sort((a, b) => {
       if (a.images.length > 0 && b.images.length === 0) return -1;
       if (a.images.length === 0 && b.images.length > 0) return 1;
       return 0;
     });
-    return filtered.slice(0, 4);
+    return filtered;
   }, [products, activeCategory]);
 
   const toggleProduct = (product: any) => {
