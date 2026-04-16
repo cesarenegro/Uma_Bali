@@ -67,7 +67,7 @@
     "category": "cabinets",
     "price": 15010.37288135593,
     "images": [
-      "/images/products/cabinet__3_.png"
+      "/images/products/catalog/uma_04_premium.png"
     ],
     "dimensions": {
       "width": 210,
@@ -95,7 +95,7 @@
     "category": "coffeetable",
     "price": 16725.84406779661,
     "images": [
-      "/images/products/cabinet__4_.png"
+      "/images/products/catalog/uma_05_premium.png"
     ],
     "dimensions": {
       "width": 180,
@@ -151,7 +151,7 @@
     "category": "cabinets",
     "price": 24499.072881355933,
     "images": [
-      "/images/products/cabinet__6_.png"
+      "/images/products/catalog/uma_07_premium.png"
     ],
     "dimensions": {
       "width": 240,
@@ -799,7 +799,7 @@
     "category": "coffeetable",
     "price": 6004.149152542373,
     "images": [
-      "/images/products/coffetable__10_.png"
+      "/images/products/catalog/uma_26_premium.png"
     ],
     "dimensions": {
       "width": 160,
@@ -871,7 +871,7 @@
     "category": "coffeetable",
     "price": 17047.49491525424,
     "images": [
-      "/images/products/coffetable__3_.png"
+      "/images/products/catalog/uma_28_premium.png"
     ],
     "dimensions": {
       "width": 110,
@@ -899,7 +899,7 @@
     "category": "coffeetable",
     "price": 15492.849152542372,
     "images": [
-      "/images/products/coffetable__4_.png"
+      "/images/products/catalog/uma_29_premium.png"
     ],
     "dimensions": {
       "width": 100,
@@ -1015,7 +1015,7 @@
     "category": "coffeetable",
     "price": 11525.822033898305,
     "images": [
-      "/images/products/coffetable__7_.png"
+      "/images/products/catalog/uma_32_premium.png"
     ],
     "dimensions": {
       "width": 140,
@@ -1043,7 +1043,7 @@
     "category": "coffeetable",
     "price": 12651.599999999999,
     "images": [
-      "/images/products/coffetable__8_.png"
+      "/images/products/catalog/uma_33_premium.png"
     ],
     "dimensions": {
       "width": 160,
@@ -1143,7 +1143,7 @@
     "category": "coffeetable",
     "price": 15010.37288135593,
     "images": [
-      "/images/products/side_table_02.png"
+      "/images/products/catalog/uma_36_premium.png"
     ],
     "dimensions": {
       "width": 140,
@@ -1303,7 +1303,7 @@
     "category": "coffeetable",
     "price": 14795.938983050848,
     "images": [
-      "/images/products/side_table_08.png"
+      "/images/products/catalog/uma_40_premium.png"
     ],
     "dimensions": {
       "width": 140,
@@ -1505,7 +1505,7 @@
     "category": "sofa",
     "price": 47711.542372881355,
     "images": [
-      "/images/products/sofa__13_.png"
+      "/images/products/catalog/uma_46_premium.png"
     ],
     "dimensions": {
       "width": 235,
@@ -1533,7 +1533,7 @@
     "category": "sofa",
     "price": 65938.42372881356,
     "images": [
-      "/images/products/sofa__14_.png"
+      "/images/products/catalog/uma_47_premium.png"
     ],
     "dimensions": {
       "width": 280,
@@ -1645,7 +1645,7 @@
     "category": "sofa",
     "price": 51464.13559322034,
     "images": [
-      "/images/products/sofa__19_.png"
+      "/images/products/catalog/uma_52_premium.png"
     ],
     "dimensions": {
       "width": 230,
@@ -2205,7 +2205,7 @@
     "category": "sofa chairs",
     "price": 13134.076271186439,
     "images": [
-      "/images/products/sofa_chair__5_.png"
+      "/images/products/catalog/uma_68_premium.png"
     ],
     "dimensions": {
       "width": 80,
@@ -2289,7 +2289,7 @@
     "category": "sofa chairs",
     "price": 10989.737288135593,
     "images": [
-      "/images/products/sofa_chair__9_.png"
+      "/images/products/catalog/uma_71_premium.png"
     ],
     "dimensions": {
       "width": 75,
@@ -2527,10 +2527,7 @@
     "category": "sunbeds",
     "price": 14742.330508474575,
     "images": [
-      "/images/products/sunbeds/sunbed5_x.png",
-      "/images/products/sunbeds/sunbed5_a.png",
-      "/images/products/sunbeds/sunbed5_c.png",
-      "/images/products/sunbeds/sunbed5_d.png"
+      "/images/products/catalog/uma_81_premium.png"
     ],
     "dimensions": {
       "width": 200,
