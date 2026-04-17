@@ -2,10 +2,12 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { useProductStore } from '../../stores/productStore';
+import { useCurrency } from '../../hooks/useCurrency';
 
 export default function CartDrawer() {
   const { t } = useTranslation('common');
   const { cartItems, isCartOpen, toggleCart, removeFromCart, updateCartQuantity, getProductById } = useProductStore();
+  const { format } = useCurrency();
 
   const handleOverlayClick = () => {
     toggleCart(false);
@@ -82,7 +84,11 @@ export default function CartDrawer() {
                     <div key={item.id} className="flex gap-4 p-4 bg-travertine/30 border border-travertine relative group">
                       <div className="w-24 h-24 bg-travertine/50 flex flex-shrink-0">
                         {product.images?.[0] ? (
-                          <img src={product.images[0]} alt={product.name} className="w-full h-full object-cover" />
+                          <img 
+                            src={product.images?.find((img: string) => img.toLowerCase().includes('natural') || img.toLowerCase().includes('honey')) || product.images[0]} 
+                            alt={product.name} 
+                            className="w-full h-full object-cover" 
+                          />
                         ) : (
                           <div className="w-full h-full bg-dune/5" />
                         )}
@@ -122,7 +128,7 @@ export default function CartDrawer() {
                           
                           <div className="font-medium text-espresso">
                             {product.price 
-                              ? `€${product.price.toLocaleString()}` 
+                              ? format(product.price) 
                               : <span className="text-xs uppercase tracking-wider text-brand">{t('shop.price_on_request', 'Price on Request')}</span>}
                           </div>
                         </div>
@@ -138,7 +144,7 @@ export default function CartDrawer() {
               <div className="p-6 border-t border-travertine bg-travertine/30">
                 <div className="flex justify-between items-center mb-6">
                   <span className="text-espresso/60 uppercase tracking-widest text-sm">{t('shop.subtotal', 'Subtotal')}</span>
-                  <span className="heading-h3 text-espresso">€{calculateTotal().toLocaleString()}</span>
+                  <span className="heading-h3 text-espresso">{format(calculateTotal())}</span>
                 </div>
                 
                 <p className="text-xs text-espresso/50 mb-6 text-center leading-relaxed">

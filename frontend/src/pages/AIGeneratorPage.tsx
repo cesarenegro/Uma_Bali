@@ -18,7 +18,7 @@ export default function AIGeneratorPage() {
 
   const handleGenerate = async () => {
     if (!sceneImageUrl || selectedProducts.length === 0) {
-      alert('Please upload a scene and select at least one product.');
+      alert(t('ai.alert_select', 'Please upload a scene and select at least one product.'));
       return;
     }
     
@@ -95,9 +95,9 @@ export default function AIGeneratorPage() {
             
             {sceneImageUrl && renderStatus === 'ready' && (
               <div className="mt-8 text-center bg-white p-8 rounded-xl border border-charcoal/10 shadow-sm">
-                <h3 className="text-xl font-medium text-charcoal mb-2">Ready to Render</h3>
+                <h3 className="text-xl font-medium text-charcoal mb-2">{t('ai.ready_to_render', 'Ready to Render')}</h3>
                 <p className="text-charcoal/60 mb-6 max-w-lg mx-auto">
-                  Your space has been uploaded and {selectedProducts.length} items are selected.
+                  {t('ai.space_uploaded', 'Your space has been uploaded and {{count}} items are selected.', { count: selectedProducts.length })}
                 </p>
                 <div className="mb-8">
                    {/* Items are now displayed inside the viewer on the left */}

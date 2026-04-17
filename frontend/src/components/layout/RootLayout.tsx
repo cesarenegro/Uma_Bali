@@ -4,8 +4,10 @@ import Header from './Header';
 import Footer from './Footer';
 import CartDrawer from '../shop/CartDrawer';
 import { useAudioStore } from '../../stores/audioStore';
+import { useAutoLanguage } from '../../hooks/useAutoLanguage';
 
 export default function RootLayout() {
+  useAutoLanguage();
   const { isPlaying } = useAudioStore();
   const audioRef = useRef<HTMLAudioElement | null>(null);
 

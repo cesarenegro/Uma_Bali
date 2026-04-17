@@ -14,7 +14,7 @@ export default function CollectionsIndexPage() {
           {t('nav.collections')}
         </h1>
         <p className="text-lg md:text-xl font-light max-w-2xl opacity-80">
-          Discover our curated categories. From robust teak cabinetry to minimalist architectural seating designed for modern living.
+          {t('collection.subtitle', 'Discover our curated categories. From robust teak cabinetry to minimalist architectural seating designed for modern living.')}
         </p>
       </section>
 

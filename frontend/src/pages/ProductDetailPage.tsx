@@ -3,13 +3,16 @@ import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useProductStore } from '../stores/productStore';
 import { motion } from 'framer-motion';
+import { useCurrency } from '../hooks/useCurrency';
 
 export default function ProductDetailPage() {
   const { slug } = useParams<{ slug: string }>();
-  const { t } = useTranslation('common');
+  const { t, i18n } = useTranslation('common');
+  const lang = i18n.language?.split('-')[0].toLowerCase() || 'en';
+  const { format } = useCurrency();
   
-  // Note: App Router sends 'slug' but our store uses 'id' (which matches the slug exactly right now)
-  const product = useProductStore(state => state.getProductById(slug || ''));
+  const productSource = useProductStore(state => state.getProductById(slug || ''));
+  const product = productSource ? { ...productSource, name: productSource.translations?.[lang]?.name || productSource.name, description: productSource.translations?.[lang]?.description || productSource.description, longDescription: productSource.translations?.[lang]?.longDescription || productSource.longDescription, upholstery: productSource.translations?.[lang]?.upholstery || productSource.upholstery, materials: productSource.translations?.[lang]?.materials || productSource.materials } : undefined;
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   if (!product) {
@@ -51,16 +54,32 @@ export default function ProductDetailPage() {
           
           {/* Thumbnails */}
           {product.images && product.images.length > 1 && (
-            <div className="grid grid-cols-4 gap-4">
-              {product.images.map((img, idx) => (
+            <div className="grid grid-cols-4 gap-4 mt-6">
+              {product.images.map((img, idx) => {
+                let finishMatch = img.match(/_(natural|grey|wenge)(?:_alt\d+)?\.png$/i);
+                let finishLabel = '';
+                if (finishMatch) {
+                   const f = finishMatch[1].toLowerCase();
+                   if (f === 'natural') finishLabel = 'Natural Teak';
+                   else if (f === 'grey') finishLabel = 'Grey Teak';
+                   else if (f === 'wenge') finishLabel = 'Wenge Teak';
+                }
+                return (
                 <div 
                   key={idx} 
-                  className={`aspect-square bg-travertine/40 p-2 cursor-pointer transition-all ${mainImage === img ? 'border-2 border-charcoal' : 'hover:border-2 hover:border-charcoal/20'}`}
+                  className={`flex flex-col items-center gap-2 cursor-pointer transition-all ${mainImage === img ? 'opacity-100' : 'opacity-60 hover:opacity-100'}`}
                   onClick={() => setSelectedImage(img)}
                 >
-                  <img src={img} alt={`${product.name} variation ${idx + 1}`} className="w-full h-full object-contain pointer-events-none mix-blend-darken" />
+                  <div className={`w-full aspect-square bg-[#f8f6ef] p-2 ${mainImage === img ? 'ring-1 ring-charcoal' : ''}`}>
+                    <img src={img} alt={`${product.name} variation ${idx + 1}`} className="w-full h-full object-contain pointer-events-none mix-blend-darken" />
+                  </div>
+                  {finishLabel && (
+                    <span className="text-[10px] tracking-widest text-charcoal/70 uppercase text-center">
+                      {finishLabel}
+                    </span>
+                  )}
                 </div>
-              ))}
+              )})}
             </div>
           )}
         </div>
@@ -93,7 +112,7 @@ export default function ProductDetailPage() {
             {product.price !== undefined ? (
               <div className="mb-8">
                 <span className="text-3xl font-bold tracking-wide text-charcoal">
-                  {new Intl.NumberFormat('cs-CZ', { style: 'currency', currency: 'CZK', minimumFractionDigits: 0 }).format(product.price)}
+                  {format(product.price)}
                 </span>
                 <p className="text-charcoal/50 text-xs mt-1 uppercase tracking-widest">{t('product.vat_included', 'VAT Included')}</p>
               </div>
@@ -139,7 +158,7 @@ export default function ProductDetailPage() {
                     <dt className="uppercase tracking-widest text-charcoal/50 text-xs">{t('product.packaging', 'Packaging')}</dt>
                     <dd className="text-charcoal font-light">
                       {product.weight ? `${product.weight} kg ` : ''} 
-                      {product.volume ? ` (${product.volume} m³)` : ''}
+                      {product.volume ? ` (${product.volume} mÂ³)` : ''}
                     </dd>
                   </div>
                 )}

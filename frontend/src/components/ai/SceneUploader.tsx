@@ -11,11 +11,11 @@ export default function SceneUploader() {
   const handleFile = (file: File) => {
     // Basic validation
     if (!file.type.startsWith('image/')) {
-      alert('Please upload an image file.');
+      alert(t('ai.alert_upload_image', 'Please upload an image file.'));
       return;
     }
     if (file.size > 10 * 1024 * 1024) {
-      alert('File size must be under 10MB.');
+      alert(t('ai.alert_file_size', 'File size must be under 10MB.'));
       return;
     }
 

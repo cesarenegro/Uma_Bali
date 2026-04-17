@@ -33,11 +33,16 @@ export default function ProductSelectionSidebar() {
     if (isSelected) {
       removeProduct(product.id);
     } else {
+      const preferredImage = product.images?.find((img: string) => {
+        const l = img.toLowerCase();
+        return l.includes('natural') || l.includes('honey');
+      }) || product.images[0] || '';
+      
       addProduct({
         id: product.id,
         name: product.name,
         category: product.category,
-        image: product.images[0] || ''
+        image: preferredImage
       });
     }
   };
@@ -46,7 +51,7 @@ export default function ProductSelectionSidebar() {
     <div className="w-full lg:w-80 bg-white border-r border-charcoal/10 h-full flex flex-col overflow-hidden">
       <div className="p-6 border-b border-charcoal/10 bg-sand/30">
         <h2 className="text-xl font-light text-charcoal">{t('ai.select_products', 'Select Furniture')}</h2>
-        <p className="text-sm text-charcoal/60 mt-1">Choose up to 5 items</p>
+        <p className="text-sm text-charcoal/60 mt-1">{t('ai.choose_up_to', 'Choose up to 5 items')}</p>
       </div>
 
       {/* Category Tabs */}
@@ -69,7 +74,10 @@ export default function ProductSelectionSidebar() {
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
         {displayProducts.map(product => {
           const isSelected = selectedProducts.some(p => p.id === product.id);
-          const imageSrc = product.images[0] || '/placeholder.png'; // fallback
+          const imageSrc = product.images?.find((img: string) => {
+            const l = img.toLowerCase();
+            return l.includes('natural') || l.includes('honey');
+          }) || product.images[0] || '/placeholder.png'; // fallback
           
           return (
             <div 

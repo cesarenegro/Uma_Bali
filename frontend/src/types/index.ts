@@ -1,4 +1,4 @@
-export interface Product {
+﻿export interface Product {
   id: string;
   name: string;
   description: string;
@@ -41,6 +41,13 @@ export interface Product {
   catalogYear?: number;
   relatedProductIds?: string[];
   projectIds?: string[];
+  translations?: Record<string, {
+    name?: string;
+    description?: string;
+    longDescription?: string;
+    upholstery?: string;
+    materials?: string[];
+  }>;
   aiMeta?: ProductAIMeta;
   metaTitle?: string;
   metaDescription?: string;
